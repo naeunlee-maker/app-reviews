@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>앱 리뷰 분석</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { display: none; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", sans-serif; padding: 24px; background: #fff; color: #222; }
+
+.tabs { display: flex; gap: 4px; border-bottom: 2px solid #eee; margin-bottom: 12px; }
+.tab {
+  font-size: 15px; font-weight: 600; padding: 12px 24px;
+  border: none; background: transparent; cursor: pointer;
+  color: #999; border-bottom: 3px solid transparent;
+  margin-bottom: -2px; transition: all 0.15s ease;
+}
+.tab:hover { color: #555; }
+.tab.active { color: #111; border-bottom-color: #111; }
+
+.toolbar { display: flex; gap: 8px; flex-wrap: wrap; padding-bottom: 16px; align-items: center; }
+.filter-btn { font-size: 12px; padding: 6px 12px; border: 1px solid #ddd; border-radius: 20px; background: white; cursor: pointer; transition: all 0.15s ease; }
+.filter-btn.active { background: #111; color: white; border-color: #111; }
+.filter-btn:hover { background: #f5f5f5; }
+
+.tag { display: inline-block; font-size: 11px; padding: 3px 8px; border-radius: 20px; margin: 2px 4px 2px 0; font-weight: 500; }
+.tag-UI { background: #FCE4EC; color: #AD1457; }   /* 핑크 톤 */
+.tag-편하다 { background: #E1F5EE; color: #0F6E56; }
+.tag-불편 { background: #FAECE7; color: #993C1D; }
+.tag-도움된다 { background: #EAF3DE; color: #3B6D11; }
+.tag-개선필요 { background: #FAEEDA; color: #854F0B; }
+.tag-운동헬스 { background: #EEEDFE; color: #534AB7; }
+.tag-포인트 { background: #FFF9C4; color: #827717; }
+.tag-구독 { background: #FFF9C4; color: #827717; }
+.tag-기록 { background: #E3F2FD; color: #1565C0; }
+.tag-영양제 { background: #F3E5F5; color: #6A1B9A; }
+.tag-혈당 { background: #FFEBEE; color: #C62828; }
+
+.os-badge { font-size: 11px; padding: 3px 8px; border-radius: 20px; font-weight: 500; }
+.os-android { background: #E6F1FB; color: #185FA5; }
+.os-ios { background: #FBEAF0; color: #993556; }
+
+.stars { color: #BA7517; font-size: 13px; letter-spacing: -1px; }
+.content-cell { font-size: 13px; line-height: 1.6; max-width: 420px; }
+.date { font-size: 12px; color: #666; white-space: nowrap; }
+table { width: 100%; border-collapse: collapse; }
+th { font-size: 12px; text-align: left; padding: 10px; border-bottom: 1px solid #eee; color: #666; }
+td { padding: 12px 10px; border-bottom: 1px solid #f1f1f1; vertical-align: top; }
+select { font-size: 12px; padding: 6px 10px; border-radius: 8px; border: 1px solid #ddd; background: white; }
+.count { margin-left: 4px; opacity: 0.7; }
+</style>
+
+<script src="roution_reviews.js"></script>
+<script src="pillyze_reviews.js"></script>
+<script src="inout_reviews.js"></script>
+<script>
+  const PASSWORD = "health2026";
+  const stored = sessionStorage.getItem('auth');
+  
+  if (stored === PASSWORD) {
+    // 이미 인증된 경우: 정상 표시
+    document.addEventListener('DOMContentLoaded', () => {
+      document.body.style.display = 'block';
+    });
+  } else {
+    // 비밀번호 입력 요청
+    const input = prompt("비밀번호를 입력하세요");
+    
+    if (input === PASSWORD) {
+      // 인증 성공
+      sessionStorage.setItem('auth', PASSWORD);
+      document.addEventListener('DOMContentLoaded', () => {
+        document.body.style.display = 'block';
+      });
+    } else {
+      // 인증 실패: 귀여운 안내 화면
+      document.addEventListener('DOMContentLoaded', () => {
+        document.body.innerHTML = `
+          <div style="
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            font-family: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', sans-serif;
+            text-align: center;
+            padding: 40px;
+            gap: 20px;
+          ">
+            <div style="font-size: 64px;">😭</div>
+            <h2 style="font-size: 22px; color: #222; font-weight: 700;">앗, 비밀번호가 틀렸어요</h2>
+            <p style="font-size: 14px; color: #888; line-height: 1.6;">
+              비밀번호는 프로덕트 디자인2팀 <br>
+              이나은에게 문의주세요.
+            </p>
+            <button onclick="sessionStorage.clear(); location.reload();" style="
+              margin-top: 12px;
+              padding: 10px 24px;
+              background: #111;
+              color: white;
+              border: none;
+              border-radius: 24px;
+              font-size: 13px;
+              font-weight: 600;
+              cursor: pointer;
+              font-family: inherit;
+            ">다시 시도하기</button>
+          </div>
+        `;
+        document.body.style.display = 'block';
+      });
+    }
+  }
+</script>
+</head>
+<body>
+
+<h1 style="margin-bottom:16px; font-size:24px;">앱 리뷰 분석</h1>
+
+<div class="tabs">
+  <button class="tab active" onclick="switchApp('roution', this)">루션</button>
+  <button class="tab" onclick="switchApp('pillyze', this)">필라이즈</button>
+  <button class="tab" onclick="switchApp('inout', this)">인아웃</button>
+</div>
+
+<div style="display:flex; align-items:center; justify-content:space-between; gap:10px; margin-bottom:20px; flex-wrap:wrap;">
+  <div style="display:inline-flex; align-items:center; gap:8px; font-size:12px; color:#999;">
+    <span>🕐 마지막 업데이트</span>
+    <span id="updated-at">-</span>
+    <span style="color:#ddd;">|</span>
+    <span>총 <span id="total-count">0</span>개</span>
+  </div>
+  
+  <div style="display:flex; gap:8px;">
+    <select onchange="filterOS(this.value)">
+      <option value="all">📱 전체 OS</option>
+      <option value="android">📱 Android</option>
+      <option value="ios">📱 iOS</option>
+    </select>
+    <select onchange="filterPeriod(this.value)">
+      <option value="all">🗓 전체 기간</option>
+      <option value="7">🗓 최근 7일</option>
+      <option value="30">🗓 최근 30일</option>
+      <option value="90">🗓 최근 3개월</option>
+    </select>
+  </div>
+</div>
+
+<div class="toolbar" id="tag-toolbar"></div>
+
+<div style="overflow-x:auto;">
+<table>
+<thead>
+<tr><th>날짜</th><th>OS</th><th>태그</th><th>별점</th><th>내용</th></tr>
+</thead>
+<tbody id="tbody"></tbody>
+</table>
+</div>
+
+<script>
+// 앱별 데이터 + 태그 설정
+const APPS = {
+  roution: {
+    name: '루션',
+    data: window.ROUTION_REVIEWS || [],
+    updatedAt: window.ROUTION_UPDATED_AT || '데이터 없음',
+    tags: ['기록', 'UI', '포인트', '편하다', '불편', '도움된다', '개선필요', '운동/헬스']
+  },
+  pillyze: {
+    name: '필라이즈',
+    data: window.PILLYZE_REVIEWS || [],
+    updatedAt: window.PILLYZE_UPDATED_AT || '데이터 없음',
+    tags: ['기록', 'UI', '영양제', '혈당', '편하다', '불편', '도움된다', '개선필요', '운동/헬스']
+  },
+  inout: {
+    name: '인아웃',
+    data: window.INOUT_REVIEWS || [],
+    updatedAt: window.INOUT_UPDATED_AT || '데이터 없음',
+    tags: ['기록', 'UI', '구독', '편하다', '불편', '도움된다', '개선필요', '운동/헬스']
+  }
+};
+
+let currentApp = 'roution';
+let selectedTags = [];
+let currentOS = 'all';
+let currentSort = 'latest';
+let currentPeriod = 'all';
+
+function getTags(r, app) {
+  const tags = [];
+  const c = r.content || '';
+  const rating = r.rating || 0;
+
+  if (/기록|입력|등록|작성|체크|식단기록|활동기록/.test(c)) tags.push('기록');
+if (/이쁨|이뻐|예쁨|예뻐|예쁘|이쁘|디자인|그래픽|브랜딩|브랜드|귀엽|귀여|UI|ui|깔끔|심플|세련|미니멀/.test(c)) tags.push('UI');
+  
+  // 앱별 특화 태그
+  if (app === 'roution' && /포인트|리워드|쿠폰|적립|보상|캐시/.test(c)) tags.push('포인트');
+  if (app === 'pillyze') {
+    if (/영양제|비타민|보충제|파나케이아|성분|섭취/.test(c)) tags.push('영양제');
+    if (/혈당|당뇨|인슐린|혈당계|cgm|케어센스/i.test(c)) tags.push('혈당');
+  }
+  if (app === 'inout' && /구독|리워드|쿠폰|적립|보상|유료|결제|캐시/.test(c)) tags.push('구독');
+
+  const positiveUX = /편하|편리|쉽|간편|깔끔|만족|좋|조아|대만족|굿|따봉|재미/.test(c);
+  const negativeUX = /불편|오류|버그|튕|안되|다운|로딩|실패|멈춤|기만|구려|무한/.test(c);
+  const improvement = /개선|수정|추가|연동|지원|필요|좋겠|해줘|변경|원해요|바꿔/.test(c);
+  const fitness = /운동|헬스|걸음|워치|웨어러블|걷기|러닝|만보기|측정/.test(c);
+
+  if (positiveUX && !negativeUX) tags.push('편하다');
+  else if (negativeUX || rating <= 2) tags.push('불편');
+
+  if ((positiveUX && rating >= 4) || /도움|효과|빠졌어요|감량/.test(c)) tags.push('도움된다');
+  if (negativeUX || improvement || rating <= 3) tags.push('개선필요');
+  if (fitness) tags.push('운동/헬스');
+
+  return [...new Set(tags)];
+}
+
+function stars(n) { return '★'.repeat(n) + '☆'.repeat(5 - n); }
+function fmtDate(d) { return (d || '').slice(0, 10); }
+
+function renderTagButtons() {
+  const toolbar = document.getElementById('tag-toolbar');
+  const tags = APPS[currentApp].tags;
+  toolbar.innerHTML = `
+    <button class="filter-btn active" onclick="toggleTag('all', this)">
+      전체 <span class="count" id="count-all"></span>
+    </button>
+    ${tags.map(t => 
+      `<button class="filter-btn" onclick="toggleTag('${t}', this)">${t}</button>`
+    ).join('')}
+    <select onchange="sortReviews(this.value)" style="margin-left:auto;">
+      <option value="latest">최신순</option>
+      <option value="rating-desc">별점 높은순</option>
+      <option value="rating-asc">별점 낮은순</option>
+    </select>
+  `;
+}
+
+function render() {
+  const tbody = document.getElementById('tbody');
+  const app = APPS[currentApp];
+  const raw = app.data;
+
+  document.getElementById('updated-at').textContent = app.updatedAt;
+  document.getElementById('total-count').textContent = raw.length;
+
+  if (!raw || raw.length === 0) {
+    document.getElementById('count-all').textContent = 0;
+    tbody.innerHTML = `<tr><td colspan="5" style="padding:60px; text-align:center; color:#888;">
+      <strong>${app.name} 리뷰 데이터를 불러오지 못했습니다.</strong><br>
+      <code style="background:#f5f5f5; padding:2px 6px; border-radius:4px;">sync.command</code>를 실행한 뒤 새로고침(Cmd+R) 해주세요.
+    </td></tr>`;
+    return;
+  }
+
+  const cutoff = new Date();
+  cutoff.setHours(0, 0, 0, 0);
+  if (currentPeriod !== 'all') cutoff.setDate(cutoff.getDate() - parseInt(currentPeriod));
+
+  let filtered = raw.filter(r => {
+    if (currentPeriod !== 'all') {
+      const reviewDate = new Date(r.date);
+      if (reviewDate < cutoff) return false;
+    }
+    const os = r.store === 'google_play' ? 'android' : 'ios';
+    if (currentOS !== 'all' && currentOS !== os) return false;
+    if (selectedTags.length === 0) return true;
+    const tags = getTags(r, currentApp);
+    return selectedTags.every(tag => tags.includes(tag));
+  });
+
+  if (currentSort === 'rating-desc') filtered.sort((a,b) => b.rating - a.rating);
+  else if (currentSort === 'rating-asc') filtered.sort((a,b) => a.rating - b.rating);
+  else filtered.sort((a,b) => new Date(b.date) - new Date(a.date));
+
+  document.getElementById('count-all').textContent = filtered.length;
+
+  tbody.innerHTML = filtered.map(r => {
+    const os = r.store === 'google_play' ? 'android' : 'ios';
+    const osLabel = os === 'android' ? 'Android' : 'iOS';
+    return `<tr>
+      <td class="date">${fmtDate(r.date)}</td>
+      <td><span class="os-badge os-${os}">${osLabel}</span></td>
+      <td>${getTags(r, currentApp).map(t => `<span class="tag tag-${t.replace('/', '').replace(' ', '')}">${t}</span>`).join('')}</td>
+      <td><span class="stars">${stars(r.rating)}</span></td>
+      <td class="content-cell">${r.content}</td>
+    </tr>`;
+  }).join('');
+}
+
+function switchApp(app, el) {
+  currentApp = app;
+  selectedTags = [];
+  document.querySelectorAll('.tab').forEach(b => b.classList.remove('active'));
+  el.classList.add('active');
+  renderTagButtons();
+  render();
+}
+
+function toggleTag(tag, el) {
+  if (tag === 'all') {
+    selectedTags = [];
+    document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+    el.classList.add('active');
+    render();
+    return;
+  }
+  document.querySelector('.filter-btn').classList.remove('active');
+  if (selectedTags.includes(tag)) {
+    selectedTags = selectedTags.filter(t => t !== tag);
+    el.classList.remove('active');
+  } else {
+    selectedTags.push(tag);
+    el.classList.add('active');
+  }
+  if (selectedTags.length === 0) document.querySelector('.filter-btn').classList.add('active');
+  render();
+}
+
+function filterOS(val) { currentOS = val; render(); }
+function filterPeriod(val) { currentPeriod = val; render(); }
+function sortReviews(val) { currentSort = val; render(); }
+
+renderTagButtons();
+render();
+</script>
+</body>
+</html>
