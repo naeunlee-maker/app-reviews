@@ -2,6 +2,8 @@ import json
 import requests
 from datetime import datetime, timezone, timedelta
 
+KST = timezone(timedelta(hours=9))
+
 APPS = {
     "roution": {
         "name": "루션",
@@ -109,9 +111,7 @@ def scrape_app_store(config, app_name):
 
 
 def main():
-    from datetime import datetime, timezone, timedelta
-KST = timezone(timedelta(hours=9))
-updated_at = datetime.now(KST).strftime("%Y-%m-%d %H:%M")
+    updated_at = datetime.now(KST).strftime("%Y-%m-%d %H:%M")
     
     for app_key, cfg in APPS.items():
         print(f"\n=== {cfg['name']} 수집 시작 ===")
