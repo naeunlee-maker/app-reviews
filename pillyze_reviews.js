@@ -15000,4 +15000,4 @@ window.PILLYZE_REVIEWS = [
     "content": "앱 삭제하란 말이요 뭐요..."
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-06-01 06:07";
+window.PILLYZE_UPDATED_AT = "2026-06-01 15:26";

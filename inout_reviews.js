@@ -15000,4 +15000,4 @@ window.INOUT_REVIEWS = [
     "content": "그냥 커뮤 보는 것으로 다인 거 같음…\n꾸미는 것도 귀엽지만 말이다 \n식단 기록하는데 반복되니 보상 없어서 노잼임"
   }
 ];
-window.INOUT_UPDATED_AT = "2026-06-01 06:07";
+window.INOUT_UPDATED_AT = "2026-06-01 15:26";
