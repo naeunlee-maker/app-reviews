@@ -17880,4 +17880,4 @@ window.INOUT_REVIEWS = [
     "content": "제목 그대로에요,, 어플은 너무 좋은데 아이폰이나 애플워치 활동이나 운동어플이 연동이 안되네요,, 어떻게해야 좋을까요"
   }
 ];
-window.INOUT_UPDATED_AT = "2026-06-03 03:13";
+window.INOUT_UPDATED_AT = "2026-06-03 03:23";

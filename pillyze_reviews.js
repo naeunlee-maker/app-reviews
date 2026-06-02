@@ -18552,4 +18552,4 @@ window.PILLYZE_REVIEWS = [
     "content": "너무 잘 사용하고있어요"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-06-03 03:13";
+window.PILLYZE_UPDATED_AT = "2026-06-03 03:23";
