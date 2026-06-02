@@ -667,6 +667,12 @@ window.ROUTION_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-05-31",
+    "rating": 1,
+    "content": "강박증 생기겠어요"
+  },
+  {
+    "store": "app_store",
     "date": "2026-05-19",
     "rating": 4,
     "content": "운동 한것 추가 할 수 있으면 좋겠어요 먹기만 한것으로 체크는 약간 부족 한듯 합니다."
@@ -990,4 +996,4 @@ window.ROUTION_REVIEWS = [
     "content": "로그인도 안돼요.."
   }
 ];
-window.ROUTION_UPDATED_AT = "2026-06-01 15:46";
+window.ROUTION_UPDATED_AT = "2026-06-03 03:13";

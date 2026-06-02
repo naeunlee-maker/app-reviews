@@ -14881,6 +14881,12 @@ window.INOUT_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-06-01",
+    "rating": 1,
+    "content": "이런 앱은 처음입니다"
+  },
+  {
+    "store": "app_store",
     "date": "2026-05-30",
     "rating": 4,
     "content": "기록 초기화 해도 뭐 게시판에 썼던 글 알림 흔적은 안 지워지더라구요 제발 알림 삭제할 수 있게 해주세요"
@@ -17872,12 +17878,6 @@ window.INOUT_REVIEWS = [
     "date": "2025-04-17",
     "rating": 5,
     "content": "제목 그대로에요,, 어플은 너무 좋은데 아이폰이나 애플워치 활동이나 운동어플이 연동이 안되네요,, 어떻게해야 좋을까요"
-  },
-  {
-    "store": "app_store",
-    "date": "2025-04-15",
-    "rating": 4,
-    "content": "그냥 커뮤 보는 것으로 다인 거 같음…\n꾸미는 것도 귀엽지만 말이다 \n식단 기록하는데 반복되니 보상 없어서 노잼임"
   }
 ];
-window.INOUT_UPDATED_AT = "2026-06-01 15:46";
+window.INOUT_UPDATED_AT = "2026-06-03 03:13";
