@@ -18558,4 +18558,4 @@ window.PILLYZE_REVIEWS = [
     "content": "유용한 기능 정말 많고 디자인도 깔끔하네요"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-06-04 03:36";
+window.PILLYZE_UPDATED_AT = "2026-06-04 03:37";

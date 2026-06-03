@@ -17892,4 +17892,4 @@ window.INOUT_REVIEWS = [
     "content": "오랜만에 다이어트나 또 해볼까 해서 어플을 다시 켰는데 더 귀엽고 재미진것들이 많이졌네요?!\n\n아주 예ㅔㅔㅔ전에 다이어터라는 만화에서 나온 어플있었는데 그 느낌이 납니당\n\n굳"
   }
 ];
-window.INOUT_UPDATED_AT = "2026-06-04 03:36";
+window.INOUT_UPDATED_AT = "2026-06-04 03:37";
