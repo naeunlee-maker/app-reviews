@@ -1,6 +1,12 @@
 window.ROUTION_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-06-01",
+    "rating": 4,
+    "content": "다 좋은데 국물요리 (찜닭,라면,된장국,찌개) 국물까지 딘 먹는지 건더기만 먹는지 이런것도 따로 계산해서 나트륨 섭취량도 계산가능한 기능 추가되면 좋을거같습니다."
+  },
+  {
+    "store": "google_play",
     "date": "2026-05-22",
     "rating": 2,
     "content": "앱이 너무 자주 튕겨요…"
@@ -996,4 +1002,4 @@ window.ROUTION_REVIEWS = [
     "content": "로그인도 안돼요.."
   }
 ];
-window.ROUTION_UPDATED_AT = "2026-06-03 03:23";
+window.ROUTION_UPDATED_AT = "2026-06-04 03:36";

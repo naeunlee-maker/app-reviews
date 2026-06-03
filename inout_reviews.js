@@ -1,6 +1,18 @@
 window.INOUT_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-06-02",
+    "rating": 1,
+    "content": "무슨 앱인지 경험해볼 새도 없이 시작하자마자 플러스 요금제부터 권유해서 별로에요. 그리고 사진 기능은 플러스만 이용 가능이네요"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-06-02",
+    "rating": 3,
+    "content": "운동 강도등읗 다르게 기록하면 이전 기록은 사라짐"
+  },
+  {
+    "store": "google_play",
     "date": "2026-05-31",
     "rating": 2,
     "content": "ai코치가 답변을안해요.. 유료결제했는데 이러면안되잖아요"
@@ -14881,6 +14893,12 @@ window.INOUT_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-06-02",
+    "rating": 2,
+    "content": "아이폰인데 음식 입력버튼 누르면 하얗게 되고 그냥 먹통돼서 다 날라가요"
+  },
+  {
+    "store": "app_store",
     "date": "2026-06-01",
     "rating": 1,
     "content": "이런 앱은 처음입니다"
@@ -17872,12 +17890,6 @@ window.INOUT_REVIEWS = [
     "date": "2025-04-17",
     "rating": 5,
     "content": "오랜만에 다이어트나 또 해볼까 해서 어플을 다시 켰는데 더 귀엽고 재미진것들이 많이졌네요?!\n\n아주 예ㅔㅔㅔ전에 다이어터라는 만화에서 나온 어플있었는데 그 느낌이 납니당\n\n굳"
-  },
-  {
-    "store": "app_store",
-    "date": "2025-04-17",
-    "rating": 5,
-    "content": "제목 그대로에요,, 어플은 너무 좋은데 아이폰이나 애플워치 활동이나 운동어플이 연동이 안되네요,, 어떻게해야 좋을까요"
   }
 ];
-window.INOUT_UPDATED_AT = "2026-06-03 03:23";
+window.INOUT_UPDATED_AT = "2026-06-04 03:36";
