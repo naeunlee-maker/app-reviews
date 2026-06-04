@@ -18576,4 +18576,4 @@ window.PILLYZE_REVIEWS = [
     "content": "열심히 포인트 모아서 기프티콘 샀는데 연속 세 번이나 기프티콘을 안 보내주시네요… 제발 확인 좀 부탁드려요"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-06-04 23:11";
+window.PILLYZE_UPDATED_AT = "2026-06-04 23:14";
