@@ -1,9 +1,33 @@
 window.PILLYZE_REVIEWS = [
   {
     "store": "google_play",
-    "date": "2026-06-02",
+    "date": "2026-06-03",
     "rating": 5,
-    "content": "깔끔하고 구성 좋음"
+    "content": "사진 찍으면 바로 메뉴확인과 칼로리 확인할 수 있어서 편하고 꾸준히 등록하게 함. 식단 정리만으로도 어느정도 감량 효과가 있고 간식을 덜 먹게됨. 물과 영양제 먹는 것도 알림해줘서 잘 챙겨먹게되서 좋음"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-06-03",
+    "rating": 2,
+    "content": "기록만 하고싶은데 쓸데없는 기능이 너무 많아짐."
+  },
+  {
+    "store": "google_play",
+    "date": "2026-06-03",
+    "rating": 5,
+    "content": "잘 사용하고 있어요-!"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-06-03",
+    "rating": 5,
+    "content": "배변 성공 미션이 추가되면 좋겠고 메모에 \"오전 10시 성공,바나나, 장운동30분 함\" 등을 기록할수있음 좋겟네요 전체 추이를 캘린더에서 한눈에 볼수있음 좋겟어요"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-06-03",
+    "rating": 5,
+    "content": "한번 사용해보려구요"
   },
   {
     "store": "google_play",
@@ -9349,12 +9373,6 @@ window.PILLYZE_REVIEWS = [
   },
   {
     "store": "google_play",
-    "date": "2023-11-25",
-    "rating": 5,
-    "content": "관리 해야돼는데 이런앱 이 있어서 좋아용!!"
-  },
-  {
-    "store": "google_play",
     "date": "2023-11-24",
     "rating": 5,
     "content": "너무 좋어요"
@@ -15560,6 +15578,12 @@ window.PILLYZE_REVIEWS = [
   {
     "store": "app_store",
     "date": "2026-06-02",
+    "rating": 3,
+    "content": "매끼니마다 점수를 매기고, 그 평균+어떤 계산법 해서 총점수가 나왔으면 좋겟어염. 점심에 잘먹어놓고 저녁에 식단 망치면 얼마나 망쳤는지 감이 안오는 느낌."
+  },
+  {
+    "store": "app_store",
+    "date": "2026-06-02",
     "rating": 5,
     "content": "저 웬만한 앱들은 깔아놓고 안 들어가는데\n저 필라이즈 깔고 거짓말 안 치고 4일만에 2키로 빠졌어요 하.. 앞으로 최종 목표몸무게까지 힘내서 필라이즈와 함께할게여🩷"
   },
@@ -18550,12 +18574,6 @@ window.PILLYZE_REVIEWS = [
     "date": "2025-12-02",
     "rating": 1,
     "content": "열심히 포인트 모아서 기프티콘 샀는데 연속 세 번이나 기프티콘을 안 보내주시네요… 제발 확인 좀 부탁드려요"
-  },
-  {
-    "store": "app_store",
-    "date": "2025-12-02",
-    "rating": 5,
-    "content": "유용한 기능 정말 많고 디자인도 깔끔하네요"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-06-04 03:37";
+window.PILLYZE_UPDATED_AT = "2026-06-04 23:11";

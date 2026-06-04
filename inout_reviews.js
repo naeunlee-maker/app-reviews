@@ -4057,12 +4057,6 @@ window.INOUT_REVIEWS = [
   },
   {
     "store": "google_play",
-    "date": "2024-07-01",
-    "rating": 5,
-    "content": "음식 다양 편리"
-  },
-  {
-    "store": "google_play",
     "date": "2024-06-29",
     "rating": 5,
     "content": "좋아요 제가 원하던 기능이 딱 들어가있어요. 먹은것 운동한것 그대로 체크가능!!"
@@ -17892,4 +17886,4 @@ window.INOUT_REVIEWS = [
     "content": "오랜만에 다이어트나 또 해볼까 해서 어플을 다시 켰는데 더 귀엽고 재미진것들이 많이졌네요?!\n\n아주 예ㅔㅔㅔ전에 다이어터라는 만화에서 나온 어플있었는데 그 느낌이 납니당\n\n굳"
   }
 ];
-window.INOUT_UPDATED_AT = "2026-06-04 03:37";
+window.INOUT_UPDATED_AT = "2026-06-04 23:11";
