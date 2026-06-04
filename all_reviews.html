@@ -49,6 +49,20 @@ th { font-size: 12px; text-align: left; padding: 10px; border-bottom: 1px solid 
 td { padding: 12px 10px; border-bottom: 1px solid #f1f1f1; vertical-align: top; }
 select { font-size: 12px; padding: 6px 10px; border-radius: 8px; border: 1px solid #ddd; background: white; }
 .count { margin-left: 4px; opacity: 0.7; }
+.sticky-header {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 100;
+  padding-top: 24px;
+  margin: -24px -24px 0 -24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+body { padding-top: 0; }
 </style>
 
 <script src="roution_reviews.js"></script>
@@ -116,40 +130,42 @@ select { font-size: 12px; padding: 6px 10px; border-radius: 8px; border: 1px sol
 </head>
 <body>
 
-<h1 style="margin-bottom:16px; font-size:24px;">앱 리뷰 분석</h1>
+<div class="sticky-header">
+  <h1 style="margin-bottom:16px; font-size:24px;">앱 리뷰 분석</h1>
 
-<div class="tabs">
-  <button class="tab active" onclick="switchApp('roution', this)">루션</button>
-  <button class="tab" onclick="switchApp('pillyze', this)">필라이즈</button>
-  <button class="tab" onclick="switchApp('inout', this)">인아웃</button>
+  <div class="tabs">
+    <button class="tab active" onclick="switchApp('roution', this)">루션</button>
+    <button class="tab" onclick="switchApp('pillyze', this)">필라이즈</button>
+    <button class="tab" onclick="switchApp('inout', this)">인아웃</button>
+  </div>
+
+  <div style="display:flex; align-items:center; justify-content:space-between; gap:10px; margin-bottom:20px; flex-wrap:wrap;">
+    <div style="display:inline-flex; align-items:center; gap:8px; font-size:12px; color:#999;">
+      <span>🕐 마지막 업데이트</span>
+      <span id="updated-at">-</span>
+      <span style="color:#ddd;">|</span>
+      <span>총 <span id="total-count">0</span>개</span>
+    </div>
+    
+    <div style="display:flex; gap:8px;">
+      <select onchange="filterOS(this.value)">
+        <option value="all">📱 전체 OS</option>
+        <option value="android">📱 Android</option>
+        <option value="ios">📱 iOS</option>
+      </select>
+      <select onchange="filterPeriod(this.value)">
+        <option value="all">🗓 전체 기간</option>
+        <option value="7">🗓 최근 7일</option>
+        <option value="30">🗓 최근 30일</option>
+        <option value="90">🗓 최근 3개월</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="toolbar" id="tag-toolbar"></div>
 </div>
 
-<div style="display:flex; align-items:center; justify-content:space-between; gap:10px; margin-bottom:20px; flex-wrap:wrap;">
-  <div style="display:inline-flex; align-items:center; gap:8px; font-size:12px; color:#999;">
-    <span>🕐 마지막 업데이트</span>
-    <span id="updated-at">-</span>
-    <span style="color:#ddd;">|</span>
-    <span>총 <span id="total-count">0</span>개</span>
-  </div>
-  
-  <div style="display:flex; gap:8px;">
-    <select onchange="filterOS(this.value)">
-      <option value="all">📱 전체 OS</option>
-      <option value="android">📱 Android</option>
-      <option value="ios">📱 iOS</option>
-    </select>
-    <select onchange="filterPeriod(this.value)">
-      <option value="all">🗓 전체 기간</option>
-      <option value="7">🗓 최근 7일</option>
-      <option value="30">🗓 최근 30일</option>
-      <option value="90">🗓 최근 3개월</option>
-    </select>
-  </div>
-</div>
-
-<div class="toolbar" id="tag-toolbar"></div>
-
-<div style="overflow-x:auto;">
+<div style="overflow-x:auto; margin-top:16px;">
 <table>
 <thead>
 <tr><th>날짜</th><th>OS</th><th>태그</th><th>별점</th><th>내용</th></tr>
@@ -328,4 +344,3 @@ renderTagButtons();
 render();
 </script>
 </body>
-</html>
