@@ -62,6 +62,49 @@ select { font-size: 12px; padding: 6px 10px; border-radius: 8px; border: 1px sol
 }
 
 body { padding-top: 0; }
+.summary-box {
+  background: #FAFAFA;
+  border-radius: 12px;
+  padding: 16px 20px;
+  margin-bottom: 16px;
+  font-size: 13px;
+  line-height: 1.7;
+}
+.summary-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  color: #222;
+  font-size: 14px;
+  cursor: pointer;
+  user-select: none;
+}
+.summary-content {
+  margin-top: 12px;
+  color: #555;
+}
+.summary-content.collapsed {
+  display: none;
+}
+.summary-chevron {
+  font-size: 12px;
+  color: #888;
+  transition: transform 0.2s;
+}
+.summary-chevron.collapsed {
+  transform: rotate(-90deg);
+}
+.summary-item {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+.summary-label {
+  font-weight: 600;
+  color: #222;
+  min-width: 130px;
+}
 </style>
 
 <script src="roution_reviews.js"></script>
@@ -163,6 +206,8 @@ body { padding-top: 0; }
   <div class="toolbar" id="tag-toolbar"></div>
 </div>
 
+<div class="summary-box" id="summary-box"></div>
+
 <div style="overflow-x:auto; margin-top:16px;">
 <table>
 <thead>
@@ -253,7 +298,82 @@ function renderTagButtons() {
   `;
 }
 
+const APP_EMOJI = {
+  roution: '🧚',
+  pillyze: '💊',
+  inout: '🥗'
+};
+
+function renderSummary() {
+  const box = document.getElementById('summary-box');
+  const app = APPS[currentApp];
+  const raw = app.data;
+  
+  if (!raw || raw.length === 0) {
+    box.style.display = 'none';
+    return;
+  }
+  box.style.display = 'block';
+  
+  // 좋은 리뷰(별점 4-5점)에서 태그별 개수 집계
+  const positiveReviews = raw.filter(r => r.rating >= 4);
+  const negativeReviews = raw.filter(r => r.rating <= 3);
+  
+  const positiveTagCount = {};
+  positiveReviews.forEach(r => {
+    getTags(r, currentApp).forEach(t => {
+      positiveTagCount[t] = (positiveTagCount[t] || 0) + 1;
+    });
+  });
+  
+  const negativeTagCount = {};
+  negativeReviews.forEach(r => {
+    getTags(r, currentApp).forEach(t => {
+      negativeTagCount[t] = (negativeTagCount[t] || 0) + 1;
+    });
+  });
+  
+  // 가장 많이 언급된 태그 (좋은점/개선필요 각각)
+  // '편하다', '도움된다', '개선필요', '불편' 같은 메타 태그는 제외하고 컨텐츠 태그만
+  const metaTags = ['편하다', '불편', '도움된다', '개선필요'];
+  
+  const topPositive = Object.entries(positiveTagCount)
+    .filter(([t]) => !metaTags.includes(t))
+    .sort((a, b) => b[1] - a[1])[0];
+  
+  const topNegative = Object.entries(negativeTagCount)
+    .filter(([t]) => !metaTags.includes(t))
+    .sort((a, b) => b[1] - a[1])[0];
+  
+  const isCollapsed = box.querySelector('.summary-content')?.classList.contains('collapsed') || false;
+  
+  box.innerHTML = `
+    <div class="summary-header" onclick="toggleSummary()">
+      <span>${APP_EMOJI[currentApp]} ${app.name} 리뷰 요약보기</span>
+      <span class="summary-chevron ${isCollapsed ? 'collapsed' : ''}" id="summary-chevron">▼</span>
+    </div>
+    <div class="summary-content ${isCollapsed ? 'collapsed' : ''}" id="summary-content">
+      <div class="summary-item">
+        <span class="summary-label">👍 좋은점 </span>
+        <span>${topPositive ? `${topPositive[1]}건의 ${topPositive[0]} 칭찬이 있어요` : `${positiveReviews.length}건의 긍정 리뷰가 있어요`}</span>
+      </div>
+      <div class="summary-item">
+        <span class="summary-label">🛠 개선 필요 </span>
+        <span>${topNegative ? `${topNegative[1]}건의 ${topNegative[0]} 관련 요청이 있어요` : `${negativeReviews.length}건의 개선 요청이 있어요`}</span>
+      </div>
+    </div>
+  `;
+}
+
+function toggleSummary() {
+  const content = document.getElementById('summary-content');
+  const chevron = document.getElementById('summary-chevron');
+  content.classList.toggle('collapsed');
+  chevron.classList.toggle('collapsed');
+}
+
 function render() {
+  renderSummary(); 
   const tbody = document.getElementById('tbody');
   const app = APPS[currentApp];
   const raw = app.data;
