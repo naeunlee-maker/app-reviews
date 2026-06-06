@@ -18600,4 +18600,4 @@ window.PILLYZE_REVIEWS = [
     "content": "기록도 되고 칼로리 체크가 되서 좋아요 ㅎㅎㅎ"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-06-06 19:32";
+window.PILLYZE_UPDATED_AT = "2026-06-06 19:34";

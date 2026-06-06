@@ -17886,4 +17886,4 @@ window.INOUT_REVIEWS = [
     "content": "다이어트하면 헛헛하고 손이 심심하잖아요 ㅎ 딱이에요"
   }
 ];
-window.INOUT_UPDATED_AT = "2026-06-06 19:32";
+window.INOUT_UPDATED_AT = "2026-06-06 19:34";
