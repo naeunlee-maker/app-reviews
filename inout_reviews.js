@@ -17892,4 +17892,4 @@ window.INOUT_REVIEWS = [
     "content": "그룹 채팅방 들어가면‘이미 다른 기기에서 접속중입니다’라고 오류가 나면서 채팅입력이 안되고 바로 튕겨나와요. 그덩안 잘쓰고 있었습니다 해결방법이 있을까요?"
   }
 ];
-window.INOUT_UPDATED_AT = "2026-06-09 01:55";
+window.INOUT_UPDATED_AT = "2026-06-09 01:57";

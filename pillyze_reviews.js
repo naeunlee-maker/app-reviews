@@ -18624,4 +18624,4 @@ window.PILLYZE_REVIEWS = [
     "content": "웬만한 다이어트앱 다 써봤는데 젤 쓰기 편하고 설명도 간략히 잘해줌 귀찮게 안하고 광고도 안나오고 여러모로 완전 굳"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-06-09 01:55";
+window.PILLYZE_UPDATED_AT = "2026-06-09 01:57";
