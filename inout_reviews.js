@@ -17892,4 +17892,4 @@ window.INOUT_REVIEWS = [
     "content": "다른 어플보다 직관적이도 작성하기도 편리하고 디자인도 귀여워서 좋아요"
   }
 ];
-window.INOUT_UPDATED_AT = "2026-06-09 22:35";
+window.INOUT_UPDATED_AT = "2026-06-09 22:47";
