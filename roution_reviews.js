@@ -1,6 +1,12 @@
 window.ROUTION_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-06-08",
+    "rating": 4,
+    "content": "칼로리 분석해주는건 좋은데 식단분석할때 AI가 빡치게함 뭐 을매나 더 잘먹으라고😬"
+  },
+  {
+    "store": "google_play",
     "date": "2026-06-06",
     "rating": 5,
     "content": "식단 관리 /체지방분석 최고예요~"
@@ -685,6 +691,12 @@ window.ROUTION_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-06-07",
+    "rating": 3,
+    "content": "운동도 추가됐으면 좋겠어요"
+  },
+  {
+    "store": "app_store",
     "date": "2026-06-05",
     "rating": 1,
     "content": "과일 못먹는 구강알러지있는데 주구장창 과일만 추천함 보기만해도 입 간지러워지는 느낌.\n\n그리고 음식검색 기능 강화해야함 브랜드명 식품명 쳐도 식품명 자체에 브랜드안들어가 있으면 안나옴\nㅣ"
@@ -1020,4 +1032,4 @@ window.ROUTION_REVIEWS = [
     "content": "로그인도 안돼요.."
   }
 ];
-window.ROUTION_UPDATED_AT = "2026-06-09 01:57";
+window.ROUTION_UPDATED_AT = "2026-06-09 22:35";
