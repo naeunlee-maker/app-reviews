@@ -25,7 +25,8 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", sa
 .filter-btn:hover { background: #f5f5f5; }
 
 .tag { display: inline-block; font-size: 11px; padding: 3px 8px; border-radius: 20px; margin: 2px 4px 2px 0; font-weight: 500; }
-.tag-UI { background: #FCE4EC; color: #AD1457; }   /* 핑크 톤 */
+.tag-디자인 { background: #FCE4EC; color: #AD1457; }
+.tag-AI { background: #E8EAF6; color: #3F51B5; }
 .tag-편하다 { background: #E1F5EE; color: #0F6E56; }
 .tag-불편 { background: #FAECE7; color: #993C1D; }
 .tag-도움된다 { background: #EAF3DE; color: #3B6D11; }
@@ -225,19 +226,19 @@ const APPS = {
     name: '루션',
     data: window.ROUTION_REVIEWS || [],
     updatedAt: window.ROUTION_UPDATED_AT || '데이터 없음',
-    tags: ['기록', 'UI', '포인트', '편하다', '불편', '도움된다', '개선필요', '운동/헬스']
+    tags: ['기록', '디자인', 'AI', '포인트', '편하다', '불편', '도움된다', '개선필요', '운동/헬스']
   },
   pillyze: {
     name: '필라이즈',
     data: window.PILLYZE_REVIEWS || [],
     updatedAt: window.PILLYZE_UPDATED_AT || '데이터 없음',
-    tags: ['기록', 'UI', '영양제', '혈당', '편하다', '불편', '도움된다', '개선필요', '운동/헬스']
+    tags: ['기록', '디자인', 'AI', '영양제', '혈당', '편하다', '불편', '도움된다', '개선필요', '운동/헬스']
   },
   inout: {
     name: '인아웃',
     data: window.INOUT_REVIEWS || [],
     updatedAt: window.INOUT_UPDATED_AT || '데이터 없음',
-    tags: ['기록', 'UI', '구독', '편하다', '불편', '도움된다', '개선필요', '운동/헬스']
+    tags: ['기록', '디자인', 'AI', '구독', '편하다', '불편', '도움된다', '개선필요', '운동/헬스']
   }
 };
 
@@ -253,8 +254,9 @@ function getTags(r, app) {
   const rating = r.rating || 0;
 
   if (/기록|입력|등록|작성|체크|식단기록|활동기록/.test(c)) tags.push('기록');
-if (/이쁨|이뻐|예쁨|예뻐|예쁘|이쁘|디자인|그래픽|브랜딩|브랜드|귀엽|귀여|UI|ui|깔끔|심플|세련|미니멀/.test(c)) tags.push('UI');
-  
+if (/이쁨|이뻐|예쁨|예뻐|예쁘|이쁘|디자인|그래픽|브랜딩|브랜드|귀엽|귀여|UI|ui|깔끔|심플|세련|미니멀/.test(c)) tags.push('디자인');
+if (/ai|에이아이|AI|피드백|코치|코칭|1:1|1대1|일대일|상담|컨설팅/i.test(c)) tags.push('AI');
+
   // 앱별 특화 태그
   if (app === 'roution' && /포인트|리워드|쿠폰|적립|보상|캐시/.test(c)) tags.push('포인트');
   if (app === 'pillyze') {
