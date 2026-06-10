@@ -18660,4 +18660,4 @@ window.PILLYZE_REVIEWS = [
     "content": "혼자하는 느낌 안들어서 좋은듯!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-06-10 19:33";
+window.PILLYZE_UPDATED_AT = "2026-06-10 19:34";
