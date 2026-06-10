@@ -988,6 +988,48 @@ window.ROUTION_REVIEWS = [
     "date": "2025-09-20",
     "rating": 1,
     "content": "시작하자마자 대뜸 개인정보를 과도하게 요구하는 느낌이라 가입 포기합니다"
+  },
+  {
+    "store": "app_store",
+    "date": "2025-09-12",
+    "rating": 5,
+    "content": "뭐 먹을지 고민 안해도 돼서 좋아요"
+  },
+  {
+    "store": "app_store",
+    "date": "2025-09-10",
+    "rating": 5,
+    "content": "다른 앱들보다 깔끔하고 뭘 눌러야 하나 명확해서 좋아요"
+  },
+  {
+    "store": "app_store",
+    "date": "2025-09-10",
+    "rating": 5,
+    "content": "깔끔하고 직관적이여서 좋아요~~"
+  },
+  {
+    "store": "app_store",
+    "date": "2025-09-10",
+    "rating": 1,
+    "content": "부터 안되는데 …뭐 어찌 가입하라는거임"
+  },
+  {
+    "store": "app_store",
+    "date": "2025-09-09",
+    "rating": 4,
+    "content": "성별을 선택해주세요 라는 문구만 뜨고 아무것도 안떠서 다음으로 넘어갈수가 없어요 ㅜ!!"
+  },
+  {
+    "store": "app_store",
+    "date": "2025-09-09",
+    "rating": 3,
+    "content": "성별 선택하라는데 아무 것도 안떠서 안넘어가 지는데용.."
+  },
+  {
+    "store": "app_store",
+    "date": "2025-09-08",
+    "rating": 3,
+    "content": "로그인도 안돼요.."
   }
 ];
-window.ROUTION_UPDATED_AT = "2026-06-10 18:28";
+window.ROUTION_UPDATED_AT = "2026-06-10 19:09";
