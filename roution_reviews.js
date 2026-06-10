@@ -990,4 +990,4 @@ window.ROUTION_REVIEWS = [
     "content": "시작하자마자 대뜸 개인정보를 과도하게 요구하는 느낌이라 가입 포기합니다"
   }
 ];
-window.ROUTION_UPDATED_AT = "2026-06-10 18:20";
+window.ROUTION_UPDATED_AT = "2026-06-10 18:28";
