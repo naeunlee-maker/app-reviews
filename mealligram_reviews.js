@@ -6246,4 +6246,4 @@ window.MEALLIGRAM_REVIEWS = [
     "content": "건강앱 연동 수정은 안되나요?\n전체 카테고리 연동으로 해놧엇는데\n걸음 카테고리만 연동하고싶어서요ㅠ\n연동켜고 끄는거만 되고 카테고리 선택은 따로안되네요..."
   }
 ];
-window.MEALLIGRAM_UPDATED_AT = "2026-06-10 20:19";
+window.MEALLIGRAM_UPDATED_AT = "2026-06-10 20:23";
