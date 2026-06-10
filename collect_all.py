@@ -8,24 +8,32 @@ APPS = {
     "roution": {
         "name": "루션",
         "var_prefix": "ROUTION",
-        "google_play": {"app_id": "com.kurly.balance", "lang": "ko", "country": "kr", "count": 500},
-        "app_store": {"app_id": "6741460190", "country": "kr", "count": 500},
+        "google_play": {"app_id": "com.kurly.balance", "lang": "ko", "country": "kr", "count": 5000},
+        "app_store": {"app_id": "6741460190", "country": "kr", "count": 2000},
         "app_store_name": "roution",
     },
     "pillyze": {
         "name": "필라이즈",
         "var_prefix": "PILLYZE",
         "google_play": {"app_id": "com.pillyze.health", "lang": "ko", "country": "kr", "count": 5000},
-        "app_store": {"app_id": "1595472563", "country": "kr", "count": 500},
+        "app_store": {"app_id": "1595472563", "country": "kr", "count": 2000},
         "app_store_name": "pillyze",
     },
     "inout": {
         "name": "인아웃",
         "var_prefix": "INOUT",
         "google_play": {"app_id": "com.taejinketo.inout_webview", "lang": "ko", "country": "kr", "count": 5000},
-        "app_store": {"app_id": "1599210729", "country": "kr", "count": 500},
+        "app_store": {"app_id": "1599210729", "country": "kr", "count": 2000},
         "app_store_name": "inout",
     },
+    "mealligram": {
+        "name": "밀리그램",
+        "var_prefix": "MEALLIGRAM",
+        "google_play": {"app_id": "com.lefal.mealligram", "lang": "ko", "country": "kr", "count": 5000},
+        "app_store": {"app_id": "1514163957", "country": "kr", "count": 2000},
+        "app_store_name": "mealligram",
+    },
+
 }
 
 
