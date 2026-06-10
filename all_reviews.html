@@ -393,20 +393,6 @@ function renderTagButtons() {
     ).join('')}
   `;
 }
-    </div>
-    <div style="display:flex; gap:8px; align-items:center; margin-left:auto;">
-      <select onchange="sortReviews(this.value)">
-        <option value="latest">최신순</option>
-        <option value="rating-desc">별점 높은순</option>
-        <option value="rating-asc">별점 낮은순</option>
-      </select>
-      <div class="view-toggle">
-        <button class="${currentView === 'list' ? 'active' : ''}" id="view-list-btn" onclick="switchView('list')" title="리스트 뷰">☰</button>
-        <button class="${currentView === 'chart' ? 'active' : ''}" id="view-chart-btn" onclick="switchView('chart')" title="차트 뷰">▦</button>
-      </div>
-    </div>
-  `;
-}
 
 const APP_EMOJI = {
   roution: '🧚',
