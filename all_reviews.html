@@ -241,7 +241,7 @@ const APPS = {
     name: '인아웃',
     data: window.INOUT_REVIEWS || [],
     updatedAt: window.INOUT_UPDATED_AT || '데이터 없음',
-    tags: ['기록', '디자인', 'AI', '구독', '편하다', '불편', '도움된다', '개선필요', '운동/헬스']
+    tags: ['기록', '디자인', 'AI', '소셜', '구독', '편하다', '불편', '도움된다', '개선필요', '운동/헬스']
   },
     mealligram: {
     name: '밀리그램',
@@ -273,7 +273,7 @@ if (/ai|에이아이|AI|피드백|코치|코칭|1:1|1대1|일대일|상담|컨�
     if (/혈당|당뇨|인슐린|혈당계|cgm|케어센스/i.test(c)) tags.push('혈당');
   }
   if (app === 'inout' && /구독|리워드|쿠폰|적립|보상|유료|결제|캐시/.test(c)) tags.push('구독');
-  if (app === 'mealligram' && /그룹|배틀|경쟁|순위|랭킹|챌린지|친구|함께/.test(c)) tags.push('소셜');
+  if ((app === 'mealligram' || app === 'inout') && /그룹|배틀|경쟁|순위|랭킹|챌린지|친구|함께/.test(c)) tags.push('소셜');
 
 
   const positiveUX = /편하|편리|쉽|간편|깔끔|만족|좋|조아|대만족|굿|따봉|재미/.test(c);
