@@ -691,6 +691,12 @@ window.ROUTION_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-06-08",
+    "rating": 3,
+    "content": "메일도 보내드렸는데 확인해주세요"
+  },
+  {
+    "store": "app_store",
     "date": "2026-06-07",
     "rating": 3,
     "content": "운동도 추가됐으면 좋겠어요"
@@ -1032,4 +1038,4 @@ window.ROUTION_REVIEWS = [
     "content": "로그인도 안돼요.."
   }
 ];
-window.ROUTION_UPDATED_AT = "2026-06-10 19:09";
+window.ROUTION_UPDATED_AT = "2026-06-10 19:33";
