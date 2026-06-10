@@ -25,23 +25,24 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", sa
 .filter-btn:hover { background: #f5f5f5; }
 
 .tag { display: inline-block; font-size: 11px; padding: 3px 8px; border-radius: 20px; margin: 2px 4px 2px 0; font-weight: 500; }
-.tag-디자인 { background: #FCE4EC; color: #AD1457; }
-.tag-AI { background: #E8EAF6; color: #3F51B5; }
-.tag-편하다 { background: #E1F5EE; color: #0F6E56; }
-.tag-불편 { background: #FAECE7; color: #993C1D; }
-.tag-도움된다 { background: #EAF3DE; color: #3B6D11; }
-.tag-개선필요 { background: #FAEEDA; color: #854F0B; }
-.tag-운동헬스 { background: #EEEDFE; color: #534AB7; }
-.tag-포인트 { background: #FFF9C4; color: #827717; }
-.tag-구독 { background: #FFF9C4; color: #827717; }
-.tag-기록 { background: #E3F2FD; color: #1565C0; }
-.tag-영양제 { background: #F3E5F5; color: #6A1B9A; }
-.tag-혈당 { background: #FFEBEE; color: #C62828; }
-.tag-소셜 { background: #FFF3E0; color: #E65100; }
+.tag-디자인 { background: #FCE7F3; color: #DB2777; }
+.tag-편하다 { background: #D1FAE5; color: #059669; }
+.tag-불편 { background: #FFEDD5; color: #EA580C; }
+.tag-도움된다 { background: #ECFCCB; color: #65A30D; }
+.tag-개선필요 { background: #FEF3C7; color: #D97706; }
+.tag-운동헬스 { background: #EDE9FE; color: #7C3AED; }
+.tag-포인트 { background: #FEF9C3; color: #CA8A04; }
+.tag-구독 { background: #FEF9C3; color: #CA8A04; }
+.tag-기록 { background: #DBEAFE; color: #2563EB; }
+.tag-영양제 { background: #F3E8FF; color: #9333EA; }
+.tag-혈당 { background: #FEE2E2; color: #DC2626; }
+.tag-AI { background: #CFFAFE; color: #0891B2; }
+.tag-그룹배틀 { background: #FFEDD5; color: #EA580C; }
+.tag-소셜 { background: #FFEDD5; color: #EA580C; }
 
 .os-badge { font-size: 11px; padding: 3px 8px; border-radius: 20px; font-weight: 500; }
-.os-android { background: #E6F1FB; color: #185FA5; }
-.os-ios { background: #FBEAF0; color: #993556; }
+.os-android { background: #D1FAE5; color: #059669; }
+.os-ios { background: #F3F4F6; color: #1F2937; }
 
 .stars { color: #BA7517; font-size: 13px; letter-spacing: -1px; }
 .content-cell { font-size: 13px; line-height: 1.6; max-width: 420px; }
@@ -112,18 +113,19 @@ body { padding-top: 0; }
 .view-toggle {
   display: inline-flex;
   border: 1px solid #ddd;
-  border-radius: 10px;
+  border-radius: 8px;
   overflow: hidden;
-  margin-left: auto;
 }
 .view-toggle button {
   border: none;
   background: white;
-  padding: 8px 12px;
+  padding: 6px 10px;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 13px;
+  line-height: 1.4;
   color: #888;
   transition: all 0.15s;
+  font-family: inherit;
 }
 .view-toggle button.active {
   background: #111;
@@ -257,11 +259,6 @@ body { padding-top: 0; }
       <option value="90">🗓 최근 3개월</option>
     </select>
     
-    <div class="view-toggle">
-      <button class="active" id="view-list-btn" onclick="switchView('list')" title="리스트 뷰">☰</button>
-      <button id="view-chart-btn" onclick="switchView('chart')" title="차트 뷰">▦</button>
-    </div>
-  </div>
 </div>
 
   <div class="toolbar" id="tag-toolbar"></div>
@@ -379,17 +376,25 @@ function renderTagButtons() {
   const toolbar = document.getElementById('tag-toolbar');
   const tags = APPS[currentApp].tags;
   toolbar.innerHTML = `
-    <button class="filter-btn active" onclick="toggleTag('all', this)">
-      전체 <span class="count" id="count-all"></span>
-    </button>
-    ${tags.map(t => 
-      `<button class="filter-btn" onclick="toggleTag('${t}', this)">${t}</button>`
-    ).join('')}
-    <select onchange="sortReviews(this.value)" style="margin-left:auto;">
-      <option value="latest">최신순</option>
-      <option value="rating-desc">별점 높은순</option>
-      <option value="rating-asc">별점 낮은순</option>
-    </select>
+    <div id="tag-buttons" style="display:flex; gap:8px; flex-wrap:wrap; flex:1;">
+      <button class="filter-btn active" onclick="toggleTag('all', this)">
+        전체 <span class="count" id="count-all"></span>
+      </button>
+      ${tags.map(t => 
+        `<button class="filter-btn" onclick="toggleTag('${t}', this)">${t}</button>`
+      ).join('')}
+    </div>
+    <div style="display:flex; gap:8px; align-items:center; margin-left:auto;">
+      <select onchange="sortReviews(this.value)">
+        <option value="latest">최신순</option>
+        <option value="rating-desc">별점 높은순</option>
+        <option value="rating-asc">별점 낮은순</option>
+      </select>
+      <div class="view-toggle">
+        <button class="${currentView === 'list' ? 'active' : ''}" id="view-list-btn" onclick="switchView('list')" title="리스트 뷰">☰</button>
+        <button class="${currentView === 'chart' ? 'active' : ''}" id="view-chart-btn" onclick="switchView('chart')" title="차트 뷰">▦</button>
+      </div>
+    </div>
   `;
 }
 
@@ -567,6 +572,9 @@ function switchView(view) {
   document.getElementById('chart-view').style.display = view === 'chart' ? 'block' : 'none';
   document.getElementById('view-list-btn').classList.toggle('active', view === 'list');
   document.getElementById('view-chart-btn').classList.toggle('active', view === 'chart');
+  
+  document.getElementById('tag-toolbar').style.display = view === 'chart' ? 'none' : 'flex';
+  
   if (view === 'chart') renderCharts();
 }
 
@@ -590,18 +598,33 @@ function getFilteredReviews() {
 }
 
 function renderCharts() {
+// 태그별 색상 매핑 (CSS의 tag-* 컬러와 동일)
+const TAG_COLORS = {
+  '디자인': '#EC4899',
+  '편하다': '#10B981',
+  '불편': '#F97316',
+  '도움된다': '#84CC16',
+  '개선필요': '#F59E0B',
+  '운동/헬스': '#8B5CF6',
+  '포인트': '#FACC15',
+  '구독': '#FACC15',
+  '기록': '#3B82F6',
+  '영양제': '#A855F7',
+  '혈당': '#EF4444',
+  'AI': '#06B6D4',
+  '그룹/배틀': '#F97316',
+  '소셜': '#F97316',
+};
+
+function renderCharts() {
   const reviews = getFilteredReviews();
   
-  // 기존 차트 destroy
   Object.values(chartInstances).forEach(c => c?.destroy());
   chartInstances = {};
   
   if (reviews.length === 0) return;
   
-  // 공통 color palette
-  const colors = ['#5B8DEF', '#F5A623', '#7ED321', '#BD10E0', '#F8E71C', '#4A90E2', '#D0021B', '#50E3C2', '#9013FE', '#FF6B9D'];
-  
-  // 1. 태그별 리뷰 개수
+  // 1. 태그별 리뷰 개수 (각 태그 고유 색상 매칭)
   const tagCount = {};
   reviews.forEach(r => {
     getTags(r, currentApp).forEach(t => {
@@ -616,7 +639,7 @@ function renderCharts() {
       labels: sortedTags.map(t => t[0]),
       datasets: [{
         data: sortedTags.map(t => t[1]),
-        backgroundColor: sortedTags.map((_, i) => colors[i % colors.length]),
+        backgroundColor: sortedTags.map(t => TAG_COLORS[t[0]] || '#999'),
         borderRadius: 6,
       }]
     },
@@ -632,7 +655,7 @@ function renderCharts() {
     }
   });
   
-  // 2. 별점 분포 (도넛)
+  // 2. 별점 분포 (도넛) — 별점별 톤 (혈당색→불편색→포인트색→편하다색→기록색)
   const ratingCount = {1: 0, 2: 0, 3: 0, 4: 0, 5: 0};
   reviews.forEach(r => { if (r.rating >= 1 && r.rating <= 5) ratingCount[r.rating]++; });
   
@@ -642,7 +665,7 @@ function renderCharts() {
       labels: ['1점', '2점', '3점', '4점', '5점'],
       datasets: [{
         data: [ratingCount[1], ratingCount[2], ratingCount[3], ratingCount[4], ratingCount[5]],
-        backgroundColor: ['#D0021B', '#F5A623', '#F8E71C', '#7ED321', '#4A90E2'],
+        backgroundColor: ['#EF4444', '#F97316', '#FACC15', '#10B981', '#3B82F6'],
         borderWidth: 2,
         borderColor: '#fff',
       }]
@@ -656,7 +679,7 @@ function renderCharts() {
     }
   });
   
-  // 3. OS 비율 (도넛)
+  // 3. OS 비율 (도넛) — 기존 os-badge 컬러와 동일
   const osCount = { android: 0, ios: 0 };
   reviews.forEach(r => {
     if (r.store === 'google_play') osCount.android++;
@@ -669,7 +692,7 @@ function renderCharts() {
       labels: ['Android', 'iOS'],
       datasets: [{
         data: [osCount.android, osCount.ios],
-        backgroundColor: ['#185FA5', '#993556'],
+        backgroundColor: ['#10B981', '#1F2937'],
         borderWidth: 2,
         borderColor: '#fff',
       }]
@@ -683,11 +706,11 @@ function renderCharts() {
     }
   });
   
-  // 4. 월별 리뷰 추이 + 평균 별점
+  // 4. 월별 추이 — 리뷰 수=기록색(블루), 평균 별점=포인트색(옐로/오커)
   const monthly = {};
   reviews.forEach(r => {
     if (!r.date) return;
-    const ym = r.date.slice(0, 7); // YYYY-MM
+    const ym = r.date.slice(0, 7);
     if (!monthly[ym]) monthly[ym] = { count: 0, ratingSum: 0 };
     monthly[ym].count++;
     monthly[ym].ratingSum += r.rating || 0;
@@ -702,8 +725,8 @@ function renderCharts() {
         {
           label: '리뷰 수',
           data: sortedMonths.map(m => monthly[m].count),
-          borderColor: '#5B8DEF',
-          backgroundColor: 'rgba(91, 141, 239, 0.1)',
+          borderColor: '#3B82F6',
+          backgroundColor: 'rgba(59, 130, 246, 0.1)',
           tension: 0.3,
           yAxisID: 'y',
           fill: true,
@@ -711,7 +734,7 @@ function renderCharts() {
         {
           label: '평균 별점',
           data: sortedMonths.map(m => (monthly[m].ratingSum / monthly[m].count).toFixed(2)),
-          borderColor: '#F5A623',
+          borderColor: '#F59E0B',
           backgroundColor: 'transparent',
           tension: 0.3,
           yAxisID: 'y1',
