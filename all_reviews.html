@@ -573,7 +573,7 @@ function switchView(view) {
   document.getElementById('view-list-btn').classList.toggle('active', view === 'list');
   document.getElementById('view-chart-btn').classList.toggle('active', view === 'chart');
   
-  document.getElementById('tag-toolbar').style.display = view === 'chart' ? 'none' : 'flex';
+  document.getElementById('tag-buttons').style.display = view === 'chart' ? 'none' : 'flex';
   
   if (view === 'chart') renderCharts();
 }
