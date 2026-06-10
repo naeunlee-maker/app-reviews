@@ -17892,4 +17892,4 @@ window.INOUT_REVIEWS = [
     "content": "업데이트 후 현저히 앱 실행이 느려졌습니다.\n아니 식단 기록만 하면 되는걸 뭐이렇게 앱이 무거워지나요\n무거워질 필요가 있는 건가요"
   }
 ];
-window.INOUT_UPDATED_AT = "2026-06-10 19:48";
+window.INOUT_UPDATED_AT = "2026-06-10 20:19";
