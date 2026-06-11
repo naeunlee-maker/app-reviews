@@ -1,6 +1,12 @@
 window.INOUT_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-06-10",
+    "rating": 5,
+    "content": "너무 좋은데 어떻게 식단 보는지 모르겠어요"
+  },
+  {
+    "store": "google_play",
     "date": "2026-06-06",
     "rating": 1,
     "content": "s26하고 뭔가 고질적인 문제가 있나봐요 거의 2달이 되로록 헬스커넥터랑 연동이 안되네요"
@@ -17892,4 +17898,4 @@ window.INOUT_REVIEWS = [
     "content": "업데이트 후 현저히 앱 실행이 느려졌습니다.\n아니 식단 기록만 하면 되는걸 뭐이렇게 앱이 무거워지나요\n무거워질 필요가 있는 건가요"
   }
 ];
-window.INOUT_UPDATED_AT = "2026-06-10 23:42";
+window.INOUT_UPDATED_AT = "2026-06-12 02:08";

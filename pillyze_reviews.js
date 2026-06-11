@@ -2,6 +2,12 @@ window.PILLYZE_REVIEWS = [
   {
     "store": "google_play",
     "date": "2026-06-09",
+    "rating": 2,
+    "content": "又‼️"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-06-09",
     "rating": 5,
     "content": "손쉽게 칼로리계산도되고 좋아요"
   },
@@ -18660,4 +18666,4 @@ window.PILLYZE_REVIEWS = [
     "content": "혼자하는 느낌 안들어서 좋은듯!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-06-10 23:42";
+window.PILLYZE_UPDATED_AT = "2026-06-12 02:08";
