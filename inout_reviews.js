@@ -17898,4 +17898,4 @@ window.INOUT_REVIEWS = [
     "content": "귀여워서 쓰게 됩니다 워치 어플도 있었으면 해요 단식 같은거"
   }
 ];
-window.INOUT_UPDATED_AT = "2026-06-12 23:18";
+window.INOUT_UPDATED_AT = "2026-06-12 23:21";

@@ -18672,4 +18672,4 @@ window.PILLYZE_REVIEWS = [
     "content": "정말 좋아요"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-06-12 23:18";
+window.PILLYZE_UPDATED_AT = "2026-06-12 23:21";
