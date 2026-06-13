@@ -17904,4 +17904,4 @@ window.INOUT_REVIEWS = [
     "content": "아니 진짜 음식 왠만한거 다 있는것도 모자라서 애플워치 운동도 연동돼서 칼로리 측정되는데 미쳤오요 진짜!!"
   }
 ];
-window.INOUT_UPDATED_AT = "2026-06-13 20:25";
+window.INOUT_UPDATED_AT = "2026-06-13 20:27";
