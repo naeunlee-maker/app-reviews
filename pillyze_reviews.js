@@ -18696,4 +18696,4 @@ window.PILLYZE_REVIEWS = [
     "content": "절대 연장안함"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-06-14 20:38";
+window.PILLYZE_UPDATED_AT = "2026-06-14 20:45";

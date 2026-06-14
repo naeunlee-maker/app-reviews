@@ -17910,4 +17910,4 @@ window.INOUT_REVIEWS = [
     "content": "앱 자체가 너무 귀엽고 예쁘고 말랑말랑해요… ㅠㅠ 광고도 없고 과금유도도 없고 시스템도 깔끔해서 정말 너무좋아요🥹🥹🩷🩷"
   }
 ];
-window.INOUT_UPDATED_AT = "2026-06-14 20:38";
+window.INOUT_UPDATED_AT = "2026-06-14 20:45";
