@@ -1,6 +1,24 @@
 window.PILLYZE_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-06-13",
+    "rating": 5,
+    "content": "좋습니다. 찐 다이어트 하실분들은 추천"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-06-13",
+    "rating": 3,
+    "content": "잘 쓰고 있는데요 프로버전 아니면 사진 자체를 못 올리는 거 너무 별로예요. 음식 종류나 칼로리 말고 사진만 올려야하는 날이 있는데 뭐든 등록을 해야하니 귀찮네요."
+  },
+  {
+    "store": "google_play",
+    "date": "2026-06-12",
+    "rating": 4,
+    "content": "영양제를 섭취하고 어느 정도 영양이 충족되었는지 확인하는데, 비오틴을 입력해넣었는데 비오틴칸에 알약이 아예 뜨지않고 영양제를 먹었는데도 비오틴이 거의 채워지지않은 걸로 표기되는데요. 왜 이런거에여?"
+  },
+  {
+    "store": "google_play",
     "date": "2026-06-12",
     "rating": 5,
     "content": "잘쓰고있어요 매번 다이어트 하루만에 저녁에 폭식하는데 잘 잡아주고있어서 좋아요 식단등록할때 흰쌀밥 세스푼 이런식으로 세부적으로 등록 가능하면 좋을것같아요"
@@ -118,12 +136,6 @@ window.PILLYZE_REVIEWS = [
     "date": "2026-06-04",
     "rating": 5,
     "content": "편리하게 컨디션관리를 할수 있는거같아요"
-  },
-  {
-    "store": "google_play",
-    "date": "2026-06-03",
-    "rating": 5,
-    "content": "아직 안써봤어요"
   },
   {
     "store": "google_play",
@@ -790,12 +802,6 @@ window.PILLYZE_REVIEWS = [
     "date": "2026-04-01",
     "rating": 5,
     "content": "앱을 사용하고 나서 먹음음식들을 올리며 바로 칼로리를 알 수 있어서 칼로리를 조절하는데 많은 도움이 되었습니다!"
-  },
-  {
-    "store": "google_play",
-    "date": "2026-03-31",
-    "rating": 3,
-    "content": "일단 결제 후 사용 중인데 오류가 너무 심함..."
   },
   {
     "store": "google_play",
@@ -18690,4 +18696,4 @@ window.PILLYZE_REVIEWS = [
     "content": "절대 연장안함"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-06-13 20:27";
+window.PILLYZE_UPDATED_AT = "2026-06-14 20:38";
