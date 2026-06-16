@@ -1,6 +1,12 @@
 window.ROUTION_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-06-15",
+    "rating": 4,
+    "content": "굿 ㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱ"
+  },
+  {
+    "store": "google_play",
     "date": "2026-06-08",
     "rating": 4,
     "content": "칼로리 분석해주는건 좋은데 식단분석할때 AI가 빡치게함 뭐 을매나 더 잘먹으라고😬"
@@ -1038,4 +1044,4 @@ window.ROUTION_REVIEWS = [
     "content": "로그인도 안돼요.."
   }
 ];
-window.ROUTION_UPDATED_AT = "2026-06-16 04:08";
+window.ROUTION_UPDATED_AT = "2026-06-17 03:47";
