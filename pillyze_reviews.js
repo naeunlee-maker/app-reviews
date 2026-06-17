@@ -1,6 +1,24 @@
 window.PILLYZE_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-06-16",
+    "rating": 5,
+    "content": "운동할때 너무 좋아요! 식단체크도 너무너무 좋네요!! 기능이 많은데 천천히 다 사용해보겠습니다!!"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-06-16",
+    "rating": 1,
+    "content": "영양제 확인해보려는데 없는 영양제가 너무 많음 쓸모가 없음"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-06-15",
+    "rating": 5,
+    "content": "일단 ui 좋아보임. 더 써보겠음"
+  },
+  {
+    "store": "google_play",
     "date": "2026-06-14",
     "rating": 2,
     "content": "일단 결제 후 사용 중인데 인식 오류가 너무 심함... 단식 기록으로만 사용중"
@@ -15710,6 +15728,12 @@ window.PILLYZE_REVIEWS = [
   {
     "store": "app_store",
     "date": "2026-06-15",
+    "rating": 5,
+    "content": "여러가지 다 하나로 정리 가능해서 좋네요 만족"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-06-15",
     "rating": 3,
     "content": "다만 조금 ui가 복잡한것 같아서 조금 정돈 되면 좋을 것 같아요!"
   },
@@ -18700,12 +18724,6 @@ window.PILLYZE_REVIEWS = [
     "date": "2025-12-18",
     "rating": 5,
     "content": "I really mean it"
-  },
-  {
-    "store": "app_store",
-    "date": "2025-12-18",
-    "rating": 5,
-    "content": "호기롭게 24주 패키지를 구입 했는데 AI 코칭은 대부분 혈당 관심자라면 아는 내용들이고 정작 그래프를 보고 궁금한것은 해소되지 않네요 수면중 저혈당이나 스파이크 이슈도 같은 글만 보여주고 운동도 안하고 아무것도 먹지 않았는데 왜 혈당이 뭐 먹은거처럼 요동치는지 알려주지도 않고 다른 업체들처럼 선생님들이 직접 상담 해주는것 필요합니다 혼자 하는거나 다를바 없고 스파이크 발생 예정이니 식후 운동을 하라던가 그런 코칭이 없으니 다른곳보다 저렴하게 이용할 수 있다 빼고는 잘 모르겠네요 너무 아쉬워요..\n\n한달 이용했는데 AI코칭이 너무 부족해서 어쩌라는건지 잘 모르겠고\n약사님께 드리는 질문엔 답변도 안달려요"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-06-17 03:57";
+window.PILLYZE_UPDATED_AT = "2026-06-17 23:39";
