@@ -17922,4 +17922,4 @@ window.INOUT_REVIEWS = [
     "content": "로그인이안댐"
   }
 ];
-window.INOUT_UPDATED_AT = "2026-06-17 23:39";
+window.INOUT_UPDATED_AT = "2026-06-17 23:40";
