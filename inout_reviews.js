@@ -17928,4 +17928,4 @@ window.INOUT_REVIEWS = [
     "content": "1등 그룹에 들어가있는데 강퇴당하게 생겼어요 엉엉엉"
   }
 ];
-window.INOUT_UPDATED_AT = "2026-06-18 23:32";
+window.INOUT_UPDATED_AT = "2026-06-18 23:34";

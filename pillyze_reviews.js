@@ -18738,4 +18738,4 @@ window.PILLYZE_REVIEWS = [
     "content": "편하고 간단해서 좋아요"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-06-18 23:32";
+window.PILLYZE_UPDATED_AT = "2026-06-18 23:34";
