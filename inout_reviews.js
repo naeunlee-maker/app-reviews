@@ -17958,4 +17958,4 @@ window.INOUT_REVIEWS = [
     "content": "한국어어플인데 갑자기 영어로 권한 승인 팝업 뜨는 건 뭔가요 ? 해킹당하신건가요 ? \n너무 찝찝해서 삭제합니다ㅠ"
   }
 ];
-window.INOUT_UPDATED_AT = "2026-06-20 20:26";
+window.INOUT_UPDATED_AT = "2026-06-20 20:29";

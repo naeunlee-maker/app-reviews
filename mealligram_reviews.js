@@ -6246,4 +6246,4 @@ window.MEALLIGRAM_REVIEWS = [
     "content": "식단+눈바디+체중+물 기록하는데 이만한 어플이 없네용"
   }
 ];
-window.MEALLIGRAM_UPDATED_AT = "2026-06-20 20:26";
+window.MEALLIGRAM_UPDATED_AT = "2026-06-20 20:29";
