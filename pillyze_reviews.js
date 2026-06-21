@@ -18774,4 +18774,4 @@ window.PILLYZE_REVIEWS = [
     "content": "생각보다 관리하기도 쉽고 편해요!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-06-21 21:01";
+window.PILLYZE_UPDATED_AT = "2026-06-21 21:03";
