@@ -6246,4 +6246,4 @@ window.MEALLIGRAM_REVIEWS = [
     "content": "댓글 알바했나"
   }
 ];
-window.MEALLIGRAM_UPDATED_AT = "2026-06-23 03:33";
+window.MEALLIGRAM_UPDATED_AT = "2026-06-23 03:37";

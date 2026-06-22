@@ -18786,4 +18786,4 @@ window.PILLYZE_REVIEWS = [
     "content": "단식, 운동기록, 몸무게 기록, 식단 기록까지! 모든 기능이 들어있는 다이어터에게 최고의 앱이에요"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-06-23 03:33";
+window.PILLYZE_UPDATED_AT = "2026-06-23 03:37";
