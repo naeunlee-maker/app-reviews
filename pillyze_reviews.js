@@ -1,6 +1,18 @@
 window.PILLYZE_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-06-21",
+    "rating": 5,
+    "content": "진짜 조언이 너무 좋고 만족...!! 남은 다이어트 인생에서 평생쓸듯..ㅠ"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-06-21",
+    "rating": 5,
+    "content": "좋아요"
+  },
+  {
+    "store": "google_play",
     "date": "2026-06-20",
     "rating": 5,
     "content": "만족합니다. 도움이 될꺼같아요."
@@ -15775,6 +15787,18 @@ window.PILLYZE_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-06-21",
+    "rating": 4,
+    "content": "이틀 정도 쓰니까 돈내라해서 좀 아숩 그래도 피티 피드백만 못보는거여서 괜춘해요"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-06-20",
+    "rating": 5,
+    "content": "훌륭합니다"
+  },
+  {
+    "store": "app_store",
     "date": "2026-06-19",
     "rating": 5,
     "content": "잘 쓰면 우리가 회원님들과 함께 쓰고 체크해드리기 쉽습니다"
@@ -18760,18 +18784,6 @@ window.PILLYZE_REVIEWS = [
     "date": "2025-12-30",
     "rating": 5,
     "content": "단식, 운동기록, 몸무게 기록, 식단 기록까지! 모든 기능이 들어있는 다이어터에게 최고의 앱이에요"
-  },
-  {
-    "store": "app_store",
-    "date": "2025-12-29",
-    "rating": 3,
-    "content": "영양 성분표 상 갑자기 튀는 정보들이 있는데, 이걸 좀 정상화시켰으면 합니다..."
-  },
-  {
-    "store": "app_store",
-    "date": "2025-12-29",
-    "rating": 5,
-    "content": "생각보다 관리하기도 쉽고 편해요!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-06-21 21:03";
+window.PILLYZE_UPDATED_AT = "2026-06-23 03:33";
