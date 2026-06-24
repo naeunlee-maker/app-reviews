@@ -696,4 +696,4 @@ window.ROUTION_REVIEWS = [
     "content": "기대가 많이 되는 앱이에요 ㅎㅎ"
   }
 ];
-window.ROUTION_UPDATED_AT = "2026-06-23 22:46";
+window.ROUTION_UPDATED_AT = "2026-06-24 21:11";
