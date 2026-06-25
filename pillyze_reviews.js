@@ -1,6 +1,24 @@
 window.PILLYZE_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-06-24",
+    "rating": 5,
+    "content": "그냥 완벽"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-06-23",
+    "rating": 5,
+    "content": "굿"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-06-23",
+    "rating": 5,
+    "content": "음식 사진 촬영이 되어 좋아요😀"
+  },
+  {
+    "store": "google_play",
     "date": "2026-06-23",
     "rating": 5,
     "content": "굿"
@@ -15798,4 +15816,4 @@ window.PILLYZE_REVIEWS = [
     "content": "건강검진결과랑 건강정보 근거해서 영양제 골라주니 좋네요~ 좋다는거 이것저것 챙겨먹는데 나한테 맞는걸 제대로 먹고있는지 궁금했거든요. 차후엔 복용하고있는 영양제 조합이 좋은지도 알려주면 더 좋을듯요!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-06-24 21:29";
+window.PILLYZE_UPDATED_AT = "2026-06-25 21:08";
