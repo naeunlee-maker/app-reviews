@@ -15006,4 +15006,4 @@ window.INOUT_REVIEWS = [
     "content": "다이어트에 도움이 많이 되요"
   }
 ];
-window.INOUT_UPDATED_AT = "2026-06-25 21:08";
+window.INOUT_UPDATED_AT = "2026-06-25 21:33";
