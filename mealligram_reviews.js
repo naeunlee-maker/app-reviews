@@ -3846,4 +3846,4 @@ window.MEALLIGRAM_REVIEWS = [
     "content": "앱을 삭제했다가 다시 설치했더니 2월말~3월초 식단들이 다 삭제되었어요ㅠㅠ 어떻게 해야될까요?ㅠㅠ"
   }
 ];
-window.MEALLIGRAM_UPDATED_AT = "2026-06-25 21:33";
+window.MEALLIGRAM_UPDATED_AT = "2026-06-26 21:01";
