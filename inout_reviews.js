@@ -1,6 +1,12 @@
 window.INOUT_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-06-26",
+    "rating": 1,
+    "content": "결제를 실수로해서 하자마자 안쓰고 환불요청하니까 바로 안됩니다 하고 7만원을 결제했은데 일반사양이랑 다를꺼 없고 절잔이라도 환불해라"
+  },
+  {
+    "store": "google_play",
     "date": "2026-06-25",
     "rating": 4,
     "content": "잘 쓰고 있었는데, 갑자기 식단사진을 찍고 업로드하려고 누르면 자꾸 앱에서 나가집니다. 식단 사진기록을 못 하고 있어요... 빠른 개선부탁드려요"
@@ -15018,4 +15024,4 @@ window.INOUT_REVIEWS = [
     "content": "다이어트에 도움이 많이 되요"
   }
 ];
-window.INOUT_UPDATED_AT = "2026-06-26 21:08";
+window.INOUT_UPDATED_AT = "2026-06-27 19:34";

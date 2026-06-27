@@ -3546,4 +3546,4 @@ window.MEALLIGRAM_REVIEWS = [
     "content": "식단 텍스트 기록은 가능하나, 사진 등록이 안 되어요. 사진 전체 접근 허용해도.. 보완해주시면 좋겠습니다."
   }
 ];
-window.MEALLIGRAM_UPDATED_AT = "2026-06-26 21:08";
+window.MEALLIGRAM_UPDATED_AT = "2026-06-27 19:34";
