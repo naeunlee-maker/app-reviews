@@ -3246,4 +3246,4 @@ window.MEALLIGRAM_REVIEWS = [
     "content": "꺅 드디어 갤럭시도ㅠㅠ감사합니다ㅠㅠㅠ"
   }
 ];
-window.MEALLIGRAM_UPDATED_AT = "2026-06-27 20:02";
+window.MEALLIGRAM_UPDATED_AT = "2026-06-28 20:15";
