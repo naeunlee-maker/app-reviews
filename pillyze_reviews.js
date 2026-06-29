@@ -18858,4 +18858,4 @@ window.PILLYZE_REVIEWS = [
     "content": "일단 열리는데 엄청오래걸리고 젤앞에 아조씨 사진 뜨는것도 너무 싫음. 앱 실행 느리고 의욕 떨어짐"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-06-30 01:42";
+window.PILLYZE_UPDATED_AT = "2026-06-30 01:43";
