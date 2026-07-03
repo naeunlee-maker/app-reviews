@@ -1,6 +1,18 @@
 window.INOUT_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-07-02",
+    "rating": 1,
+    "content": "광고를 적당히 넣어야지... 터치 한 반에 광고 한 번 ㅋㅋ 진짜 얼마나 욕심이 그득한지 가늠이 안간다"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-07-01",
+    "rating": 1,
+    "content": "개발자님 말고 기획자님 보세요! 일단 뭘해봐야 결제를 하든 뭘 하든하지! 들어가자마자 대뜸 결제를 하라고요? 그리고 몇시간안에 최대할인가라니! 좋은 시스템인지 뭔지도 모르고 누가 결제를 하나요? 하루정도 또는 일주일정도 그 이후에 구독을 유도해야지. 참 답답하십니다!ㅠㅠ"
+  },
+  {
+    "store": "google_play",
     "date": "2026-06-29",
     "rating": 1,
     "content": "탈퇴는 어디서한.ㄴ겁니까..;"
@@ -15060,4 +15072,4 @@ window.INOUT_REVIEWS = [
     "content": "다이어트에 도움이 많이 되요"
   }
 ];
-window.INOUT_UPDATED_AT = "2026-07-02 15:56";
+window.INOUT_UPDATED_AT = "2026-07-03 15:41";
