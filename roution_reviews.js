@@ -990,4 +990,4 @@ window.ROUTION_REVIEWS = [
     "content": "루션 덕분에 다이어트를 성공하였습니자"
   }
 ];
-window.ROUTION_UPDATED_AT = "2026-07-04 15:28";
+window.ROUTION_UPDATED_AT = "2026-07-04 15:36";

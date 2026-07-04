@@ -3258,4 +3258,4 @@ window.MEALLIGRAM_REVIEWS = [
     "content": "꺅 드디어 갤럭시도ㅠㅠ감사합니다ㅠㅠㅠ"
   }
 ];
-window.MEALLIGRAM_UPDATED_AT = "2026-07-04 15:28";
+window.MEALLIGRAM_UPDATED_AT = "2026-07-04 15:36";
