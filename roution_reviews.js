@@ -697,6 +697,12 @@ window.ROUTION_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-07-04",
+    "rating": 5,
+    "content": "음… 반강제적인 알림 때문에 시작한지 이틀째지만 기록하게 되네요. 요즘 살이 쪄서 5~8키로 정도 다이엇 할려구요."
+  },
+  {
+    "store": "app_store",
     "date": "2026-06-08",
     "rating": 3,
     "content": "메일도 보내드렸는데 확인해주세요"
@@ -996,4 +1002,4 @@ window.ROUTION_REVIEWS = [
     "content": "루션 덕분에 다이어트를 성공하였습니자"
   }
 ];
-window.ROUTION_UPDATED_AT = "2026-07-07 14:08";
+window.ROUTION_UPDATED_AT = "2026-07-07 14:51";
