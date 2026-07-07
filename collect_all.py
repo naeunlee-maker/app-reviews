@@ -1,8 +1,13 @@
 import json
+import os
+import re
 import requests
 from datetime import datetime, timezone, timedelta
 
 KST = timezone(timedelta(hours=9))
+
+# iOS 수집이 이 건수 미만이면 "실패로 간주" → 기존 데이터 유지
+IOS_MIN_THRESHOLD = 10
 
 APPS = {
     "roution": {
@@ -33,7 +38,6 @@ APPS = {
         "app_store": {"app_id": "1514163957", "country": "kr", "count": 2000},
         "app_store_name": "mealligram",
     },
-
 }
 
 
@@ -118,29 +122,59 @@ def scrape_app_store(config, app_name):
     return all_reviews
 
 
+def load_existing_ios_reviews(output_file):
+    """기존 파일에서 iOS 리뷰만 추출 (Apple RSS 실패 시 폴백용)"""
+    if not os.path.exists(output_file):
+        return []
+    try:
+        with open(output_file, "r", encoding="utf-8") as f:
+            content = f.read()
+        # window.XXX_REVIEWS = [...] 부분에서 JSON 배열만 추출
+        match = re.search(r'window\.\w+_REVIEWS\s*=\s*(\[.*?\]);', content, re.DOTALL)
+        if not match:
+            return []
+        reviews = json.loads(match.group(1))
+        # iOS 리뷰만 필터
+        ios_reviews = [r for r in reviews if r.get("store") == "app_store"]
+        return ios_reviews
+    except Exception as e:
+        print(f"[폴백] 기존 파일 읽기 실패: {e}")
+        return []
+
+
 def main():
     updated_at = datetime.now(KST).strftime("%Y-%m-%d %H:%M")
     
     for app_key, cfg in APPS.items():
         print(f"\n=== {cfg['name']} 수집 시작 ===")
+        output_file = f"{app_key}_reviews.js"
         
+        # Google Play 수집
         gp_reviews = scrape_google_play(cfg["google_play"])
         print(f"[Google Play] {len(gp_reviews)}개")
         
+        # App Store 수집
         ios_reviews = scrape_app_store(cfg["app_store"], cfg["app_store_name"])
         print(f"[App Store] {len(ios_reviews)}개")
+        
+        # iOS 수집이 임계값 미만이면 기존 데이터 유지
+        if len(ios_reviews) < IOS_MIN_THRESHOLD:
+            print(f"⚠️  iOS 수집이 {IOS_MIN_THRESHOLD}건 미만 → 기존 데이터 유지 시도")
+            existing_ios = load_existing_ios_reviews(output_file)
+            if len(existing_ios) > len(ios_reviews):
+                print(f"   → 기존 파일에서 {len(existing_ios)}건 복원")
+                ios_reviews = existing_ios
         
         all_reviews = gp_reviews + ios_reviews
         prefix = cfg["var_prefix"]
         
-        output_file = f"{app_key}_reviews.js"
         with open(output_file, "w", encoding="utf-8") as f:
             f.write(f"window.{prefix}_REVIEWS = ")
             json.dump(all_reviews, f, ensure_ascii=False, indent=2)
             f.write(";\n")
             f.write(f'window.{prefix}_UPDATED_AT = "{updated_at}";\n')
         
-        print(f"✅ {output_file} 저장 완료 (총 {len(all_reviews)}개)")
+        print(f"✅ {output_file} 저장 완료 (총 {len(all_reviews)}개, iOS {len(ios_reviews)}건)")
     
     print(f"\n🎉 모든 앱 수집 완료 ({updated_at})")
 
