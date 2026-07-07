@@ -31,7 +31,7 @@ window.ROUTION_REVIEWS = [
   },
   {
     "store": "google_play",
-    "date": "2026-06-02",
+    "date": "2026-06-01",
     "rating": 4,
     "content": "다 좋은데 국물요리 (찜닭,라면,된장국,찌개) 국물까지 딘 먹는지 건더기만 먹는지 이런것도 따로 계산해서 나트륨 섭취량도 계산가능한 기능 추가되면 좋을거같습니다."
   },
@@ -43,7 +43,7 @@ window.ROUTION_REVIEWS = [
   },
   {
     "store": "google_play",
-    "date": "2026-05-20",
+    "date": "2026-05-19",
     "rating": 5,
     "content": "입력하기 편해서 잘 사용하고있어요! 그런데 탄수화물 표시할 때 식이섬유를 제외한 순탄수량을 확인할 수 있었으면 더 좋을 것 같아요!"
   },
@@ -61,7 +61,7 @@ window.ROUTION_REVIEWS = [
   },
   {
     "store": "google_play",
-    "date": "2026-05-15",
+    "date": "2026-05-14",
     "rating": 4,
     "content": "이런 앱 많이 써봤는데 전반적으로 깔끔하고 괜찮습니다. 단점은 걷기 외에 다른 운동을 기록하는 항목을 못찾겠다는점. 그리고 포인트 사용에서 컬리쿠폰은 사용조건이 어떻게되는지 미공개라 기만이 아닐까 의심이 드네요. 얼마 이상 얼마 할인 상품인지 좀 투명하게 밝혀주세요."
   },
@@ -97,7 +97,7 @@ window.ROUTION_REVIEWS = [
   },
   {
     "store": "google_play",
-    "date": "2026-04-26",
+    "date": "2026-04-25",
     "rating": 5,
     "content": "잘먹구 잘살자"
   },
@@ -169,7 +169,7 @@ window.ROUTION_REVIEWS = [
   },
   {
     "store": "google_play",
-    "date": "2026-03-19",
+    "date": "2026-03-18",
     "rating": 3,
     "content": "직관적이구 쓰기편해서 사용중이었는데 어제부터 삼성헬스 연동 걸음수가 전혀 안돼요... 연동을 삼성헬스에서도 새로 해보고 이것저것 시도해봤지만 안됩니다 ㅜㅜ 답변을 보니 더 별루네요 ㅎ 수동입력이 되면 사용하겠지만 그게 불가능하면 오차값이 지나치니... 결국 루션연동 스마트 워치등을 만드시려는게 아니라면 굳이? 싶은 행보네요 ㅋ"
   },
@@ -193,7 +193,7 @@ window.ROUTION_REVIEWS = [
   },
   {
     "store": "google_play",
-    "date": "2026-03-13",
+    "date": "2026-03-12",
     "rating": 1,
     "content": "앱이 작동이 안되요. 캐시 삭제 후 제거하고 다시 설치 했어도 열리지 않아요."
   },
@@ -223,7 +223,7 @@ window.ROUTION_REVIEWS = [
   },
   {
     "store": "google_play",
-    "date": "2026-03-07",
+    "date": "2026-03-06",
     "rating": 5,
     "content": "많은 도움이 됨. 감사합니다."
   },
@@ -241,7 +241,7 @@ window.ROUTION_REVIEWS = [
   },
   {
     "store": "google_play",
-    "date": "2026-03-06",
+    "date": "2026-03-05",
     "rating": 5,
     "content": "보기 편하고 사용도 쉽고 깔끔하고 좋네요 ^^ 음식 사진 인식도 잘 해요 추천해요"
   },
@@ -253,7 +253,7 @@ window.ROUTION_REVIEWS = [
   },
   {
     "store": "google_play",
-    "date": "2026-02-28",
+    "date": "2026-02-27",
     "rating": 1,
     "content": "앱이 계속 다운됩니다 앱을 좀더 개선해야 될듯합니다ㅜ"
   },
@@ -289,7 +289,7 @@ window.ROUTION_REVIEWS = [
   },
   {
     "store": "google_play",
-    "date": "2026-02-13",
+    "date": "2026-02-12",
     "rating": 5,
     "content": "추천 상품 버그로 인해 포인트 적립이 안됩니다."
   },
@@ -331,7 +331,7 @@ window.ROUTION_REVIEWS = [
   },
   {
     "store": "google_play",
-    "date": "2026-01-30",
+    "date": "2026-01-29",
     "rating": 5,
     "content": "좋아요 따봉~"
   },
@@ -403,7 +403,7 @@ window.ROUTION_REVIEWS = [
   },
   {
     "store": "google_play",
-    "date": "2026-01-13",
+    "date": "2026-01-12",
     "rating": 5,
     "content": "생각보다 짜임새있고 활용을 계속 하게되네요"
   },
@@ -421,7 +421,7 @@ window.ROUTION_REVIEWS = [
   },
   {
     "store": "google_play",
-    "date": "2026-01-07",
+    "date": "2026-01-06",
     "rating": 5,
     "content": "아직이틀째지만 식품도 다양히나오고 편리하네영"
   },
@@ -439,7 +439,7 @@ window.ROUTION_REVIEWS = [
   },
   {
     "store": "google_play",
-    "date": "2026-01-05",
+    "date": "2026-01-04",
     "rating": 5,
     "content": "사진찍어 기록하는게 편해요"
   },
@@ -511,7 +511,7 @@ window.ROUTION_REVIEWS = [
   },
   {
     "store": "google_play",
-    "date": "2025-12-05",
+    "date": "2025-12-04",
     "rating": 3,
     "content": "잘 쓰고 있고 특히 컬리쿠폰으로 교환할수있는 포인트가 좋아요. 근데 오류가 자주나서 벌써 두번이나 삭제했다가 재설치했어요 이러다 데이터 날라가면 엄청 속상할것같아요"
   },
@@ -577,7 +577,7 @@ window.ROUTION_REVIEWS = [
   },
   {
     "store": "google_play",
-    "date": "2025-10-17",
+    "date": "2025-10-16",
     "rating": 1,
     "content": "걸음수가 표시가 안되다가 12시지나면 전날 기록으로 표시됩니다 포인트를 받을수가없어요"
   },
@@ -649,7 +649,7 @@ window.ROUTION_REVIEWS = [
   },
   {
     "store": "google_play",
-    "date": "2025-09-21",
+    "date": "2025-09-20",
     "rating": 4,
     "content": "아직 나온지 얼마 되지 않아 식품정보가 떨어진다는건 알지만... 그래도 더 많이 넣어주셨으면 합니다ㅠㅠㅠ 그리고 다들 식단관리 목적, 다이어트 목적으로 많이 이용하실텐데 목표 칼로리를 조정할 수 있는 기능은 없더군요... 제시해주는 칼로리보다 낮게 책정하고 싶은데... 따로 조정 기능이 생기면 좋을 것 같습니다! 그리고 요즘 당함량에 다들 민감한만큼 당함량도 체크할 수 있는 기능이 있다면 좋을 것 같아요! 이런것들 외엔 깔끔하고 직관적이라 좋은 앱인 것 같네요ㅎ"
   },
@@ -1002,4 +1002,4 @@ window.ROUTION_REVIEWS = [
     "content": "루션 덕분에 다이어트를 성공하였습니자"
   }
 ];
-window.ROUTION_UPDATED_AT = "2026-07-07 14:51";
+window.ROUTION_UPDATED_AT = "2026-07-07 15:55";
