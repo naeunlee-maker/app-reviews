@@ -64,10 +64,10 @@ def scrape_app_store(config):
     aid = config["app_id"]
     
     url_variants = [
-        f"https://itunes.apple.com/{cc}/rss/customerreviews/id={aid}/sortBy=mostRecent/json",
-        f"https://itunes.apple.com/{cc}/rss/customerreviews/id={aid}/json",
-        f"https://itunes.apple.com/{cc}/rss/customerreviews/page=1/id={aid}/sortBy=mostRecent/json",
-    ]
+    f"https://itunes.apple.com/{cc}/rss/customerreviews/id={aid}/json",
+    f"https://itunes.apple.com/{cc}/rss/customerreviews/id={aid}/sortBy=mostRecent/json",
+    f"https://itunes.apple.com/{cc}/rss/customerreviews/page=1/id={aid}/sortBy=mostRecent/json",
+]
     
     for base_url in url_variants:
         variant_reviews = []
