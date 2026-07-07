@@ -62,10 +62,10 @@ def scrape_google_play(config):
         return []
 
 
-def scrape_app_store(config, app_name):
+def scrape_app_store_rss(config):
+    """Apple RSS로 수집 (최대 500개 한도)"""
     cc = config["country"]
     aid = config["app_id"]
-    all_reviews = []
     
     url_variants = [
         f"https://itunes.apple.com/{cc}/rss/customerreviews/id={aid}/sortBy=mostRecent/json",
@@ -99,42 +99,75 @@ def scrape_app_store(config, app_name):
                         "content": entry.get("content", {}).get("label", ""),
                     })
             except Exception as e:
-                print(f"  page {page} 오류: {e}")
+                print(f"    RSS page {page} 오류: {e}")
                 break
         if variant_reviews:
             return variant_reviews
-    
+    return []
+
+
+def scrape_app_store_library(config, app_name):
+    """app-store-scraper 라이브러리로 수집 (1000+ 가능)"""
     try:
         from app_store_scraper import AppStore
-        app = AppStore(country=cc, app_id=int(aid), app_name=app_name)
+        app = AppStore(country=config["country"], app_id=int(config["app_id"]), app_name=app_name)
         app.review(how_many=config["count"])
+        reviews_out = []
         for r in app.reviews:
             date_str = r["date"].strftime("%Y-%m-%d") if r.get("date") else ""
-            all_reviews.append({
+            reviews_out.append({
                 "store": "app_store",
                 "date": date_str,
                 "rating": r.get("rating", 0),
                 "content": r.get("review", ""),
             })
+        return reviews_out
     except Exception as e:
-        print(f"[App Store] 라이브러리 fallback 실패: {e}")
+        print(f"    라이브러리 오류: {e}")
+        return []
+
+
+def dedupe_reviews(reviews):
+    """content + date + rating 조합으로 중복 제거"""
+    seen = set()
+    unique = []
+    for r in reviews:
+        key = (r.get("content", ""), r.get("date", ""), r.get("rating", 0))
+        if key not in seen:
+            seen.add(key)
+            unique.append(r)
+    return unique
+
+
+def scrape_app_store(config, app_name):
+    """라이브러리 우선 + RSS 보완 → 중복 제거"""
+    # 1. app-store-scraper 라이브러리로 최대한 수집
+    library_reviews = scrape_app_store_library(config, app_name)
+    print(f"  [라이브러리] {len(library_reviews)}개")
     
-    return all_reviews
+    # 2. Apple RSS로도 시도 (최신 리뷰 보완용)
+    rss_reviews = scrape_app_store_rss(config)
+    print(f"  [Apple RSS] {len(rss_reviews)}개")
+    
+    # 3. 합치고 중복 제거
+    combined = library_reviews + rss_reviews
+    unique = dedupe_reviews(combined)
+    print(f"  [합계] {len(combined)}개 → 중복 제거 후 {len(unique)}개")
+    
+    return unique
 
 
 def load_existing_ios_reviews(output_file):
-    """기존 파일에서 iOS 리뷰만 추출 (Apple RSS 실패 시 폴백용)"""
+    """기존 파일에서 iOS 리뷰만 추출 (완전 실패 시 폴백용)"""
     if not os.path.exists(output_file):
         return []
     try:
         with open(output_file, "r", encoding="utf-8") as f:
             content = f.read()
-        # window.XXX_REVIEWS = [...] 부분에서 JSON 배열만 추출
         match = re.search(r'window\.\w+_REVIEWS\s*=\s*(\[.*?\]);', content, re.DOTALL)
         if not match:
             return []
         reviews = json.loads(match.group(1))
-        # iOS 리뷰만 필터
         ios_reviews = [r for r in reviews if r.get("store") == "app_store"]
         return ios_reviews
     except Exception as e:
@@ -154,8 +187,8 @@ def main():
         print(f"[Google Play] {len(gp_reviews)}개")
         
         # App Store 수집
+        print(f"[App Store]")
         ios_reviews = scrape_app_store(cfg["app_store"], cfg["app_store_name"])
-        print(f"[App Store] {len(ios_reviews)}개")
         
         # iOS 수집이 임계값 미만이면 기존 데이터 유지
         if len(ios_reviews) < IOS_MIN_THRESHOLD:
