@@ -17970,4 +17970,4 @@ window.INOUT_REVIEWS = [
     "content": "다 좋은데 \n나트륨 당도 탄단지 퍼센트 게이지 보였으면\n 좋겠어요"
   }
 ];
-window.INOUT_UPDATED_AT = "2026-07-09 15:53";
+window.INOUT_UPDATED_AT = "2026-07-09 16:05";
