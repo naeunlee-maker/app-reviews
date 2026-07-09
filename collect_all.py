@@ -34,6 +34,12 @@ APPS = {
         "google_play": {"app_id": "com.lefal.mealligram", "lang": "ko", "country": "kr", "count": 5000},
         "app_store": {"app_id": "1514163957", "country": "kr"},
     },
+    "pasta": {
+        "name": "파스타",
+        "var_prefix": "PASTA",
+        "google_play": {"app_id": "com.kakaohealthcare.pasta", "lang": "ko", "country": "kr", "count": 5000},
+        "app_store": {"app_id": "6462661411", "country": "kr"},
+    },
 }
 
 

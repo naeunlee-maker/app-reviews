@@ -166,6 +166,7 @@ body { padding-top: 0; }
 <script src="pillyze_reviews.js"></script>
 <script src="inout_reviews.js"></script>
 <script src="mealligram_reviews.js"></script>
+<script src="pasta_reviews.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 <script>
   const PASSWORD = "health2026";
@@ -236,6 +237,7 @@ body { padding-top: 0; }
     <button class="tab" onclick="switchApp('pillyze', this)">필라이즈</button>
     <button class="tab" onclick="switchApp('inout', this)">인아웃</button>
     <button class="tab" onclick="switchApp('mealligram', this)">밀리그램</button>
+    <button class="tab" onclick="switchApp('pasta', this)">파스타</button>
   </div>
 
   <div style="display:flex; align-items:center; justify-content:space-between; gap:10px; margin-bottom:20px; flex-wrap:wrap;">
@@ -335,6 +337,12 @@ const APPS = {
     data: window.MEALLIGRAM_REVIEWS || [],
     updatedAt: window.MEALLIGRAM_UPDATED_AT || '데이터 없음',
     tags: ['기록', 'UI', 'AI', '소셜', '편하다', '불편', '도움된다', '개선필요', '운동/헬스']
+  },
+    pasta: {
+    name: '파스타',
+    data: window.PASTA_REVIEWS || [],
+    updatedAt: window.PASTA_UPDATED_AT || '데이터 없음',
+    tags: ['기록', 'UI', 'AI', '혈당', '운동/헬스', '편하다', '불편', '도움된다', '개선필요']
   }
 };
 
@@ -354,13 +362,13 @@ if (/이쁨|이뻐|예쁨|예뻐|예쁘|이쁘|디자인|그래픽|브랜딩|브
 if (/ai|에이아이|AI|피드백|코치|코칭|1:1|1대1|일대일|상담|컨설팅/i.test(c)) tags.push('AI');
 
   // 앱별 특화 태그
-  if (app === 'roution' && /포인트|리워드|쿠폰|적립|보상|캐시/.test(c)) tags.push('포인트');
-  if (app === 'pillyze') {
-    if (/영양제|비타민|보충제|파나케이아|성분|섭취/.test(c)) tags.push('영양제');
-    if (/혈당|당뇨|인슐린|혈당계|cgm|케어센스/i.test(c)) tags.push('혈당');
-  }
-  if (app === 'inout' && /구독|리워드|쿠폰|적립|보상|유료|결제|캐시/.test(c)) tags.push('구독');
-  if ((app === 'mealligram' || app === 'inout') && /그룹|배틀|경쟁|순위|랭킹|챌린지|친구|함께/.test(c)) tags.push('소셜');
+if (app === 'roution' && /포인트|리워드|쿠폰|적립|보상|캐시/.test(c)) tags.push('포인트');
+if (app === 'pillyze') {
+  if (/영양제|비타민|보충제|파나케이아|성분|섭취/.test(c)) tags.push('영양제');
+}
+if ((app === 'pillyze' || app === 'pasta') && /혈당|당뇨|인슐린|혈당계|cgm|케어센스|덱스콤|측정|센서/i.test(c)) tags.push('혈당');
+if (app === 'inout' && /구독|리워드|쿠폰|적립|보상|유료|결제|캐시/.test(c)) tags.push('구독');
+if ((app === 'mealligram' || app === 'inout') && /그룹|배틀|경쟁|순위|랭킹|챌린지|친구|함께/.test(c)) tags.push('소셜');
 
 
   const positiveUX = /편하|편리|쉽|간편|깔끔|만족|좋|조아|대만족|굿|따봉|재미/.test(c);
@@ -398,8 +406,8 @@ const APP_EMOJI = {
   roution: '🧚',
   pillyze: '💊',
   inout: '🥗',
-  mealligram: '🍱'
-
+  mealligram: '🍱',
+  pasta: '🍝'
 };
 
 function renderSummary() {
