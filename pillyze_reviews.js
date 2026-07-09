@@ -1,6 +1,18 @@
 window.PILLYZE_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-07-08",
+    "rating": 5,
+    "content": "식단보려고가입했어요"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-07-07",
+    "rating": 5,
+    "content": "광고로접했는ㄷㅔ 생각보다 진짜 좋아요. 의지도 되고 절제도 되서 잘활용해보고싶어요"
+  },
+  {
+    "store": "google_play",
     "date": "2026-07-06",
     "rating": 5,
     "content": "식단 기록할수있고 분석한다는점에서 아주좋아요. 그때그때물어볼수있고 사람대면 힘든사람한테는 아주편함. 솔직하게 다 털수도있고 여러모로 편히쓰고있어요."
@@ -15919,6 +15931,12 @@ window.PILLYZE_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-07-07",
+    "rating": 5,
+    "content": "입터지는 날에는 제가 뭘 먹는지도 모르고 계속 입에 넣게되는데 한 번 다시 생각하고 절제하게 되요. \n매일 앱을 들어가긴 해야해요 ㅎㅎ 작심삼일을 방지하기 위해서!"
+  },
+  {
+    "store": "app_store",
     "date": "2026-07-06",
     "rating": 5,
     "content": "식단 코칭에 AI가 즉각 답해줘서 식단 등 궁금한 사항을 친절히 알려줘요~ 완전 짱!"
@@ -19008,4 +19026,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-07-08 15:16";
+window.PILLYZE_UPDATED_AT = "2026-07-09 15:53";

@@ -1,6 +1,12 @@
 window.ROUTION_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-07-07",
+    "rating": 3,
+    "content": "현재 진행 중인 챌린지가 기간이 지나서 참여가 안되는데, 새로운 챌린지를 선택하려니 기존에 있던 챌린지 때문에 선택이 안되네요 방법이 있을까요?"
+  },
+  {
+    "store": "google_play",
     "date": "2026-07-04",
     "rating": 1,
     "content": "체지방기기의 측정치가 극단적으로 오류상태 입니다. 로그아웃을 해도 변동이 안되구요. 대체 어떻게 바로 잡을수 있나요? - 체지방, 근육, 골격근, 골량, 피하지방, 체수분, 단백질, 신체나이 모두 측정 오류"
@@ -1002,4 +1008,4 @@ window.ROUTION_REVIEWS = [
     "content": "루션 덕분에 다이어트를 성공하였습니자"
   }
 ];
-window.ROUTION_UPDATED_AT = "2026-07-08 15:16";
+window.ROUTION_UPDATED_AT = "2026-07-09 15:53";
