@@ -1,6 +1,12 @@
 window.ROUTION_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-07-08",
+    "rating": 4,
+    "content": "몸무게나 먹은거 칼로리 체크하고 포인트 모으는 재미도 있고 앱자체도 깔끔하고 예뻐요. 근데 운동하거나 걸은것만큼 칼로리가 빠지는 것도 있으면 너무 좋을 것 같아요."
+  },
+  {
+    "store": "google_play",
     "date": "2026-07-07",
     "rating": 3,
     "content": "현재 진행 중인 챌린지가 기간이 지나서 참여가 안되는데, 새로운 챌린지를 선택하려니 기존에 있던 챌린지 때문에 선택이 안되네요 방법이 있을까요?"
@@ -1008,4 +1014,4 @@ window.ROUTION_REVIEWS = [
     "content": "루션 덕분에 다이어트를 성공하였습니자"
   }
 ];
-window.ROUTION_UPDATED_AT = "2026-07-09 16:05";
+window.ROUTION_UPDATED_AT = "2026-07-10 15:54";
