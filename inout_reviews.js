@@ -15091,6 +15091,30 @@ window.INOUT_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-07-08",
+    "rating": 5,
+    "content": "결제한 김에 열심히 여름 준비중..! 기능들도 재밌고 스스로 관리돼서 너무 좋습니다"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-07-07",
+    "rating": 5,
+    "content": "너무 좋아요 식단 등록도 간편하고!! 다만 하나 아쉬운 점은 ㅠㅠㅠ 몸무게 등록할 때 소수점 둘째자리까지 쓸 수 있으면 너무 좋을 거 같아용.. ㅎ ㅠㅠ"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-07-07",
+    "rating": 3,
+    "content": "1년구독 만료 후 재연장은 안하고 싶은데 문의게시판도 없고 어디로 문의를해야하나요? 자동연장되는건 아닌지 해지가 되는건지 확인부탁드립니다."
+  },
+  {
+    "store": "app_store",
+    "date": "2026-07-06",
+    "rating": 1,
+    "content": "유료되고 쓸데없는거 계속 추가되더니 정작 필요한기능 쓰기 불편해짐"
+  },
+  {
+    "store": "app_store",
     "date": "2026-07-06",
     "rating": 1,
     "content": "ai가 뻔한 소리만 계속 반복해서 대답하네요. 챗gpt쓰는게 훨씬 낫겟네요 저처럼 굳이 유료결제 하지마시라고 리뷰남깁니다."
@@ -15315,12 +15339,6 @@ window.INOUT_REVIEWS = [
     "store": "app_store",
     "date": "2026-06-16",
     "rating": 5,
-    "content": "다이어터 최고의 앱 강추"
-  },
-  {
-    "store": "app_store",
-    "date": "2026-06-16",
-    "rating": 5,
     "content": "친구랑 배틀할 때 실시간으로 업데이트?되는 곳에 친구한테 하트나 어떤 반응을 할 수 있는 기능이 있으면 좋겠어용"
   },
   {
@@ -15370,6 +15388,12 @@ window.INOUT_REVIEWS = [
     "date": "2026-06-11",
     "rating": 1,
     "content": "환불 요청드립니다. Ai에 안녕이라고 한번 쓰고 바로 당일에 환불요청했는데 무시하시네요. 확인 후 바로 결제취소 부탁 드려요"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-06-16",
+    "rating": 5,
+    "content": "다이어터 최고의 앱 강추"
   },
   {
     "store": "app_store",
@@ -17976,4 +18000,4 @@ window.INOUT_REVIEWS = [
     "content": "다 좋은데 \n나트륨 당도 탄단지 퍼센트 게이지 보였으면\n 좋겠어요"
   }
 ];
-window.INOUT_UPDATED_AT = "2026-07-10 15:54";
+window.INOUT_UPDATED_AT = "2026-07-10 16:03";
