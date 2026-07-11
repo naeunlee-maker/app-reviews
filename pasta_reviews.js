@@ -3144,4 +3144,4 @@ window.PASTA_REVIEWS = [
     "content": "다이어트용으로 깔았는데 식단관리부터 혈당관리까지 넘 편리해서 자주 이용하고 있어요! 운동기록이랑 스트레스 관리까지 가능해서 편리합니당"
   }
 ];
-window.PASTA_UPDATED_AT = "2026-07-11 14:48";
+window.PASTA_UPDATED_AT = "2026-07-11 15:02";
