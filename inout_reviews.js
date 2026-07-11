@@ -1,6 +1,12 @@
 window.INOUT_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-07-10",
+    "rating": 3,
+    "content": "갑자기 로그인 풀리더니 재로그인이 안되요..지금 이주 식단기록 이벤트 참여중인데 로그인 안되면 어쩌라는거죠.."
+  },
+  {
+    "store": "google_play",
     "date": "2026-07-09",
     "rating": 3,
     "content": "연간플랜을 잘못 구매하였습니다 환불 요청드려요 구글 환불정책으로 우선 환불 신청 했는데 1주일 넘게 환불이 되지 않고 있습니다. 확인 부탁드려요 결제 완료 전 후 어떠한 기능도 사용하지 않았습니다"
@@ -52,12 +58,6 @@ window.INOUT_REVIEWS = [
     "date": "2026-06-28",
     "rating": 3,
     "content": "결제도 했는데 AI가 좀 멍청해요... 식단 기록용도로만 쓰고 피드백같은 건 제미나이나 챗지피티가 나을 거 같네요.. 재결제는 안할 거 같습니다."
-  },
-  {
-    "store": "google_play",
-    "date": "2026-06-28",
-    "rating": 4,
-    "content": "다 좋은데 광고가 너무 많이 떠요ㅠ"
   },
   {
     "store": "google_play",
@@ -15091,6 +15091,12 @@ window.INOUT_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-07-09",
+    "rating": 1,
+    "content": "1년 구독에 약 반나절, AI 기능 2회 사용을 하였는데 구독이 불가하다뇨. AI로 사진찍어도 정확하지도 않고 불편만 하더라고요."
+  },
+  {
+    "store": "app_store",
     "date": "2026-07-08",
     "rating": 5,
     "content": "결제한 김에 열심히 여름 준비중..! 기능들도 재밌고 스스로 관리돼서 너무 좋습니다"
@@ -18000,4 +18006,4 @@ window.INOUT_REVIEWS = [
     "content": "다 좋은데 \n나트륨 당도 탄단지 퍼센트 게이지 보였으면\n 좋겠어요"
   }
 ];
-window.INOUT_UPDATED_AT = "2026-07-10 16:03";
+window.INOUT_UPDATED_AT = "2026-07-11 14:48";
