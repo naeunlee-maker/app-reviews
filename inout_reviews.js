@@ -2,6 +2,12 @@ window.INOUT_REVIEWS = [
   {
     "store": "google_play",
     "date": "2026-07-10",
+    "rating": 1,
+    "content": "화면 넘어가면 팝업, 화면 넘어가면 팝업, 화면 넘어가면 팝업"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-07-10",
     "rating": 3,
     "content": "갑자기 로그인 풀리더니 재로그인이 안되요..지금 이주 식단기록 이벤트 참여중인데 로그인 안되면 어쩌라는거죠.."
   },
@@ -15091,6 +15097,12 @@ window.INOUT_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-07-10",
+    "rating": 3,
+    "content": "급식을 불러올 수 있었으면 좋겠어요. 다른 다이어트 앱엔 있었는데 여긴 없으니까 불편해요"
+  },
+  {
+    "store": "app_store",
     "date": "2026-07-09",
     "rating": 1,
     "content": "1년 구독에 약 반나절, AI 기능 2회 사용을 하였는데 구독이 불가하다뇨. AI로 사진찍어도 정확하지도 않고 불편만 하더라고요."
@@ -18006,4 +18018,4 @@ window.INOUT_REVIEWS = [
     "content": "다 좋은데 \n나트륨 당도 탄단지 퍼센트 게이지 보였으면\n 좋겠어요"
   }
 ];
-window.INOUT_UPDATED_AT = "2026-07-11 15:02";
+window.INOUT_UPDATED_AT = "2026-07-12 15:12";

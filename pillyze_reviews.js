@@ -1,6 +1,18 @@
 window.PILLYZE_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-07-11",
+    "rating": 4,
+    "content": "삐이 집 고쳐주고 싶어서 열심히 기록하게 돼요. 제가 쓰면서 느낀 불편한 점은 운동 기록은 계속 삼성헬스랑 연동해서 쓰라는 점이에요. 미션 수행도 어플 연동해야 완료가 되고 콩을 받는데 저는 샤오미밴드를 쓰다보니 삼성헬스를 쓰지 않아서 받을 수가 없어요."
+  },
+  {
+    "store": "google_play",
+    "date": "2026-07-11",
+    "rating": 5,
+    "content": "좋아요."
+  },
+  {
+    "store": "google_play",
     "date": "2026-07-10",
     "rating": 5,
     "content": "UI 깔끔해서 사용하기 편리해요."
@@ -19062,4 +19074,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-07-11 15:02";
+window.PILLYZE_UPDATED_AT = "2026-07-12 15:12";

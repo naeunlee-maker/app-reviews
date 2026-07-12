@@ -1,6 +1,12 @@
 window.ROUTION_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-07-10",
+    "rating": 5,
+    "content": "루션은 식단 기록을 하면 피드백을 해 주는 똑똑한 앱입니다. 무료앱이며 각종 미션으로 컬리 혜택도 볼 수 있어서 참 좋아요."
+  },
+  {
+    "store": "google_play",
     "date": "2026-07-08",
     "rating": 4,
     "content": "몸무게나 먹은거 칼로리 체크하고 포인트 모으는 재미도 있고 앱자체도 깔끔하고 예뻐요. 근데 운동하거나 걸은것만큼 칼로리가 빠지는 것도 있으면 너무 좋을 것 같아요."
@@ -1014,4 +1020,4 @@ window.ROUTION_REVIEWS = [
     "content": "루션 덕분에 다이어트를 성공하였습니자"
   }
 ];
-window.ROUTION_UPDATED_AT = "2026-07-11 15:02";
+window.ROUTION_UPDATED_AT = "2026-07-12 15:12";
