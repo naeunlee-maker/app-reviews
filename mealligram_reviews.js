@@ -5359,24 +5359,6 @@ window.MEALLIGRAM_REVIEWS = [
   },
   {
     "store": "app_store",
-    "date": "2022-12-10",
-    "rating": 1,
-    "content": "무료 버전 기능 제한은 좋은데 제가 기록한 일주일 이전 체중도 안보이는건 너무 한거 같아요. 추가 기능도 아니고 1주일 이전 체중 보려면 유료 결제를 하라니요."
-  },
-  {
-    "store": "app_store",
-    "date": "2022-12-07",
-    "rating": 5,
-    "content": "굿"
-  },
-  {
-    "store": "app_store",
-    "date": "2022-12-03",
-    "rating": 5,
-    "content": "밀리그램 짱짱맨~~!! 계획/할일도 생겼던데 위젯에서 확인하고 더 잘 실천할 수 있게 위젯 만들어주세용 ㅠㅠ 위젯에서 체크표시도 확인할수있게요!"
-  },
-  {
-    "store": "app_store",
     "date": "2022-11-25",
     "rating": 5,
     "content": "왜 체중이 말풍선에 안 뜰까요??"
@@ -6256,6 +6238,24 @@ window.MEALLIGRAM_REVIEWS = [
     "date": "2022-01-22",
     "rating": 5,
     "content": "굳굳"
+  },
+  {
+    "store": "app_store",
+    "date": "2022-12-10",
+    "rating": 1,
+    "content": "무료 버전 기능 제한은 좋은데 제가 기록한 일주일 이전 체중도 안보이는건 너무 한거 같아요. 추가 기능도 아니고 1주일 이전 체중 보려면 유료 결제를 하라니요."
+  },
+  {
+    "store": "app_store",
+    "date": "2022-12-07",
+    "rating": 5,
+    "content": "굿"
+  },
+  {
+    "store": "app_store",
+    "date": "2022-12-03",
+    "rating": 5,
+    "content": "밀리그램 짱짱맨~~!! 계획/할일도 생겼던데 위젯에서 확인하고 더 잘 실천할 수 있게 위젯 만들어주세용 ㅠㅠ 위젯에서 체크표시도 확인할수있게요!"
   }
 ];
-window.MEALLIGRAM_UPDATED_AT = "2026-07-13 15:29";
+window.MEALLIGRAM_UPDATED_AT = "2026-07-13 15:39";

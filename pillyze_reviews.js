@@ -16573,12 +16573,6 @@ window.PILLYZE_REVIEWS = [
   },
   {
     "store": "app_store",
-    "date": "2026-05-29",
-    "rating": 5,
-    "content": "딸추천으로 하고있는데 아기자기 한것이 좋네요"
-  },
-  {
-    "store": "app_store",
     "date": "2026-05-27",
     "rating": 4,
     "content": "고구마 작은거 하나 먹었는데 ‘고탄수화물 주의’라고 뜨는건 좀 심하지 않나요 ㅡㅡ"
@@ -18973,6 +18967,12 @@ window.PILLYZE_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-05-29",
+    "rating": 5,
+    "content": "딸추천으로 하고있는데 아기자기 한것이 좋네요"
+  },
+  {
+    "store": "app_store",
     "date": "2026-01-22",
     "rating": 5,
     "content": "다이어트 기록하려고 앱을 켰는데요, 갑자기 잘 들어가지던게 화면이 다시 홈화면으로 돌아가자더라고요. 혹시 폰만 그런건가 해서 아이패드로도 해봤는데 똑같이 계속 튕겨요. 그래서 다른걸로 로그인도 해보려 했고, 전원도 꺼보고, 다시 지웠다 깔아봤는데 계속 튕기네요."
@@ -19128,4 +19128,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-07-13 15:29";
+window.PILLYZE_UPDATED_AT = "2026-07-13 15:39";
