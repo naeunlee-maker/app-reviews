@@ -3259,6 +3259,12 @@ window.MEALLIGRAM_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-07-12",
+    "rating": 4,
+    "content": "하루식단 정리하기 딱에요 \n일기장페이지도 있으몀 좋겠어요"
+  },
+  {
+    "store": "app_store",
     "date": "2026-06-28",
     "rating": 1,
     "content": "프사 바꾸려는데 왜 자꾸 데이터가 유실되었다고 튕기나요. 빠른 대처 바랍니다."
@@ -6258,4 +6264,4 @@ window.MEALLIGRAM_REVIEWS = [
     "content": "밀리그램 짱짱맨~~!! 계획/할일도 생겼던데 위젯에서 확인하고 더 잘 실천할 수 있게 위젯 만들어주세용 ㅠㅠ 위젯에서 체크표시도 확인할수있게요!"
   }
 ];
-window.MEALLIGRAM_UPDATED_AT = "2026-07-15 14:40";
+window.MEALLIGRAM_UPDATED_AT = "2026-07-15 14:59";
