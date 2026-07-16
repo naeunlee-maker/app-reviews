@@ -715,6 +715,12 @@ window.ROUTION_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-07-13",
+    "rating": 5,
+    "content": "루션 좋은데 판매 중지된 상품 추천이나 영양성분 확실하지 않은 등 개선 좀 부탁드려요 ㅠㅠㅠ 그리고 원하는 영양성분이나 칼로리 내에서 컬리에서 살 수 있는 상품들 추천하는 기능 따로 있으면 좋겠어요"
+  },
+  {
+    "store": "app_store",
     "date": "2026-07-04",
     "rating": 5,
     "content": "음… 반강제적인 알림 때문에 시작한지 이틀째지만 기록하게 되네요. 요즘 살이 쪄서 5~8키로 정도 다이엇 할려구요."
@@ -1068,4 +1074,4 @@ window.ROUTION_REVIEWS = [
     "content": "로그인도 안돼요.."
   }
 ];
-window.ROUTION_UPDATED_AT = "2026-07-16 14:48";
+window.ROUTION_UPDATED_AT = "2026-07-16 15:04";
