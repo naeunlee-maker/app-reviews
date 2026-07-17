@@ -1,6 +1,12 @@
 window.PILLYZE_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-07-16",
+    "rating": 5,
+    "content": "아주 맘에 듦"
+  },
+  {
+    "store": "google_play",
     "date": "2026-07-14",
     "rating": 5,
     "content": "와 이거 진짜좋아요 며칠 안썼는데 아주 좋아요 체크하니깐 사용하기 전보다 훨씬 덜먹었는데 배고픈기분이 안들어요 강추드림"
@@ -466,6 +472,12 @@ window.PILLYZE_REVIEWS = [
     "date": "2026-06-04",
     "rating": 5,
     "content": "귀엽고 좋아요 결혼식까지 빡세게 해볼게요"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-06-04",
+    "rating": 5,
+    "content": "관리 해야돼는데 이런앱 이 있어서 좋아요"
   },
   {
     "store": "google_play",
@@ -16003,6 +16015,18 @@ window.PILLYZE_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-07-15",
+    "rating": 5,
+    "content": "굿"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-07-13",
+    "rating": 5,
+    "content": "물 마시고 체크하는거 가장 마지막 체크시간이 언제인지도 나왔으면 좋겠어요 ㅠ 마시고 체크했는지 안했는지 가물가물해서"
+  },
+  {
+    "store": "app_store",
     "date": "2026-07-13",
     "rating": 5,
     "content": "다이어트 4개월차 17kg 정도 감량하고 한달 넘게 정체기와서 다 포기하고 싶어졌다가 아는 언니 추천으로 다운받아서 드디어 정체기 뚫었어요!! 평소에 너무너무너무 잘 쓰고 있구 애정하는 앱인데 솔직히 메인 화면이랑 AI 코치 채팅 화면이 넘 밤티라 좀 꾸미고 싶어요...ㅜ 테마+폰트샵 만들어서 싸게 팔거나 플러스 구독하는 이용자들은 무료로 쓸 수 있게하면 플러스 쓰는 사람 더 많아질듯 ㅇㅈ?"
@@ -19170,4 +19194,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-07-16 15:04";
+window.PILLYZE_UPDATED_AT = "2026-07-17 14:49";
