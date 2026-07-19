@@ -6264,4 +6264,4 @@ window.MEALLIGRAM_REVIEWS = [
     "content": "밀리그램 짱짱맨~~!! 계획/할일도 생겼던데 위젯에서 확인하고 더 잘 실천할 수 있게 위젯 만들어주세용 ㅠㅠ 위젯에서 체크표시도 확인할수있게요!"
   }
 ];
-window.MEALLIGRAM_UPDATED_AT = "2026-07-18 14:52";
+window.MEALLIGRAM_UPDATED_AT = "2026-07-19 15:07";
