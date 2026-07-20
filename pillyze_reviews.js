@@ -1,6 +1,12 @@
 window.PILLYZE_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-07-19",
+    "rating": 5,
+    "content": "제가 웬만한 다이어트어플을 다 사용해고 고른 어플이예요 만족 하고있어요 음성인식기능이 있어서 코치랑 대화할수 있도록 반영해주세요!"
+  },
+  {
+    "store": "google_play",
     "date": "2026-07-16",
     "rating": 5,
     "content": "아주 맘에 듦"
@@ -19194,4 +19200,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-07-19 15:15";
+window.PILLYZE_UPDATED_AT = "2026-07-20 15:25";

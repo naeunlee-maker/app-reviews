@@ -37,12 +37,6 @@ window.MEALLIGRAM_REVIEWS = [
   },
   {
     "store": "google_play",
-    "date": "2026-04-05",
-    "rating": 2,
-    "content": "식단 사진 올릴 때 잘라서 수정하고나면 다른 사진이 떠있어요.."
-  },
-  {
-    "store": "google_play",
     "date": "2026-03-04",
     "rating": 4,
     "content": "점수매겨주는거랑 직관적으로 얼마정도 먹어야되는지 나오는건 좋은데 목표감량 속도와 목표체중양에따라 ai코치랑 하루섭취식단이 바뀌는것까지 포함되면 전 이 앱 평생쓸 예정입니다. 부디🙏조금만 더 업그레이드해듀세요. 가난한일개미들의 다이어트를 도와주시길🙏"
@@ -6264,4 +6258,4 @@ window.MEALLIGRAM_REVIEWS = [
     "content": "밀리그램 짱짱맨~~!! 계획/할일도 생겼던데 위젯에서 확인하고 더 잘 실천할 수 있게 위젯 만들어주세용 ㅠㅠ 위젯에서 체크표시도 확인할수있게요!"
   }
 ];
-window.MEALLIGRAM_UPDATED_AT = "2026-07-19 15:15";
+window.MEALLIGRAM_UPDATED_AT = "2026-07-20 15:25";
