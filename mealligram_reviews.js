@@ -1,6 +1,12 @@
 window.MEALLIGRAM_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-07-19",
+    "rating": 1,
+    "content": "처음엔 잘사용했는데 갈수록 광고가 늘어나서 유료버전 결제했는데도 광고 뜨고 오류도 잦고 별로입니다 딴 앱 쓰세요"
+  },
+  {
+    "store": "google_play",
     "date": "2026-06-30",
     "rating": 5,
     "content": "사용한지 11일째고 3일 전부터 식단을 공유한 사진이 서로에게 뜨지 않습니다.....+++추가 리뷰+++업데이트 후 1시간 뒤에 다시 되는거 같습니다! 밀리 화이팅!"
@@ -3253,6 +3259,12 @@ window.MEALLIGRAM_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-07-17",
+    "rating": 5,
+    "content": "다 좋은데 기록한게 한눈에 잘 안들어옴"
+  },
+  {
+    "store": "app_store",
     "date": "2026-07-12",
     "rating": 4,
     "content": "하루식단 정리하기 딱에요 \n일기장페이지도 있으몀 좋겠어요"
@@ -6258,4 +6270,4 @@ window.MEALLIGRAM_REVIEWS = [
     "content": "밀리그램 짱짱맨~~!! 계획/할일도 생겼던데 위젯에서 확인하고 더 잘 실천할 수 있게 위젯 만들어주세용 ㅠㅠ 위젯에서 체크표시도 확인할수있게요!"
   }
 ];
-window.MEALLIGRAM_UPDATED_AT = "2026-07-20 15:35";
+window.MEALLIGRAM_UPDATED_AT = "2026-07-21 15:05";
