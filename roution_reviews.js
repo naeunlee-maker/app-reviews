@@ -715,6 +715,12 @@ window.ROUTION_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-07-17",
+    "rating": 4,
+    "content": "10개중에 5개는 판매 중지된 상품인데 신경좀 써주세요"
+  },
+  {
+    "store": "app_store",
     "date": "2026-07-13",
     "rating": 5,
     "content": "루션 좋은데 판매 중지된 상품 추천이나 영양성분 확실하지 않은 등 개선 좀 부탁드려요 ㅠㅠㅠ 그리고 원하는 영양성분이나 칼로리 내에서 컬리에서 살 수 있는 상품들 추천하는 기능 따로 있으면 좋겠어요"
@@ -1074,4 +1080,4 @@ window.ROUTION_REVIEWS = [
     "content": "로그인도 안돼요.."
   }
 ];
-window.ROUTION_UPDATED_AT = "2026-07-21 15:16";
+window.ROUTION_UPDATED_AT = "2026-07-22 15:04";
