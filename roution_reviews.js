@@ -1080,4 +1080,4 @@ window.ROUTION_REVIEWS = [
     "content": "로그인도 안돼요.."
   }
 ];
-window.ROUTION_UPDATED_AT = "2026-07-23 15:09";
+window.ROUTION_UPDATED_AT = "2026-07-23 15:18";
