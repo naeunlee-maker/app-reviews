@@ -2,6 +2,12 @@ window.PILLYZE_REVIEWS = [
   {
     "store": "google_play",
     "date": "2026-07-21",
+    "rating": 3,
+    "content": "AI 코치 숨김 버튼 있었으면 좋겠네요"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-07-21",
     "rating": 5,
     "content": "식단, 단식기록이 너무 편하고 좋아요 ai코치 기능은 유료긴하지만 이 기능이 없어도 식단 점수가 보이기 때문에 충분히 쓸만하고, 코치 기능 자체도 다른 어플에 비해서 퀄이 좋네요"
   },
@@ -16039,6 +16045,12 @@ window.PILLYZE_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-07-21",
+    "rating": 5,
+    "content": "진짜 쓰세요 식단관리 최거임"
+  },
+  {
+    "store": "app_store",
     "date": "2026-07-20",
     "rating": 5,
     "content": "그래픽도 예쁘고 가독성 좋고 좋아요"
@@ -19236,4 +19248,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-07-22 15:15";
+window.PILLYZE_UPDATED_AT = "2026-07-23 15:09";
