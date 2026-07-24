@@ -1,6 +1,30 @@
 window.PILLYZE_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-07-23",
+    "rating": 5,
+    "content": "만족스럽게 사용중입니다 가능하다면 강조할 수 있도록 글자색 변경도 할 수 있었으면 좋겠습니다"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-07-23",
+    "rating": 1,
+    "content": "쓰지도 않는데 왜 자꾸 제 카드로 결제 시도가 생기는 거죠?"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-07-22",
+    "rating": 5,
+    "content": "좋습니다"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-07-22",
+    "rating": 5,
+    "content": "작년6월. 79.9의 몸무게. 몸은 팅팅붓고 거동도 힘들고. 설상가상 상심실성 빈맥까지 발병...이대로는 죽겠구나 싶어 가족이 다니던 한의원 물어봐서 찾아가 68까지 감량. 그러나 더이상의 진전은 없고 유지탕이라는 것을 먹다말다해서 그런지 오히려 몸무게가 늘더라는...그러다 시작한 필라이즈. 채 한달도 안되는 기간에 67대로 진입했어요^^ 저만 그런지는 모르겠지만 ㅎㅎㅎㅎㅎ"
+  },
+  {
+    "store": "google_play",
     "date": "2026-07-21",
     "rating": 3,
     "content": "AI 코치 숨김 버튼 있었으면 좋겠네요"
@@ -16045,6 +16069,18 @@ window.PILLYZE_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-07-22",
+    "rating": 5,
+    "content": "식단 운동 잘하다가 꼭 한번씩 무너지는게 필라이즈가 잡아주니 이번엔 꼭 다이어트 성공 시켜보려고요!!!"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-07-22",
+    "rating": 5,
+    "content": "굿"
+  },
+  {
+    "store": "app_store",
     "date": "2026-07-21",
     "rating": 5,
     "content": "진짜 쓰세요 식단관리 최거임"
@@ -19248,4 +19284,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-07-23 15:18";
+window.PILLYZE_UPDATED_AT = "2026-07-24 15:03";

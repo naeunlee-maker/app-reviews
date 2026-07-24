@@ -1,6 +1,12 @@
 window.ROUTION_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-07-22",
+    "rating": 5,
+    "content": "아주 좋아요 추천 음식들과 바로 구입할수 있도록 링크도 연동되어 있네요 컬리 회원이라면 좋을것 같아요"
+  },
+  {
+    "store": "google_play",
     "date": "2026-07-10",
     "rating": 5,
     "content": "루션은 식단 기록을 하면 피드백을 해 주는 똑똑한 앱입니다. 무료앱이며 각종 미션으로 컬리 혜택도 볼 수 있어서 참 좋아요."
@@ -1080,4 +1086,4 @@ window.ROUTION_REVIEWS = [
     "content": "로그인도 안돼요.."
   }
 ];
-window.ROUTION_UPDATED_AT = "2026-07-23 15:18";
+window.ROUTION_UPDATED_AT = "2026-07-24 15:03";
