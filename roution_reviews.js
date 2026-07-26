@@ -721,6 +721,12 @@ window.ROUTION_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-07-21",
+    "rating": 4,
+    "content": "칼로리계산 해 주고 꼼꼼하게 체크해주고 피드백까지ㅡ 도움이되요\n 덕분에ㅡ 3개월간 5kg 정도 체지방감량 했어요"
+  },
+  {
+    "store": "app_store",
     "date": "2026-07-17",
     "rating": 4,
     "content": "10개중에 5개는 판매 중지된 상품인데 신경좀 써주세요"
@@ -1086,4 +1092,4 @@ window.ROUTION_REVIEWS = [
     "content": "로그인도 안돼요.."
   }
 ];
-window.ROUTION_UPDATED_AT = "2026-07-26 15:13";
+window.ROUTION_UPDATED_AT = "2026-07-26 15:24";
