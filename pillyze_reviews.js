@@ -1,6 +1,24 @@
 window.PILLYZE_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-07-26",
+    "rating": 5,
+    "content": "너무 좋습니다."
+  },
+  {
+    "store": "google_play",
+    "date": "2026-07-25",
+    "rating": 5,
+    "content": "다 좋은데 식단 기록에 직접 등록 기능 있잖습니까 등록한 거 수정할 수 있었으면 진짜 좋겠습니다. 제품 검색해도 실제로 가지고 있는거랑 다른 경우가 진짜 100이면 80정도라서 이거 바꿔주시면 안되나요? 큰절 올리겠습니다. 거의 4개월 넘게 사용하면서 직접 등록한 게 한 100개는 넘어가는 만큼 잘 쓰고잇습니다. 근데 운동 기록은 살짝 애매해서 못 쓰겠습니다,,,"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-07-25",
+    "rating": 5,
+    "content": "심플하면서도 쓰기 너무 편하고 좋아요🥰"
+  },
+  {
+    "store": "google_play",
     "date": "2026-07-25",
     "rating": 5,
     "content": "잘 쓰고 있습니다."
@@ -19332,4 +19350,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-07-26 15:24";
+window.PILLYZE_UPDATED_AT = "2026-07-27 15:41";
