@@ -1,6 +1,12 @@
 window.PILLYZE_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-07-28",
+    "rating": 5,
+    "content": "만족스럽게 사용중입니다 가능하다면 강조할 수 있도록 글자색 변경도 할 수 있었으면 좋겠습니다 앱에 입력한 식단외 컨디션 입력한 화면도 공유가 가능했으면 좋겠습니다 일자별로 PDF같은 파일로 변환해서 보관이 가능했으면 좋겠네요ㅎㅎ"
+  },
+  {
+    "store": "google_play",
     "date": "2026-07-27",
     "rating": 1,
     "content": "불편해요"
@@ -19362,4 +19368,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-07-28 15:14";
+window.PILLYZE_UPDATED_AT = "2026-07-29 15:06";
