@@ -3,6 +3,18 @@ window.PILLYZE_REVIEWS = [
     "store": "google_play",
     "date": "2026-07-28",
     "rating": 5,
+    "content": "good"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-07-28",
+    "rating": 5,
+    "content": "굿"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-07-28",
+    "rating": 5,
     "content": "만족스럽게 사용중입니다 가능하다면 강조할 수 있도록 글자색 변경도 할 수 있었으면 좋겠습니다 앱에 입력한 식단외 컨디션 입력한 화면도 공유가 가능했으면 좋겠습니다 일자별로 PDF같은 파일로 변환해서 보관이 가능했으면 좋겠네요ㅎㅎ"
   },
   {
@@ -16123,6 +16135,24 @@ window.PILLYZE_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-07-28",
+    "rating": 5,
+    "content": "제곧내"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-07-27",
+    "rating": 1,
+    "content": "애가 기억을 못해서 점심에 그릭요거트 먹은 거 올려놨는데도 앞으로는 점심에 그릭요거트 먹어라 이러고 있어요 칼로리계산이나 이런것도 타 앱들에 비해 자세하게 기재할 수 없어서 굳이에요... 광고보고 ai한테 평가받고 다이어트 해봐야지 했는데 전혀 안 됨 그냥 하소연창구도 안 됨"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-07-27",
+    "rating": 5,
+    "content": "미쳣음"
+  },
+  {
+    "store": "app_store",
     "date": "2026-07-27",
     "rating": 5,
     "content": "굳굳"
@@ -16240,12 +16270,6 @@ window.PILLYZE_REVIEWS = [
     "date": "2026-07-13",
     "rating": 5,
     "content": "앞으로더 발전해주시오"
-  },
-  {
-    "store": "app_store",
-    "date": "2026-07-11",
-    "rating": 3,
-    "content": "하루에 하나의 체중기록만 그래프에 보이는데, 하루에 아침저녁로 체중 변화를 기록해서 그 추이를 확인하고 싶어요- 그게 가능할 줄 알았는데 안되서 조금 실망ㅜ"
   },
   {
     "store": "app_store",
@@ -16708,6 +16732,12 @@ window.PILLYZE_REVIEWS = [
     "date": "2026-06-05",
     "rating": 5,
     "content": "앱 한달 넘게 꾸준히 너무 잘 쓰고 있는데요! 눈바디 사진 등록하는 메뉴도 추가해주시면 좋을거같아요~!"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-07-11",
+    "rating": 3,
+    "content": "하루에 하나의 체중기록만 그래프에 보이는데, 하루에 아침저녁로 체중 변화를 기록해서 그 추이를 확인하고 싶어요- 그게 가능할 줄 알았는데 안되서 조금 실망ㅜ"
   },
   {
     "store": "app_store",
@@ -19398,4 +19428,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-07-29 15:18";
+window.PILLYZE_UPDATED_AT = "2026-07-30 14:58";
