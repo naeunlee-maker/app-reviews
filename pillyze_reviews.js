@@ -1,6 +1,12 @@
 window.PILLYZE_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-08-03",
+    "rating": 5,
+    "content": "필라이즈로 다이어트를 하니 먹는것에 대해 좀더 신경을 쓰게 되어 다이어트에 도움이 되는거 같아요 ㅎㅎ"
+  },
+  {
+    "store": "google_play",
     "date": "2026-08-02",
     "rating": 5,
     "content": "굿"
@@ -19482,4 +19488,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-08-03 15:47";
+window.PILLYZE_UPDATED_AT = "2026-08-04 15:03";

@@ -2,6 +2,12 @@ window.INOUT_REVIEWS = [
   {
     "store": "google_play",
     "date": "2026-08-02",
+    "rating": 5,
+    "content": "다이어트가 힘들었는데 기대된다"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-08-02",
     "rating": 1,
     "content": "1년권 구입했는데 유료기능이 너무 별로여서 1달치만 결제하고 환불하려고 했습니다. 그런데 부분 환불이 안되는거 같네요."
   },
@@ -244,12 +250,6 @@ window.INOUT_REVIEWS = [
     "date": "2026-06-23",
     "rating": 1,
     "content": "하...진짜 광고 무식하게 많이 나오네."
-  },
-  {
-    "store": "google_play",
-    "date": "2026-06-23",
-    "rating": 4,
-    "content": "자꾸 오류나서 기록이 지워져요"
   },
   {
     "store": "google_play",
@@ -18702,4 +18702,4 @@ window.INOUT_REVIEWS = [
     "content": "들어가자마자 나오는 첫 화면안에 \n식단 몸무게 운동을 다 기록하고 볼 수 있으면 좋겠어요. \n몸무게 기록 하려면 쭉 내려야하고 한눈에 보이지 않아서 그 부분이 조금 아쉬워요\n😭😭😭😭😭😭😭\n\n\n이 앱이 디자인도 그렇고 기능들도 다이어트 기록에 정말 최적화된 앱이에요!!!\n다른 앱들도 많이 써봤는데 이게 제일 좋아서 다이어트 결심할 때마다 이걸루 해요!!"
   }
 ];
-window.INOUT_UPDATED_AT = "2026-08-03 15:47";
+window.INOUT_UPDATED_AT = "2026-08-04 15:03";
