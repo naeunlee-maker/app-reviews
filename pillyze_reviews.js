@@ -16177,6 +16177,18 @@ window.PILLYZE_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-08-02",
+    "rating": 2,
+    "content": "목표몸무게설정이 계속 안돼요\n몸무계를낮춰달라고?? 계속뜨고\n모든 몸무게 다 해봐도 안돼요 시간낭비했어요"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-08-01",
+    "rating": 5,
+    "content": "기록하기너무편리해요"
+  },
+  {
+    "store": "app_store",
     "date": "2026-07-31",
     "rating": 5,
     "content": "매일 기록하는 습관을 들이니 더 정신차려지게되고좋은거같아요\n유료로 사용중인데 예뻐질 내몸을 생각하면 투자로서 매우좋다고 생각합니다"
@@ -19488,4 +19500,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-08-04 15:03";
+window.PILLYZE_UPDATED_AT = "2026-08-04 15:15";
