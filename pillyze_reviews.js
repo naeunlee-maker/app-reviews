@@ -16208,6 +16208,18 @@ window.PILLYZE_REVIEWS = [
   {
     "store": "app_store",
     "date": "2026-08-02",
+    "rating": 4,
+    "content": "칼로리에요 -> 칼로리예요 등… 맞춤법 및 띄어쓰기 검수는 어플의 기본이라고 생각합니다"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-08-02",
+    "rating": 5,
+    "content": "위젯 중에 정사각형인 칼로리 체크 위젯이 틴트모드로 하면 안 보여요"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-08-02",
     "rating": 2,
     "content": "목표몸무게설정이 계속 안돼요\n몸무계를낮춰달라고?? 계속뜨고\n모든 몸무게 다 해봐도 안돼요 시간낭비했어요"
   },
@@ -19530,4 +19542,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-08-06 15:03";
+window.PILLYZE_UPDATED_AT = "2026-08-06 15:16";
