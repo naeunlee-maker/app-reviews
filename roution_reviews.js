@@ -1,6 +1,12 @@
 window.ROUTION_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-08-05",
+    "rating": 1,
+    "content": "'최신' (음식검색) 에 음식이 한번 등록되면 삭제가 불가능해요 너무 음식이 많아져서 찾는건 포기해야함"
+  },
+  {
+    "store": "google_play",
     "date": "2026-07-30",
     "rating": 4,
     "content": "운동기록 하려는데 업데이트하라고 떠요,,, 지금 최신버전인데 어떻게하는건가요 ;;"
@@ -1110,4 +1116,4 @@ window.ROUTION_REVIEWS = [
     "content": "로그인도 안돼요.."
   }
 ];
-window.ROUTION_UPDATED_AT = "2026-08-05 15:12";
+window.ROUTION_UPDATED_AT = "2026-08-06 15:03";
