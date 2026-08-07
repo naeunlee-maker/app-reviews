@@ -3,6 +3,12 @@ window.ROUTION_REVIEWS = [
     "store": "google_play",
     "date": "2026-08-05",
     "rating": 1,
+    "content": "루션.. 걸음.수..리셋..않.되는거..빨리.고쳐주세요. 1주일.가량.계속..이러는데요. 중간에.한번.업뎃해서..되더니.. 그날.하루.뿐이고. 리셋이.계속.않되요!!!"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-08-05",
+    "rating": 1,
     "content": "'최신' (음식검색) 에 음식이 한번 등록되면 삭제가 불가능해요 너무 음식이 많아져서 찾는건 포기해야함"
   },
   {
@@ -1116,4 +1122,4 @@ window.ROUTION_REVIEWS = [
     "content": "로그인도 안돼요.."
   }
 ];
-window.ROUTION_UPDATED_AT = "2026-08-06 15:16";
+window.ROUTION_UPDATED_AT = "2026-08-07 14:01";

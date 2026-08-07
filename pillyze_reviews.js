@@ -1,6 +1,18 @@
 window.PILLYZE_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-08-06",
+    "rating": 1,
+    "content": "플러스 1년구독중 30일이 채 안된 지금 갑자기 해지되고 서비스 이용안됨. 이어서 이용 가능하다며 방법 안내메시지대로 따랐는데 그동안 쌓은 개인 데이터가 다 사라지고 처음부터 다시 세팅해야 함. 이용중에도 식단DB오류, ai코치오류 등등 문제가 꽤 발견됨. 처음 며칠 사용할 때는 몰랐는데 일주일 이상 사용하면서 문제점들이 발견되고 매일 그 문제들과 마주침. 지금 갑자기 칭찬스티커 목록이 없어짐. 스티커가 없어진게 아니고 확인페이지 자체가 날아가고 없음. 와....오전내내 이러고 있네"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-08-06",
+    "rating": 5,
+    "content": "시작해봅니다!"
+  },
+  {
+    "store": "google_play",
     "date": "2026-08-05",
     "rating": 4,
     "content": "첫 구매 후 6개월이 지났는데 아직도 섭취량 추정은 미흡하네요. 아무리 많고 적어도 대충 1인분 넣고 넘어가서, 다음 6개월 정기권 안에 개선되지 않으면 다른 앱을 찾아볼 예정이에요."
@@ -87,6 +99,12 @@ window.PILLYZE_REVIEWS = [
     "store": "google_play",
     "date": "2026-07-28",
     "rating": 5,
+    "content": "good"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-07-28",
+    "rating": 5,
     "content": "굿"
   },
   {
@@ -106,12 +124,6 @@ window.PILLYZE_REVIEWS = [
     "date": "2026-07-27",
     "rating": 5,
     "content": "광고가 안 떠서 사용에 방해가 없고, 추가할 음식이 다양하게 등록되어 있어 좋습니다."
-  },
-  {
-    "store": "google_play",
-    "date": "2026-07-26",
-    "rating": 5,
-    "content": "이앱으로 살빼보려구요"
   },
   {
     "store": "google_play",
@@ -19542,4 +19554,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-08-06 15:16";
+window.PILLYZE_UPDATED_AT = "2026-08-07 14:01";
