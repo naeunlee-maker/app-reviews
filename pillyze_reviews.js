@@ -1,6 +1,18 @@
 window.PILLYZE_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-08-08",
+    "rating": 5,
+    "content": "생각보다디테일하게 코칭해줘서 유료결제할만합니다"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-08-07",
+    "rating": 5,
+    "content": "어플이체계적이에요"
+  },
+  {
+    "store": "google_play",
     "date": "2026-08-06",
     "rating": 3,
     "content": "직접운동등록하기가 이상해요. 등록해도 안나오고 삭제해도 삭제가 안됩니다--"
@@ -106,6 +118,12 @@ window.PILLYZE_REVIEWS = [
     "date": "2026-07-30",
     "rating": 4,
     "content": "미션화면이 로딩만떠요"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-07-28",
+    "rating": 5,
+    "content": "good"
   },
   {
     "store": "google_play",
@@ -4024,12 +4042,6 @@ window.PILLYZE_REVIEWS = [
     "date": "2025-09-03",
     "rating": 2,
     "content": "사용하다가 가끔 한번씩 '프로그램을 시작해야 적립이 시작된다'고 뜨는데 어플 삭제했다가 다시 설치해도 계속 그러네요 ~ 어떻게하죠~~"
-  },
-  {
-    "store": "google_play",
-    "date": "2025-09-02",
-    "rating": 5,
-    "content": "그냥 좋음 쓰세요"
   },
   {
     "store": "google_play",
@@ -19572,4 +19584,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-08-08 13:39";
+window.PILLYZE_UPDATED_AT = "2026-08-09 13:35";
