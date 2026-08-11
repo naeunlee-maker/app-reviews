@@ -1,6 +1,12 @@
 window.PILLYZE_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-08-09",
+    "rating": 5,
+    "content": "카카오페이랑 카드결제 말고 다른 결제 방식이 생겼으면 좋겠어요ㅜ 다른 앱들보다 전부 다 좋고 뛰어난데 결제가 막혀서 어쩔수없이 그냥 결제 없이 쓰고있네요ㅠ"
+  },
+  {
+    "store": "google_play",
     "date": "2026-08-08",
     "rating": 4,
     "content": "아침 기록하면 자동으로 단식 종료되게 해주시면 안되나요,,,,?"
@@ -19590,4 +19596,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-08-10 14:09";
+window.PILLYZE_UPDATED_AT = "2026-08-11 13:39";
