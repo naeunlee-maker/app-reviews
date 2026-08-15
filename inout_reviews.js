@@ -16843,12 +16843,6 @@ window.INOUT_REVIEWS = [
   },
   {
     "store": "app_store",
-    "date": "2026-07-23",
-    "rating": 5,
-    "content": "사진 분석도 편하고 이왕 시작한거 열심히 해볼게요!! 매일 기록하는 재미가 있네요"
-  },
-  {
-    "store": "app_store",
     "date": "2026-02-10",
     "rating": 2,
     "content": "업데이트나 꾸미는거 그만 집중하고 잡 오류나 ui 좀 깔끔하게 만들어주세요\n전반적으로 불편함...."
@@ -17720,7 +17714,7 @@ window.INOUT_REVIEWS = [
   {
     "store": "app_store",
     "date": "2025-10-09",
-    "rating": 1,
+    "rating": 5,
     "content": "운동기록하기 버튼이 아예 눌리지않으며 기록안됨"
   },
   {
@@ -18349,6 +18343,18 @@ window.INOUT_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-07-23",
+    "rating": 5,
+    "content": "사진 분석도 편하고 이왕 시작한거 열심히 해볼게요!! 매일 기록하는 재미가 있네요"
+  },
+  {
+    "store": "app_store",
+    "date": "2025-10-09",
+    "rating": 1,
+    "content": "운동기록하기 버튼이 아예 눌리지않으며 기록안됨"
+  },
+  {
+    "store": "app_store",
     "date": "2025-07-16",
     "rating": 1,
     "content": "너무 번거로워요 ㅎ"
@@ -18924,4 +18930,4 @@ window.INOUT_REVIEWS = [
     "content": "들어가자마자 나오는 첫 화면안에 \n식단 몸무게 운동을 다 기록하고 볼 수 있으면 좋겠어요. \n몸무게 기록 하려면 쭉 내려야하고 한눈에 보이지 않아서 그 부분이 조금 아쉬워요\n😭😭😭😭😭😭😭\n\n\n이 앱이 디자인도 그렇고 기능들도 다이어트 기록에 정말 최적화된 앱이에요!!!\n다른 앱들도 많이 써봤는데 이게 제일 좋아서 다이어트 결심할 때마다 이걸루 해요!!"
   }
 ];
-window.INOUT_UPDATED_AT = "2026-08-15 12:53";
+window.INOUT_UPDATED_AT = "2026-08-15 13:14";
