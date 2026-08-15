@@ -3259,6 +3259,24 @@ window.MEALLIGRAM_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-08-13",
+    "rating": 2,
+    "content": "문제없이 지금까지 잘 쓰고있는데 짜치는 배경음악 갑자기 왜 생긴거임!!???너무 싫음😱😱😱"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-08-12",
+    "rating": 1,
+    "content": "오류좀 수정해주세요"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-08-12",
+    "rating": 5,
+    "content": "너무 잘 사용하고있습니다\n사진과 내용으로 한번에 정리할수잇어 너무 좋아요\n\n다만 건의 드리고 싶은건 한 장으로 공유하기 할때 각각 칼로리도 같이 나왔으면 좋겠습니다 현재는 공유하기로 내보내면 총칼로리밖에 안나와서요 \n\n감사합니다"
+  },
+  {
+    "store": "app_store",
     "date": "2026-08-06",
     "rating": 1,
     "content": "하.."
@@ -4192,12 +4210,6 @@ window.MEALLIGRAM_REVIEWS = [
     "date": "2024-10-16",
     "rating": 3,
     "content": "체험 하다가 괜찮아서 돈주고 구매했는데.. 영양성분 직접 추가 누를 때마다 음식추가를 그만두고 나가시겠어요 창이 뜨고 튕겨요\n무료체험 할 때는 이상 없었는데 결제 하고 나니까 튕기네요"
-  },
-  {
-    "store": "app_store",
-    "date": "2024-10-16",
-    "rating": 4,
-    "content": "음식 검색하고 버튼 누르면 로딩이 너무 심해요.."
   },
   {
     "store": "app_store",
@@ -6247,6 +6259,12 @@ window.MEALLIGRAM_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2024-10-16",
+    "rating": 4,
+    "content": "음식 검색하고 버튼 누르면 로딩이 너무 심해요.."
+  },
+  {
+    "store": "app_store",
     "date": "2022-01-25",
     "rating": 4,
     "content": "조금 더 격려하고 응원할 곳이 필요해요 댓글은 어떤 마스터가 체크하듯 다는 느낌이라서 따로 카톡을 하게되는 아쉬움이 있어용 그외는 좋아요"
@@ -6294,4 +6312,4 @@ window.MEALLIGRAM_REVIEWS = [
     "content": "굳굳"
   }
 ];
-window.MEALLIGRAM_UPDATED_AT = "2026-08-14 14:19";
+window.MEALLIGRAM_UPDATED_AT = "2026-08-15 12:53";
