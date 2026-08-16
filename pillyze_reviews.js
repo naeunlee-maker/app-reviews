@@ -1,6 +1,30 @@
 window.PILLYZE_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-08-15",
+    "rating": 5,
+    "content": "아주 유용할것 같아요^^잘 써보도록 할께요"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-08-14",
+    "rating": 5,
+    "content": "굿"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-08-14",
+    "rating": 3,
+    "content": "잘 사용하고 있는데, 요즘 들어서 새로운 영양제 업데이트가 안돼고 있는거 같습니다 몇 달이 지나도 그대로니 답답하네요"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-08-14",
+    "rating": 4,
+    "content": "잘사용해볼게요"
+  },
+  {
+    "store": "google_play",
     "date": "2026-08-13",
     "rating": 5,
     "content": "딱 필요한것만 셋팅해보기좋고 기록 꾸준히 남겨지니 비교 보기좋고 식단기록도 편해서 다이어트하는데 너무 편하게 관리하기 좋아요~ 완전 도움돼요"
@@ -19686,4 +19710,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-08-15 13:14";
+window.PILLYZE_UPDATED_AT = "2026-08-16 12:58";
