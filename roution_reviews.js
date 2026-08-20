@@ -1,6 +1,12 @@
 window.ROUTION_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-08-18",
+    "rating": 5,
+    "content": "먹자마자 바로 기록하는 게 아니라서 시간대 조정을 종종 하는데, 시간 기록이 24시간대면 좋을 것 같아요"
+  },
+  {
+    "store": "google_play",
     "date": "2026-08-09",
     "rating": 5,
     "content": "상세 메모가 약간 힘들다는점 빼고 유용한 앱 인듯 합니다."
@@ -1170,4 +1176,4 @@ window.ROUTION_REVIEWS = [
     "content": "깔끔하고 다 좋은데요ㅠㅠ 입력하는 시간이 디폴트가 아니라 사진 불러와서 입력할 땐 그 사진이 찍힌시간으로 가져오면 안될까요? 차차 수정되겠거니 했는데 아직도 그대로라 말해봅니다! 식사 때 마다 매번 입력하긴 어렵고 잊을 때도 많아서 추후에 입력하는 편인데 시간 다 바꿔줘야해서 불편해요"
   }
 ];
-window.ROUTION_UPDATED_AT = "2026-08-19 13:21";
+window.ROUTION_UPDATED_AT = "2026-08-20 12:57";
