@@ -3259,6 +3259,12 @@ window.MEALLIGRAM_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-08-18",
+    "rating": 3,
+    "content": "개발자에 문의 드렸지만 답변이 없어서 여기 문의해요. \n밀리그램 사용한지 수년이라 그런건지 사용감이 무거워졌어요. 느려졌어요. \n그래서 백업해놓고 초기화 시키고 싶은데 기능이 없나요?"
+  },
+  {
+    "store": "app_store",
     "date": "2026-08-13",
     "rating": 2,
     "content": "문제없이 지금까지 잘 쓰고있는데 짜치는 배경음악 갑자기 왜 생긴거임!!???너무 싫음😱😱😱"
@@ -6312,4 +6318,4 @@ window.MEALLIGRAM_REVIEWS = [
     "content": "굳굳"
   }
 ];
-window.MEALLIGRAM_UPDATED_AT = "2026-08-20 12:57";
+window.MEALLIGRAM_UPDATED_AT = "2026-08-20 13:21";

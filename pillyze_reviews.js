@@ -3,6 +3,12 @@ window.PILLYZE_REVIEWS = [
     "store": "google_play",
     "date": "2026-08-19",
     "rating": 5,
+    "content": "재밌어요."
+  },
+  {
+    "store": "google_play",
+    "date": "2026-08-19",
+    "rating": 5,
     "content": "갤럭시에서 뒤로가기 제스처를 사용했을 때, 이전 화면으로 이동하지 않고 앱이 종료되어 불편합니다. 뒤로가기 제스처 사용 시 앱이 종료되지 않고 이전 화면으로 정상적으로 이동할 수 있도록 동작이 개선되면 좋겠습니다. 그리고 배변도 기록할 수 있으면 좋을거 같아요!"
   },
   {
@@ -19806,4 +19812,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-08-20 12:57";
+window.PILLYZE_UPDATED_AT = "2026-08-20 13:21";
