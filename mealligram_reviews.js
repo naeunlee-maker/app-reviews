@@ -4364,7 +4364,7 @@ window.MEALLIGRAM_REVIEWS = [
   {
     "store": "app_store",
     "date": "2024-06-20",
-    "rating": 5,
+    "rating": 4,
     "content": "아니 포인트를 줘서 쓰래놓고 쓰려고 하면 핸드폰 번호만 입력하고 인증번호 쓰는 칸이 없으면 어쩌자는 건지 모르겠네..:"
   },
   {
@@ -6259,6 +6259,12 @@ window.MEALLIGRAM_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2024-06-20",
+    "rating": 5,
+    "content": "아니 포인트를 줘서 쓰래놓고 쓰려고 하면 핸드폰 번호만 입력하고 인증번호 쓰는 칸이 없으면 어쩌자는 건지 모르겠네..:"
+  },
+  {
+    "store": "app_store",
     "date": "2022-02-02",
     "rating": 5,
     "content": "처음 on 하면 초기 설정 수정이 안됩니다ㅠㅠ"
@@ -6318,4 +6324,4 @@ window.MEALLIGRAM_REVIEWS = [
     "content": "굳굳"
   }
 ];
-window.MEALLIGRAM_UPDATED_AT = "2026-08-21 13:23";
+window.MEALLIGRAM_UPDATED_AT = "2026-08-22 12:55";
