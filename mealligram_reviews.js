@@ -2431,12 +2431,6 @@ window.MEALLIGRAM_REVIEWS = [
   },
   {
     "store": "google_play",
-    "date": "2022-02-12",
-    "rating": 2,
-    "content": "sns로 내보내기 겁나 버벅대요 3D기능 범벅인 제페토보다 더 이러면 어떡해요 달랑 사진 3장인데..."
-  },
-  {
-    "store": "google_play",
     "date": "2022-02-10",
     "rating": 5,
     "content": "제일 편해요!"
@@ -6324,4 +6318,4 @@ window.MEALLIGRAM_REVIEWS = [
     "content": "굳굳"
   }
 ];
-window.MEALLIGRAM_UPDATED_AT = "2026-08-23 13:22";
+window.MEALLIGRAM_UPDATED_AT = "2026-08-24 13:04";
