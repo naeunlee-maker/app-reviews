@@ -2431,6 +2431,12 @@ window.MEALLIGRAM_REVIEWS = [
   },
   {
     "store": "google_play",
+    "date": "2022-02-12",
+    "rating": 2,
+    "content": "sns로 내보내기 겁나 버벅대요 3D기능 범벅인 제페토보다 더 이러면 어떡해요 달랑 사진 3장인데..."
+  },
+  {
+    "store": "google_play",
     "date": "2022-02-10",
     "rating": 5,
     "content": "제일 편해요!"
@@ -3250,6 +3256,12 @@ window.MEALLIGRAM_REVIEWS = [
     "date": "2021-04-04",
     "rating": 5,
     "content": "꺅 드디어 갤럭시도ㅠㅠ감사합니다ㅠㅠㅠ"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-08-23",
+    "rating": 5,
+    "content": "잘 쓰고있고 화면도 깔끔해서 좋아요 근데 식단기록 할 때 없는 음식도 많고 정확하지 않은 영양성분 자료들이 많아서 약간 불편합니다"
   },
   {
     "store": "app_store",
@@ -6318,4 +6330,4 @@ window.MEALLIGRAM_REVIEWS = [
     "content": "굳굳"
   }
 ];
-window.MEALLIGRAM_UPDATED_AT = "2026-08-24 13:29";
+window.MEALLIGRAM_UPDATED_AT = "2026-08-25 12:58";
