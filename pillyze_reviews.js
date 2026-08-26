@@ -1,6 +1,18 @@
 window.PILLYZE_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-08-25",
+    "rating": 1,
+    "content": "전에 가입했었을때 정기결제해놓고 정기결제 해재하는걸 못봐서 오늘돈이빠져나갔는데 이제 이어플도 안쓰고 전에 썻던아이디 로그인하는것도 안되고 환불받을려면 어떻게해야하나요 고객센터 번호도없고 답장도 안해주시네요"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-08-24",
+    "rating": 5,
+    "content": "즐겨찾기에 음식사진도 같이 저장됐으면 좋겠어요~"
+  },
+  {
+    "store": "google_play",
     "date": "2026-08-24",
     "rating": 5,
     "content": "너무 깔끔한 인터페이스와 편안한 사용감, 친절한 상담이 인상적인 앱입니다. 리뷰 잘 안남기는데 감명받아서 좋은 경험 공유드립니다."
@@ -310,12 +322,6 @@ window.PILLYZE_REVIEWS = [
     "date": "2026-07-30",
     "rating": 4,
     "content": "미션화면이 로딩만떠요"
-  },
-  {
-    "store": "google_play",
-    "date": "2026-07-28",
-    "rating": 5,
-    "content": "good"
   },
   {
     "store": "google_play",
@@ -16423,6 +16429,24 @@ window.PILLYZE_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-08-24",
+    "rating": 2,
+    "content": "폰 하면서 운동하기 싫어서 운동을 끝내고 기록하려는데 기본적으로 10분 소요시간으로 뜨고 수정은 할 수 없어서 불편했습니다. 트레드밀만 수정되고 근력같은 건 수정도 안되고... 실제 운동시간이랑 차이가 많이 나는데 어떻게 기록해야하나요..."
+  },
+  {
+    "store": "app_store",
+    "date": "2026-08-24",
+    "rating": 5,
+    "content": "굿"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-08-24",
+    "rating": 5,
+    "content": "👌🏻"
+  },
+  {
+    "store": "app_store",
     "date": "2026-08-23",
     "rating": 5,
     "content": "빨리 별명 탈출하고 싶어요"
@@ -19932,4 +19956,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-08-25 13:24";
+window.PILLYZE_UPDATED_AT = "2026-08-26 13:01";
