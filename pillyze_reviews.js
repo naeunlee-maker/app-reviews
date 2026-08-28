@@ -1,6 +1,18 @@
 window.PILLYZE_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-08-27",
+    "rating": 5,
+    "content": "자꾸 들어가보게 되네요ㅎㅎ"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-08-27",
+    "rating": 5,
+    "content": "좋습니다"
+  },
+  {
+    "store": "google_play",
     "date": "2026-08-26",
     "rating": 5,
     "content": "가입할때 주던 쿠폰 못쓰고 날렸는데 다시 못받나요ㅠ"
@@ -946,6 +958,12 @@ window.PILLYZE_REVIEWS = [
     "date": "2026-06-04",
     "rating": 5,
     "content": "귀엽고 좋아요 결혼식까지 빡세게 해볼게요"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-06-04",
+    "rating": 5,
+    "content": "관리 해야돼는데 이런앱 이 있어서 좋아요"
   },
   {
     "store": "google_play",
@@ -20016,4 +20034,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-08-27 23:46";
+window.PILLYZE_UPDATED_AT = "2026-08-29 00:20";
