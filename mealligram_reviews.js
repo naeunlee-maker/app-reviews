@@ -3259,6 +3259,12 @@ window.MEALLIGRAM_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-08-28",
+    "rating": 3,
+    "content": "영양성분 입력할 때 999까지밖에 입력이 안 되는 오류가 있어서 불편한데 개선 부탁드립니다."
+  },
+  {
+    "store": "app_store",
     "date": "2026-08-23",
     "rating": 5,
     "content": "잘 쓰고있고 화면도 깔끔해서 좋아요 근데 식단기록 할 때 없는 음식도 많고 정확하지 않은 영양성분 자료들이 많아서 약간 불편합니다"
@@ -6330,4 +6336,4 @@ window.MEALLIGRAM_REVIEWS = [
     "content": "굳굳"
   }
 ];
-window.MEALLIGRAM_UPDATED_AT = "2026-08-30 18:12";
+window.MEALLIGRAM_UPDATED_AT = "2026-08-30 18:28";
