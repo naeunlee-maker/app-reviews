@@ -16501,6 +16501,12 @@ window.PILLYZE_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-08-30",
+    "rating": 5,
+    "content": "굿"
+  },
+  {
+    "store": "app_store",
     "date": "2026-08-29",
     "rating": 5,
     "content": "너무좋아용엉ㅇㅇㅇ\n이거 까니까 다이어트 정신도 더 드는 것 같구 더 열심히 하게돠는 것 같음"
@@ -20064,4 +20070,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-09-01 17:37";
+window.PILLYZE_UPDATED_AT = "2026-09-01 17:55";
