@@ -1,6 +1,12 @@
 window.MEALLIGRAM_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-09-02",
+    "rating": 1,
+    "content": "어제만 해도 식단에 먹은 음식이랑 양으로 입력했는데, 오늘 보니까, 탄단지 몇주먹 먹었는지 입력하라고 나옵니다, 전에쓰던 거를 쓰고 싶은데 어떻게 하나요?"
+  },
+  {
+    "store": "google_play",
     "date": "2026-07-19",
     "rating": 1,
     "content": "처음엔 잘사용했는데 갈수록 광고가 늘어나서 유료버전 결제했는데도 광고 뜨고 오류도 잦고 별로입니다 딴 앱 쓰세요"
@@ -6336,4 +6342,4 @@ window.MEALLIGRAM_REVIEWS = [
     "content": "굳굳"
   }
 ];
-window.MEALLIGRAM_UPDATED_AT = "2026-09-03 17:17";
+window.MEALLIGRAM_UPDATED_AT = "2026-09-04 16:57";
