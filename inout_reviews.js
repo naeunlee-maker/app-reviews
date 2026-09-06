@@ -1,6 +1,12 @@
 window.INOUT_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-09-04",
+    "rating": 5,
+    "content": "재밌어요"
+  },
+  {
+    "store": "google_play",
     "date": "2026-09-03",
     "rating": 5,
     "content": "고마워"
@@ -19188,4 +19194,4 @@ window.INOUT_REVIEWS = [
     "content": "들어가자마자 나오는 첫 화면안에 \n식단 몸무게 운동을 다 기록하고 볼 수 있으면 좋겠어요. \n몸무게 기록 하려면 쭉 내려야하고 한눈에 보이지 않아서 그 부분이 조금 아쉬워요\n😭😭😭😭😭😭😭\n\n\n이 앱이 디자인도 그렇고 기능들도 다이어트 기록에 정말 최적화된 앱이에요!!!\n다른 앱들도 많이 써봤는데 이게 제일 좋아서 다이어트 결심할 때마다 이걸루 해요!!"
   }
 ];
-window.INOUT_UPDATED_AT = "2026-09-05 16:51";
+window.INOUT_UPDATED_AT = "2026-09-06 16:53";
