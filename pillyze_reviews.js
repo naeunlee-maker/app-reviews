@@ -16555,6 +16555,24 @@ window.PILLYZE_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-09-06",
+    "rating": 5,
+    "content": "열심히 해보겠습니다"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-09-06",
+    "rating": 5,
+    "content": "밥먹는 시간에 따라 단식시간을 그냥 바로바로 계산해줬으면 좋겠어요 \n시간 수정 나중에라도 하려고 했는디 단식시간 수정하는거 찾는게 넘 어려움.."
+  },
+  {
+    "store": "app_store",
+    "date": "2026-09-06",
+    "rating": 5,
+    "content": "원래 다른 다엿트앱 사용하다가 인스타 광고보고 깔았는데 진짜 너무 편하고 기록하는 재미가 있네요 최고!!"
+  },
+  {
+    "store": "app_store",
     "date": "2026-09-02",
     "rating": 5,
     "content": "👍🏻👍🏻"
@@ -20160,4 +20178,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-09-08 17:03";
+window.PILLYZE_UPDATED_AT = "2026-09-08 17:20";
