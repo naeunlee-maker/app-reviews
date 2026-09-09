@@ -1,6 +1,36 @@
 window.INOUT_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-09-08",
+    "rating": 1,
+    "content": "최근 음식이 싹 사라짐"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-09-08",
+    "rating": 3,
+    "content": "업데이트 하라고 해서 했더니 업데이트 후에 운동 수정하면 수정이 안돼요 원래는 너무 잘 쓰던 앱인데 업데이트 후에 이러니까 불편하네요"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-09-08",
+    "rating": 3,
+    "content": "업데이트를 쓸데없이 너무 자주함."
+  },
+  {
+    "store": "google_play",
+    "date": "2026-09-08",
+    "rating": 5,
+    "content": "배틀할때 팀원들 음식이나 운동에 좋아요 기능 있음 좋을거같아요 ㅎㅎ"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-09-07",
+    "rating": 5,
+    "content": "운동 무게도 입력할 수 있으면 좋을거같아요"
+  },
+  {
+    "store": "google_play",
     "date": "2026-09-07",
     "rating": 5,
     "content": "통계 그래프에서 탄단지도 같이 보이면 좋겠어"
@@ -214,6 +244,12 @@ window.INOUT_REVIEWS = [
     "date": "2026-08-13",
     "rating": 4,
     "content": "해보겠음"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-08-12",
+    "rating": 5,
+    "content": "굳입니다 최고에용"
   },
   {
     "store": "google_play",
@@ -15511,6 +15547,126 @@ window.INOUT_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-09-07",
+    "rating": 1,
+    "content": "에러가 납니다"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-09-07",
+    "rating": 5,
+    "content": "오류 떠요!!!"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-09-07",
+    "rating": 1,
+    "content": "401에러뜨고 안됨"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-09-07",
+    "rating": 2,
+    "content": "돈주고 쓰는데 에러화면때문에 아무것도 못보는데요 빨리 수정해주세요"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-09-07",
+    "rating": 1,
+    "content": "업데이트 했더니 최근 먹은 목록 싹 사라졌네\n아 다시 하나하나 찾아서 입력하기 ㅈㄴ 귀찮은데"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-09-07",
+    "rating": 5,
+    "content": "앱 업데이트 하고나서 오류떠서 화면에 아무것도 안 떠요 제발 해결좀.."
+  },
+  {
+    "store": "app_store",
+    "date": "2026-09-07",
+    "rating": 2,
+    "content": "아이폰 16프로 유저고 아예 사용을 못하고 있습니다"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-09-07",
+    "rating": 5,
+    "content": "굳이 커서 활성화를 위해 입력창을 한 번 터치해야 하는 게 번거로운데 알아서 좀 입력되게.. 해주시는 게 나을 거 같고.. 알아서 소수점도 입력되게끔 해주세요\n808이라는 숫자를 보면 80.8이겠거니.. 하지 누가 808kg이라고 생각해요"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-09-07",
+    "rating": 5,
+    "content": "잘쓰고 있었는데 오늘 업데이트\n하니까 튕겨서 안들어가져요"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-09-07",
+    "rating": 1,
+    "content": "업데이트한 후로 계속 오류가 떠요 앱을 전혀 사용할 수가 없습니다"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-09-07",
+    "rating": 1,
+    "content": "아침까지 잘 쓰다가 업데이트\n했는데 스플래쉬 화면 지나서 메인에서 스크롤하거나 버튼 누르면 바로 401에러 뜹니다"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-09-07",
+    "rating": 5,
+    "content": "빨리 고쳐주세요.."
+  },
+  {
+    "store": "app_store",
+    "date": "2026-09-07",
+    "rating": 5,
+    "content": "빨리 고쳐주세요."
+  },
+  {
+    "store": "app_store",
+    "date": "2026-09-07",
+    "rating": 5,
+    "content": "결제해서 너무 잘쓰고있는데 운동기록하는게 너무 불편해요\n\n전문 운동기록 앱까진 안바라는데\n\n운동기록할때 몇키로, 몇회 일일이 수기로 입력하는게 너무 불편하네요\n\n이거만 빼면 좋아요"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-09-07",
+    "rating": 1,
+    "content": "더 엉망진창됨"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-09-07",
+    "rating": 1,
+    "content": "오늘 업데이트 하라고 알림떠서 하니 계속 오류가 뜹니다….뭘까요??  유료 결제했는데.."
+  },
+  {
+    "store": "app_store",
+    "date": "2026-09-07",
+    "rating": 4,
+    "content": "좋은 어플인데\nㅜㅜ 방금\n업데이트 하고 접속이 안되영 아이폰인데욥 ㅠㅠ"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-09-07",
+    "rating": 1,
+    "content": "앱 업데이트 후 실행하면  Unexpected Application Error / Request failed with status code 401  오류 화면이 표시되어 이용할 수 없습니다.  \n앱 강제 종료 및 재실행을 해도 동일합니다. 로그인 세션 또는 업데이트 후 인증 오류인지 확인 부탁드립니다."
+  },
+  {
+    "store": "app_store",
+    "date": "2026-09-07",
+    "rating": 5,
+    "content": "반신욕(족욕), 찜질방 등등 이런 것도 운동같은 칸에 있으면 좋겠어요."
+  },
+  {
+    "store": "app_store",
+    "date": "2026-09-07",
+    "rating": 3,
+    "content": "급식정보도 입력할수있으면 좋겠어요 불편해서 다른 앱 쓰게됨 그것만 빼면 인아웃이 제일 좋은데ㅠㅠ"
+  },
+  {
+    "store": "app_store",
     "date": "2026-09-06",
     "rating": 1,
     "content": "진짜 제발 앱 개선 좀 해라\n앱 키면 흰 화면 뜨고 렉 먹히는게 2년 째인데 이걸 2년 넘게 못 고치고 있냐\n못고치는게 아니고 개선 시킬 생각자체가 없지?"
@@ -19218,4 +19374,4 @@ window.INOUT_REVIEWS = [
     "content": "들어가자마자 나오는 첫 화면안에 \n식단 몸무게 운동을 다 기록하고 볼 수 있으면 좋겠어요. \n몸무게 기록 하려면 쭉 내려야하고 한눈에 보이지 않아서 그 부분이 조금 아쉬워요\n😭😭😭😭😭😭😭\n\n\n이 앱이 디자인도 그렇고 기능들도 다이어트 기록에 정말 최적화된 앱이에요!!!\n다른 앱들도 많이 써봤는데 이게 제일 좋아서 다이어트 결심할 때마다 이걸루 해요!!"
   }
 ];
-window.INOUT_UPDATED_AT = "2026-09-08 17:20";
+window.INOUT_UPDATED_AT = "2026-09-09 17:07";
