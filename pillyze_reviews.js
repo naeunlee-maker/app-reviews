@@ -313,6 +313,12 @@ window.PILLYZE_REVIEWS = [
   },
   {
     "store": "google_play",
+    "date": "2026-08-13",
+    "rating": 5,
+    "content": "너무 만족스러워요 분석이 편해요"
+  },
+  {
+    "store": "google_play",
     "date": "2026-08-12",
     "rating": 5,
     "content": "너무좋은어플입니다!!!와!!!!!무룐데도 아주매우 유용해요!!! 유로체험해봤는데 더욱좋구요!!!"
@@ -4474,12 +4480,6 @@ window.PILLYZE_REVIEWS = [
     "date": "2025-08-28",
     "rating": 5,
     "content": "식단관리 해줘서 너무 좋아요 다양한 음식들 칼로리 분석 및 성분 분석 짱이에요!!"
-  },
-  {
-    "store": "google_play",
-    "date": "2025-08-28",
-    "rating": 5,
-    "content": "내가먹은식단에 대해 업로드하고 그후분석하면서 관리해주니 식사조절하기가 나쁘지않음"
   },
   {
     "store": "google_play",
@@ -20184,4 +20184,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-09-09 17:23";
+window.PILLYZE_UPDATED_AT = "2026-09-10 17:07";

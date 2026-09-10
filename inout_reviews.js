@@ -1,6 +1,30 @@
 window.INOUT_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-09-09",
+    "rating": 1,
+    "content": "업데이트 이후 운동기록 수정이 안됨 불편하게 메모장에 따로 기록중"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-09-09",
+    "rating": 4,
+    "content": "다 좋아요 귀엽고 편합니다! 근데 뒤로가기하면 모든 이전기록으로 전부 하나씩 돌아가는게 좀 불편해요 홈에 있으면 바로 앱종료가 됐으면 좋겠습니다!"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-09-08",
+    "rating": 5,
+    "content": "너무 기대되구 매주 후기 남길게요!"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-09-08",
+    "rating": 4,
+    "content": "체중 그래프좀 넣어주세요"
+  },
+  {
+    "store": "google_play",
     "date": "2026-09-08",
     "rating": 1,
     "content": "최근 음식이 싹 사라짐"
@@ -15547,6 +15571,30 @@ window.INOUT_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-09-08",
+    "rating": 1,
+    "content": "업데이트 왤캐 자주해요 ? 매일 몸무게 기록하는 어플인데 매일 들어갈때마다 업데이트하라해ㅛ서 진짜 귀찮아 죽겠음 어플 지울뻔 ;"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-09-08",
+    "rating": 3,
+    "content": ";"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-09-08",
+    "rating": 4,
+    "content": "잘쓰고잇엇는데 업뎃하니 위젯이 안뜸 ㅠ"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-09-07",
+    "rating": 1,
+    "content": "속히 확인바람"
+  },
+  {
+    "store": "app_store",
     "date": "2026-09-07",
     "rating": 1,
     "content": "에러가 납니다"
@@ -19374,4 +19422,4 @@ window.INOUT_REVIEWS = [
     "content": "들어가자마자 나오는 첫 화면안에 \n식단 몸무게 운동을 다 기록하고 볼 수 있으면 좋겠어요. \n몸무게 기록 하려면 쭉 내려야하고 한눈에 보이지 않아서 그 부분이 조금 아쉬워요\n😭😭😭😭😭😭😭\n\n\n이 앱이 디자인도 그렇고 기능들도 다이어트 기록에 정말 최적화된 앱이에요!!!\n다른 앱들도 많이 써봤는데 이게 제일 좋아서 다이어트 결심할 때마다 이걸루 해요!!"
   }
 ];
-window.INOUT_UPDATED_AT = "2026-09-09 17:23";
+window.INOUT_UPDATED_AT = "2026-09-10 17:07";
