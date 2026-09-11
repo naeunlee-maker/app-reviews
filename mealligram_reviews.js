@@ -3265,6 +3265,18 @@ window.MEALLIGRAM_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-09-09",
+    "rating": 1,
+    "content": "23년도부터 한눈에한달식단보기 쉬워서 써왔는데 갑자기 광고가 존나떠서 프로로했더니 뭔 다이어트코칭때문에 저장하는데 몇분걸림..그래서 겨우 일반으로돌아왔더니 그 어떤어플보다 광고가 많음........진짜 개짜증나 그냥 프로할테니까 걍 코칭없이 저장해달라고요. 사진저장하는게 목적인건데"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-09-07",
+    "rating": 4,
+    "content": "가끔 운동한 당일날 기록하면 전날로 기록됨"
+  },
+  {
+    "store": "app_store",
     "date": "2026-09-06",
     "rating": 4,
     "content": "단식 타이머도 넣어주시면 더 좋을 거 같아요 !!"
@@ -6354,4 +6366,4 @@ window.MEALLIGRAM_REVIEWS = [
     "content": "굳굳"
   }
 ];
-window.MEALLIGRAM_UPDATED_AT = "2026-09-10 17:24";
+window.MEALLIGRAM_UPDATED_AT = "2026-09-11 17:02";
