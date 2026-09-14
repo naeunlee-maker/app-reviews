@@ -1,6 +1,12 @@
 window.PILLYZE_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-09-12",
+    "rating": 5,
+    "content": "좋아요~"
+  },
+  {
+    "store": "google_play",
     "date": "2026-09-11",
     "rating": 5,
     "content": "다이어트에 도움됩니다. 다만 구독시스템에 대해 설명이 좀 어렵고, 1개월 구독은 1개월 후 끝나는 줄 알았는데 이후 정기구독으로 결제가 되더라구요. 이럴거면 3개월로 할 걸 그랬어요ㅜㅜ 전체적으로 앱 이용이 조금 복잡하지만 그래도 다이어트에 너무너무 도움이됐습니다!"
@@ -20220,4 +20226,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-09-13 17:33";
+window.PILLYZE_UPDATED_AT = "2026-09-14 17:53";
