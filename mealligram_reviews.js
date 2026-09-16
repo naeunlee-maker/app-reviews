@@ -3265,6 +3265,24 @@ window.MEALLIGRAM_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-09-14",
+    "rating": 4,
+    "content": "내가 직접 추가한 항목들 내에서 검색할 수 있는 기능이 있었으면 좋겠습니다. \n한참 스크롤 내려서 찾아야 하는 번거로움이 있음!!"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-09-13",
+    "rating": 4,
+    "content": "달력으로 볼 때 기록들이 좀 더 눈에 띄게 표시되면 더 좋을 거 같아요! 그러나 만족하고 잘 쓰고 있습니다!"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-09-13",
+    "rating": 2,
+    "content": "어느 순간 애플워치 헬스 연동 잘 안됨"
+  },
+  {
+    "store": "app_store",
     "date": "2026-09-10",
     "rating": 4,
     "content": "식단 기록 방식과 관련하여 새로이 도입한 방법 외 이전 방식도 복원해주기 바랍니다"
@@ -3274,12 +3292,6 @@ window.MEALLIGRAM_REVIEWS = [
     "date": "2026-09-09",
     "rating": 1,
     "content": "23년도부터 한눈에한달식단보기 쉬워서 써왔는데 갑자기 광고가 존나떠서 프로로했더니 뭔 다이어트코칭때문에 저장하는데 몇분걸림..그래서 겨우 일반으로돌아왔더니 그 어떤어플보다 광고가 많음........진짜 개짜증나 그냥 프로할테니까 걍 코칭없이 저장해달라고요. 사진저장하는게 목적인건데"
-  },
-  {
-    "store": "app_store",
-    "date": "2026-09-07",
-    "rating": 4,
-    "content": "가끔 운동한 당일날 기록하면 전날로 기록됨"
   },
   {
     "store": "app_store",
@@ -3550,6 +3562,12 @@ window.MEALLIGRAM_REVIEWS = [
     "date": "2026-01-28",
     "rating": 1,
     "content": "돈 내고 쓰고있는데 리포트 키면 1초만에 어플 종료돼요 ㅠ 이것땜에 구독시작했는데 환불 안되나요?\n강제종료 제발 고쳐주세요 ㅠㅠ!!!!!!;;"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-09-07",
+    "rating": 4,
+    "content": "가끔 운동한 당일날 기록하면 전날로 기록됨"
   },
   {
     "store": "app_store",
@@ -6372,4 +6390,4 @@ window.MEALLIGRAM_REVIEWS = [
     "content": "굳굳"
   }
 ];
-window.MEALLIGRAM_UPDATED_AT = "2026-09-16 17:34";
+window.MEALLIGRAM_UPDATED_AT = "2026-09-16 17:51";
