@@ -1,6 +1,12 @@
 window.ROUTION_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-09-14",
+    "rating": 5,
+    "content": "건강도 잡고 성취감도 생기고 컬리 이용도 하고 !! 넘 좋아요 ♡"
+  },
+  {
+    "store": "google_play",
     "date": "2026-09-12",
     "rating": 4,
     "content": "무료인데 나쁘진 않음"
@@ -1260,4 +1266,4 @@ window.ROUTION_REVIEWS = [
     "content": "깔끔하고 다 좋은데요ㅠㅠ 입력하는 시간이 디폴트가 아니라 사진 불러와서 입력할 땐 그 사진이 찍힌시간으로 가져오면 안될까요? 차차 수정되겠거니 했는데 아직도 그대로라 말해봅니다! 식사 때 마다 매번 입력하긴 어렵고 잊을 때도 많아서 추후에 입력하는 편인데 시간 다 바꿔줘야해서 불편해요"
   }
 ];
-window.ROUTION_UPDATED_AT = "2026-09-15 17:58";
+window.ROUTION_UPDATED_AT = "2026-09-16 17:34";

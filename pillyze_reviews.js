@@ -1,6 +1,12 @@
 window.PILLYZE_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-09-14",
+    "rating": 1,
+    "content": "구림"
+  },
+  {
+    "store": "google_play",
     "date": "2026-09-12",
     "rating": 5,
     "content": "좋아요~"
@@ -16591,6 +16597,18 @@ window.PILLYZE_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-09-14",
+    "rating": 3,
+    "content": "식단 관리하기 좋아요 자주 먹는것 즐겨찾기나 세트 등록하는데 지우는게 안되서 한참 찾는경우가 발생하네요\n세트 삭제도 가능하게 해주시면 안될까요? 그리고 자주 먹은 목록도 삭제가 안됩니다."
+  },
+  {
+    "store": "app_store",
+    "date": "2026-09-14",
+    "rating": 5,
+    "content": "진짜 다 좋구 넘넘 잘쓰고있는데 단식타이머 기능 쪼금만 수정해주세요… 목표시간이 정해져있으니가 목표시간이 지나면 한두시간쯤 지나서 기록이 되다가 갑자기 기록이 사라져욤..ㅜㅠ 아니면 목표시간을 좀 더 늘려주셔도 좋고.. 그"
+  },
+  {
+    "store": "app_store",
     "date": "2026-09-12",
     "rating": 5,
     "content": "좋음"
@@ -20232,4 +20250,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-09-15 17:58";
+window.PILLYZE_UPDATED_AT = "2026-09-16 17:34";
