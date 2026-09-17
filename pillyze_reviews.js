@@ -1,6 +1,18 @@
 window.PILLYZE_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-09-16",
+    "rating": 5,
+    "content": "아주좋습니다 오래쓰는중"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-09-15",
+    "rating": 5,
+    "content": "좋다"
+  },
+  {
+    "store": "google_play",
     "date": "2026-09-14",
     "rating": 1,
     "content": "구림"
@@ -16597,6 +16609,18 @@ window.PILLYZE_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-09-15",
+    "rating": 2,
+    "content": "월별 구독 형식인 것처럼 표기해놓음. 중도 해지 가능하다는 안내도 되어있어 결제했더니 7만원 가량 일괄결제됨. 환불 요청할 예정입니다.. 잘 알아보고 하세요.."
+  },
+  {
+    "store": "app_store",
+    "date": "2026-09-14",
+    "rating": 5,
+    "content": "꼼꼼하게 잘 알려주고 많은 도움 됩니다"
+  },
+  {
+    "store": "app_store",
     "date": "2026-09-14",
     "rating": 3,
     "content": "식단 관리하기 좋아요 자주 먹는것 즐겨찾기나 세트 등록하는데 지우는게 안되서 한참 찾는경우가 발생하네요\n세트 삭제도 가능하게 해주시면 안될까요? 그리고 자주 먹은 목록도 삭제가 안됩니다."
@@ -17835,12 +17859,6 @@ window.PILLYZE_REVIEWS = [
     "store": "app_store",
     "date": "2026-05-13",
     "rating": 5,
-    "content": "몇년째 관리하며 이 앱만큼 만족도 높은 기능들은 없더라구요\n\n워치로 단식 타이머 볼 수 있으면 좋겠어요ㅜ 단식 시작하는 조작도 가능하면 최고겠어요🙏🏻🙏🏻"
-  },
-  {
-    "store": "app_store",
-    "date": "2026-05-13",
-    "rating": 5,
     "content": "폰킬때마다 내 폰 화면에 못생긴 병아리가 보이는데 안이뻐요 ㅠ  없애거나 빼는 기능 넣어주세요"
   },
   {
@@ -17914,6 +17932,12 @@ window.PILLYZE_REVIEWS = [
     "date": "2026-05-08",
     "rating": 5,
     "content": "한눈에 보기 편한 필수어플👍👍"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-05-08",
+    "rating": 4,
+    "content": "근데약간 아쉬운게 좀 복잡하네요그리고 전 빼고싶은데자꾸 저체중이라고 자꾸 올리래요"
   },
   {
     "store": "app_store",
@@ -19579,6 +19603,12 @@ window.PILLYZE_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-05-13",
+    "rating": 5,
+    "content": "몇년째 관리하며 이 앱만큼 만족도 높은 기능들은 없더라구요\n\n워치로 단식 타이머 볼 수 있으면 좋겠어요ㅜ 단식 시작하는 조작도 가능하면 최고겠어요🙏🏻🙏🏻"
+  },
+  {
+    "store": "app_store",
     "date": "2026-01-22",
     "rating": 1,
     "content": "이딴거 안쓴다 환불해라"
@@ -20250,4 +20280,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-09-16 17:51";
+window.PILLYZE_UPDATED_AT = "2026-09-17 17:38";
