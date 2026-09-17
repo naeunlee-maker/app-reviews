@@ -6390,4 +6390,4 @@ window.MEALLIGRAM_REVIEWS = [
     "content": "굳굳"
   }
 ];
-window.MEALLIGRAM_UPDATED_AT = "2026-09-17 17:38";
+window.MEALLIGRAM_UPDATED_AT = "2026-09-17 17:55";
