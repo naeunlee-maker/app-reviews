@@ -1,6 +1,12 @@
 window.PILLYZE_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-09-17",
+    "rating": 5,
+    "content": "칼로리 관리 좋아요ㅋㅋㅋㅋㄲai 코칭이 좋긴하네요"
+  },
+  {
+    "store": "google_play",
     "date": "2026-09-16",
     "rating": 5,
     "content": "아주좋습니다 오래쓰는중"
@@ -16609,6 +16615,24 @@ window.PILLYZE_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-09-16",
+    "rating": 5,
+    "content": "잘 쓰고 있음메"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-09-16",
+    "rating": 1,
+    "content": "광고 닫기 버튼도 없이"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-09-16",
+    "rating": 5,
+    "content": "다크모드도 만들어주세요~!!"
+  },
+  {
+    "store": "app_store",
     "date": "2026-09-15",
     "rating": 2,
     "content": "월별 구독 형식인 것처럼 표기해놓음. 중도 해지 가능하다는 안내도 되어있어 결제했더니 7만원 가량 일괄결제됨. 환불 요청할 예정입니다.. 잘 알아보고 하세요.."
@@ -20280,4 +20304,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-09-17 17:55";
+window.PILLYZE_UPDATED_AT = "2026-09-18 17:14";
