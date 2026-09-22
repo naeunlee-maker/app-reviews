@@ -1,6 +1,18 @@
 window.PILLYZE_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-09-21",
+    "rating": 5,
+    "content": "ai기반이라 사용이 편리하고 식이조절에 도움이 됩니다. (수정희망) 영양제 순서 위아래로 바꿀수 있도록 해주세요. 자주 먹는것과 아닌것 구분하고 싶습니다."
+  },
+  {
+    "store": "google_play",
+    "date": "2026-09-20",
+    "rating": 5,
+    "content": "아주만족스럽습니다"
+  },
+  {
+    "store": "google_play",
     "date": "2026-09-17",
     "rating": 5,
     "content": "칼로리 관리 좋아요ㅋㅋㅋㅋㄲai 코칭이 좋긴하네요"
@@ -20340,4 +20352,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-09-21 18:18";
+window.PILLYZE_UPDATED_AT = "2026-09-22 17:31";
