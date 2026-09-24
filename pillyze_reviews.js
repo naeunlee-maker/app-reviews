@@ -1,6 +1,12 @@
 window.PILLYZE_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-09-22",
+    "rating": 1,
+    "content": "아니 오랜만에 들어가려고 했는데 로그인 화면에서 무한 로딩만 되고 접속이 안돼요. 카카오톡 네이버 모두 다요..... 다른 어플로 그냥 갈아탑니다. 몇년 잘 쓰고 있었는데 제 입장에서는 답이 없네요"
+  },
+  {
+    "store": "google_play",
     "date": "2026-09-21",
     "rating": 5,
     "content": "ai기반이라 사용이 편리하고 식이조절에 도움이 됩니다. (수정희망) 영양제 순서 위아래로 바꿀수 있도록 해주세요. 자주 먹는것과 아닌것 구분하고 싶습니다."
@@ -1114,12 +1120,6 @@ window.PILLYZE_REVIEWS = [
     "date": "2026-06-04",
     "rating": 5,
     "content": "귀엽고 좋아요 결혼식까지 빡세게 해볼게요"
-  },
-  {
-    "store": "google_play",
-    "date": "2026-06-04",
-    "rating": 5,
-    "content": "관리 해야돼는데 이런앱 이 있어서 좋아요"
   },
   {
     "store": "google_play",
@@ -20358,4 +20358,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-09-23 17:50";
+window.PILLYZE_UPDATED_AT = "2026-09-24 17:26";
