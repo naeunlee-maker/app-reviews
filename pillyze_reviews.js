@@ -1,6 +1,12 @@
 window.PILLYZE_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-09-24",
+    "rating": 5,
+    "content": "다이어트 동반자 👍🏻👍🏻"
+  },
+  {
+    "store": "google_play",
     "date": "2026-09-22",
     "rating": 1,
     "content": "아니 오랜만에 들어가려고 했는데 로그인 화면에서 무한 로딩만 되고 접속이 안돼요. 카카오톡 네이버 모두 다요..... 다른 어플로 그냥 갈아탑니다. 몇년 잘 쓰고 있었는데 제 입장에서는 답이 없네요"
@@ -20358,4 +20364,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-09-24 17:46";
+window.PILLYZE_UPDATED_AT = "2026-09-25 17:48";
