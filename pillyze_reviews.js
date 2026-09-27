@@ -16633,6 +16633,18 @@ window.PILLYZE_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-09-24",
+    "rating": 1,
+    "content": "AI를 중점으로 광고를 하는데 막상 써보면 몇 년전 챗지피티 수준이라서 결제 안하게 됨"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-09-24",
+    "rating": 1,
+    "content": "잘 쓰다가 요즘\n운동 뭐만 하면 다 39칼로리로 뜨네요? \n작성할때는 50이어도 39로 찍히고.. 버그인듯해여 개선해주세요"
+  },
+  {
+    "store": "app_store",
     "date": "2026-09-22",
     "rating": 5,
     "content": "1달 써보고 1달더 결제함 체중관리에 도움많이되네영 근데 다크모드좀 만들어줘요 눈아픔"
@@ -20382,4 +20394,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-09-26 17:49";
+window.PILLYZE_UPDATED_AT = "2026-09-27 18:14";
