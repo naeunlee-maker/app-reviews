@@ -1,6 +1,12 @@
 window.PILLYZE_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-09-27",
+    "rating": 1,
+    "content": "자동구독되서 짜증나요 !!"
+  },
+  {
+    "store": "google_play",
     "date": "2026-09-24",
     "rating": 5,
     "content": "다이어트 동반자 👍🏻👍🏻"
@@ -16633,6 +16639,12 @@ window.PILLYZE_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-09-26",
+    "rating": 1,
+    "content": "불안정해요 답답합니다"
+  },
+  {
+    "store": "app_store",
     "date": "2026-09-24",
     "rating": 1,
     "content": "AI를 중점으로 광고를 하는데 막상 써보면 몇 년전 챗지피티 수준이라서 결제 안하게 됨"
@@ -20394,4 +20406,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-09-27 18:32";
+window.PILLYZE_UPDATED_AT = "2026-09-28 18:44";
