@@ -1,6 +1,12 @@
 window.INOUT_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-09-27",
+    "rating": 5,
+    "content": "이제 시작이지만 체계가 느껴져요 할수 있을꺼 같은 착각?? 이 들어요 ㅎㅎ"
+  },
+  {
+    "store": "google_play",
     "date": "2026-09-25",
     "rating": 3,
     "content": "굿"
@@ -82,12 +88,6 @@ window.INOUT_REVIEWS = [
     "date": "2026-09-16",
     "rating": 4,
     "content": "로그인화면에서 들어가지지 않는 문제가 빈번하네요! 그래도 헬스 앱이랑 연동된다던지 하는 점은 편리하고 좋습니다"
-  },
-  {
-    "store": "google_play",
-    "date": "2026-09-13",
-    "rating": 1,
-    "content": "광고 개많음"
   },
   {
     "store": "google_play",
@@ -15679,6 +15679,18 @@ window.INOUT_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-09-27",
+    "rating": 5,
+    "content": "이거랑 파스타 두개 쓰는데 다들 열심히구나 싶어서 배민 켰다가 끔"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-09-27",
+    "rating": 1,
+    "content": "사용자가 자신의 개인정보를 쉽게 파기할수있는 권리는 있어야합니다. 다크패턴이 많아보입니다"
+  },
+  {
+    "store": "app_store",
     "date": "2026-09-24",
     "rating": 1,
     "content": "미로찾기하는줄"
@@ -19626,4 +19638,4 @@ window.INOUT_REVIEWS = [
     "content": "들어가자마자 나오는 첫 화면안에 \n식단 몸무게 운동을 다 기록하고 볼 수 있으면 좋겠어요. \n몸무게 기록 하려면 쭉 내려야하고 한눈에 보이지 않아서 그 부분이 조금 아쉬워요\n😭😭😭😭😭😭😭\n\n\n이 앱이 디자인도 그렇고 기능들도 다이어트 기록에 정말 최적화된 앱이에요!!!\n다른 앱들도 많이 써봤는데 이게 제일 좋아서 다이어트 결심할 때마다 이걸루 해요!!"
   }
 ];
-window.INOUT_UPDATED_AT = "2026-09-28 19:10";
+window.INOUT_UPDATED_AT = "2026-09-29 18:48";

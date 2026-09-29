@@ -3265,6 +3265,18 @@ window.MEALLIGRAM_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-09-27",
+    "rating": 5,
+    "content": "다만 운동 기록에 칼로리 얼마나 소모 했는 지 넣어주시면 좋을 것 같습니다."
+  },
+  {
+    "store": "app_store",
+    "date": "2026-09-27",
+    "rating": 4,
+    "content": "손쉽게 관리할 수 있고 UI도 보기 쉽게 되어있어 만족합니다 다만 건강앱과 왜 연동이 안되죠..ㅠㅠ 아무리 해도 연동 허용 버튼이 안 눌려요"
+  },
+  {
+    "store": "app_store",
     "date": "2026-09-18",
     "rating": 4,
     "content": "백업 기능 없나요? 추가 희망합니다"
@@ -6402,4 +6414,4 @@ window.MEALLIGRAM_REVIEWS = [
     "content": "굳굳"
   }
 ];
-window.MEALLIGRAM_UPDATED_AT = "2026-09-28 19:10";
+window.MEALLIGRAM_UPDATED_AT = "2026-09-29 18:48";
