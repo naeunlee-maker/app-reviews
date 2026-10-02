@@ -16951,12 +16951,6 @@ window.PILLYZE_REVIEWS = [
   },
   {
     "store": "app_store",
-    "date": "2026-09-16",
-    "rating": 5,
-    "content": "다크모드도 만들어주세요~!!"
-  },
-  {
-    "store": "app_store",
     "date": "2026-08-18",
     "rating": 5,
     "content": "직관적으로 빠르게 입력하고 싶은데 다른 어플들은 부가적인게 많더라구요\n필라이즈는 어플ui도 예쁜데 직관적으로 한 화면에서 입력할 수 있어서 좋았어요"
@@ -17254,6 +17248,12 @@ window.PILLYZE_REVIEWS = [
     "date": "2026-07-11",
     "rating": 5,
     "content": "다이어트하시는 분들은 이 앱 깔아서 하시면 엄청 도움 될 것 같습니다!"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-09-16",
+    "rating": 5,
+    "content": "다크모드도 만들어주세요~!!"
   },
   {
     "store": "app_store",
@@ -20430,4 +20430,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-10-02 18:44";
+window.PILLYZE_UPDATED_AT = "2026-10-02 19:03";
