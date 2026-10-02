@@ -1149,6 +1149,12 @@ window.PILLYZE_REVIEWS = [
     "store": "google_play",
     "date": "2026-06-04",
     "rating": 5,
+    "content": "관리 해야돼는데 이런앱 이 있어서 좋아요"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-06-04",
+    "rating": 5,
     "content": "편리하게 컨디션관리를 할수 있는거같아요"
   },
   {
@@ -16645,6 +16651,12 @@ window.PILLYZE_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-09-30",
+    "rating": 5,
+    "content": "진짜 식단도 매일 신경쓰게 되고 이젠 기록하능게 재밌어영ㅎㅎㅎ 좋은 앱 만들어주셔서 감사합니다"
+  },
+  {
+    "store": "app_store",
     "date": "2026-09-29",
     "rating": 5,
     "content": "큰 기대 없었는데 자동으로 뭔가 척척 되니까 편리합니다"
@@ -16738,12 +16750,6 @@ window.PILLYZE_REVIEWS = [
     "date": "2026-09-16",
     "rating": 1,
     "content": "광고 닫기 버튼도 없이"
-  },
-  {
-    "store": "app_store",
-    "date": "2026-09-16",
-    "rating": 5,
-    "content": "다크모드도 만들어주세요~!!"
   },
   {
     "store": "app_store",
@@ -16942,6 +16948,12 @@ window.PILLYZE_REVIEWS = [
     "date": "2026-08-19",
     "rating": 5,
     "content": "다른곳보다 체계적이네요"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-09-16",
+    "rating": 5,
+    "content": "다크모드도 만들어주세요~!!"
   },
   {
     "store": "app_store",
@@ -20418,4 +20430,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-10-01 19:28";
+window.PILLYZE_UPDATED_AT = "2026-10-02 18:44";
