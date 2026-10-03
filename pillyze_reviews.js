@@ -16657,6 +16657,12 @@ window.PILLYZE_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-10-01",
+    "rating": 5,
+    "content": "다크모드도 만들어주세요(제발)\n실시간 잠금화면 단식 디자인이 너무 구려요ㅠㅠ 기능은 너무너무 좋음♡"
+  },
+  {
+    "store": "app_store",
     "date": "2026-09-30",
     "rating": 5,
     "content": "진짜 식단도 매일 신경쓰게 되고 이젠 기록하능게 재밌어영ㅎㅎㅎ 좋은 앱 만들어주셔서 감사합니다"
@@ -20436,4 +20442,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-10-03 18:07";
+window.PILLYZE_UPDATED_AT = "2026-10-03 18:26";
