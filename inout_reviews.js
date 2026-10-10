@@ -1,6 +1,24 @@
 window.INOUT_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-10-09",
+    "rating": 1,
+    "content": "체험판없이 바로 결제유도 나랑 잘 안맞는 앱인데 결제 후 이용을 해봤다면 1분이든 10분이든 바로 환불요청해도 안되서 그냥 돈날림"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-10-09",
+    "rating": 5,
+    "content": "너무 귀여워요!"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-10-08",
+    "rating": 5,
+    "content": "먼가 재밌을것같아기대되용"
+  },
+  {
+    "store": "google_play",
     "date": "2026-10-06",
     "rating": 5,
     "content": "넘모 귀엽고 체계적으로 시스템 되어있어요!"
@@ -19746,4 +19764,4 @@ window.INOUT_REVIEWS = [
     "content": "들어가자마자 나오는 첫 화면안에 \n식단 몸무게 운동을 다 기록하고 볼 수 있으면 좋겠어요. \n몸무게 기록 하려면 쭉 내려야하고 한눈에 보이지 않아서 그 부분이 조금 아쉬워요\n😭😭😭😭😭😭😭\n\n\n이 앱이 디자인도 그렇고 기능들도 다이어트 기록에 정말 최적화된 앱이에요!!!\n다른 앱들도 많이 써봤는데 이게 제일 좋아서 다이어트 결심할 때마다 이걸루 해요!!"
   }
 ];
-window.INOUT_UPDATED_AT = "2026-10-09 19:55";
+window.INOUT_UPDATED_AT = "2026-10-10 18:48";

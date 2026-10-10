@@ -1,6 +1,12 @@
 window.MEALLIGRAM_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-10-08",
+    "rating": 5,
+    "content": "잘 쓰고 있는데 며칠 전부터 직접 추가하기에 브랜드 이름 무엇도 검색되지않습니다. 직접 써넣으려 하면 이미 있다고 뜨고"
+  },
+  {
+    "store": "google_play",
     "date": "2026-09-02",
     "rating": 1,
     "content": "어제만 해도 식단에 먹은 음식이랑 양으로 입력했는데, 오늘 보니까, 탄단지 몇주먹 먹었는지 입력하라고 나옵니다, 전에쓰던 거를 쓰고 싶은데 어떻게 하나요?"
@@ -6414,4 +6420,4 @@ window.MEALLIGRAM_REVIEWS = [
     "content": "굳굳"
   }
 ];
-window.MEALLIGRAM_UPDATED_AT = "2026-10-09 19:55";
+window.MEALLIGRAM_UPDATED_AT = "2026-10-10 18:48";
