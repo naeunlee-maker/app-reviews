@@ -3271,6 +3271,12 @@ window.MEALLIGRAM_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-10-09",
+    "rating": 4,
+    "content": "캘린더를 보면 어떤 날에 기록을 했는지 안 했는지 한 번에 안보여서 하루 하루 눌러봐야하거든요 한 눈에 기록여부도 볼수있게 해주세요"
+  },
+  {
+    "store": "app_store",
     "date": "2026-09-27",
     "rating": 5,
     "content": "다만 운동 기록에 칼로리 얼마나 소모 했는 지 넣어주시면 좋을 것 같습니다."
@@ -6420,4 +6426,4 @@ window.MEALLIGRAM_REVIEWS = [
     "content": "굳굳"
   }
 ];
-window.MEALLIGRAM_UPDATED_AT = "2026-10-10 19:08";
+window.MEALLIGRAM_UPDATED_AT = "2026-10-11 18:59";
