@@ -16765,6 +16765,12 @@ window.PILLYZE_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-10-10",
+    "rating": 5,
+    "content": "다이어트 필수앱이에요"
+  },
+  {
+    "store": "app_store",
     "date": "2026-10-08",
     "rating": 4,
     "content": "사용하기 편리해요 단 다이어터들이 자주 먹는 음식에대한 영양 성분 표기가 강화되면 더 좋겠어요 예를들어 고구마에는 비타민a가 풍부한데 아예 표기가 안되어 있음"
@@ -20688,4 +20694,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-10-11 19:19";
+window.PILLYZE_UPDATED_AT = "2026-10-12 19:47";
