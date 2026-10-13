@@ -1,6 +1,12 @@
 window.PILLYZE_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-10-11",
+    "rating": 3,
+    "content": "음식목록 스크롤하면 찾는 음식이 없나요 배너뜨는데 이거 끄지도 못하고 미치겠네요"
+  },
+  {
+    "store": "google_play",
     "date": "2026-10-09",
     "rating": 5,
     "content": "식단 앱이 필요해서 2개 다운 받아 사용중인데 필라이즈로 정착하지 않을까 싶네요."
@@ -20694,4 +20700,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-10-12 20:20";
+window.PILLYZE_UPDATED_AT = "2026-10-13 19:33";
