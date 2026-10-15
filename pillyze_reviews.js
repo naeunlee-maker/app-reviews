@@ -16777,6 +16777,12 @@ window.PILLYZE_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-10-13",
+    "rating": 5,
+    "content": "매번 업데이트 후 눈에 띄게 발전하네요! 좋은 앱 만들어주셔서 감사해요"
+  },
+  {
+    "store": "app_store",
     "date": "2026-10-12",
     "rating": 5,
     "content": "영양제쪽 관련해서는 해외꺼 포함해서 원탑인듯 다른 어플은 영양제는 아예 등록할수 조차없는 것돌도 많은데 일단 내가먹는 영양제는 전부있다"
@@ -20724,4 +20730,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-10-15 17:16";
+window.PILLYZE_UPDATED_AT = "2026-10-15 17:36";
