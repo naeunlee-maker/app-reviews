@@ -1,6 +1,12 @@
 window.PASTA_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-10-15",
+    "rating": 3,
+    "content": "바뀐건좋은데 혈당 날찌구분선 다시만들어줘요 그게편했는데"
+  },
+  {
+    "store": "google_play",
     "date": "2026-10-14",
     "rating": 1,
     "content": "ui가 편해보이게 만들었지만 매우 불편함"
@@ -5814,4 +5820,4 @@ window.PASTA_REVIEWS = [
     "content": "예전엔 밥 먹고 바로 앉아 있다가 졸리면 그냥 피곤한 줄 알았는데, 이 앱에서 식후 혈당 반응이랑 걸음수를 같이 보니 더 신경 쓰이더라구요! 거창한 운동은 아니어도 밥 먹고 조금 걷게 되고, 먹은 메뉴와 체중 변화까지 같이 보니까 다이어트 습관을 만들기 좋습니다."
   }
 ];
-window.PASTA_UPDATED_AT = "2026-10-15 17:36";
+window.PASTA_UPDATED_AT = "2026-10-16 17:08";
