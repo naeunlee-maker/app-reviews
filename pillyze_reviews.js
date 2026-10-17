@@ -16777,6 +16777,12 @@ window.PILLYZE_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-10-15",
+    "rating": 5,
+    "content": "앱 내에 다크모드랑 실시간 표시 병아리 안뜨고 최대한 심플한 디자인으로다가.. 안될까요ㅠㅠ🫰🏻"
+  },
+  {
+    "store": "app_store",
     "date": "2026-10-13",
     "rating": 5,
     "content": "매번 업데이트 후 눈에 띄게 발전하네요! 좋은 앱 만들어주셔서 감사해요"
@@ -16942,12 +16948,6 @@ window.PILLYZE_REVIEWS = [
     "date": "2026-10-02",
     "rating": 5,
     "content": "너무잘가리쳐주는데중학생이나,고등학생은어떳개하나요?"
-  },
-  {
-    "store": "app_store",
-    "date": "2026-10-01",
-    "rating": 5,
-    "content": "다크모드도 만들어주세요(제발)\n실시간 잠금화면 단식 디자인이 너무 구려요ㅠㅠ 기능은 너무너무 좋음♡"
   },
   {
     "store": "app_store",
@@ -19771,6 +19771,12 @@ window.PILLYZE_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-10-01",
+    "rating": 5,
+    "content": "다크모드도 만들어주세요(제발)\n실시간 잠금화면 단식 디자인이 너무 구려요ㅠㅠ 기능은 너무너무 좋음♡"
+  },
+  {
+    "store": "app_store",
     "date": "2026-02-02",
     "rating": 5,
     "content": "진짜 최고에요 이 앱 쓰고 살 많이 빠지고 벌써 1주일만에 3kg빠졌어요"
@@ -20730,4 +20736,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-10-16 17:30";
+window.PILLYZE_UPDATED_AT = "2026-10-17 16:46";
