@@ -1,6 +1,12 @@
 window.PILLYZE_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-10-17",
+    "rating": 5,
+    "content": "이전에 등록했던 식사들 검색하는 기능 좀 만들어 주세요. 이를테면 삼계탕으로 검색하면 예전에 먹었던 끼니가 검색되도록요. 어플은 만족하며 잘 쓰고 있습니다."
+  },
+  {
+    "store": "google_play",
     "date": "2026-10-13",
     "rating": 1,
     "content": "월정기 결재가 계속되는데 이거 어떻게 해야되나요? 현재 이 사이트 탈퇴한 상태입니다"
@@ -1456,12 +1462,6 @@ window.PILLYZE_REVIEWS = [
     "date": "2026-05-18",
     "rating": 4,
     "content": "아직 사용전인데 구성이 괜찮은거 같아요"
-  },
-  {
-    "store": "google_play",
-    "date": "2026-05-16",
-    "rating": 3,
-    "content": "업데이트 이후로 T코치의 원래 세계관 설정이 날아간 듯 해요 포도라는 고양이랑 치즈? 라는 고양이를 동네에서 근육질로 키우고 있다는 깨알 설정이 재밌었는데 그런 거 하나도 이제 설정이 없어졌네요 실망"
   },
   {
     "store": "google_play",
@@ -20736,4 +20736,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-10-17 17:03";
+window.PILLYZE_UPDATED_AT = "2026-10-18 17:00";
