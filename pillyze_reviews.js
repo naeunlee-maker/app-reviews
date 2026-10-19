@@ -1,6 +1,24 @@
 window.PILLYZE_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-10-18",
+    "rating": 1,
+    "content": "앱이 쪼잔해요 루티니바 이벤트 적립금 그거 얼마나 한다고 바로 뺏어버고...(뭐 살 수 있는것도 없음) 워치 앱 설치 가능하다는데 몇번째 시도인데 안돼요 에휴"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-10-17",
+    "rating": 5,
+    "content": "좋아요"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-10-17",
+    "rating": 5,
+    "content": "ㅘ 진짜 최고에요 다이어트 앱들 중에"
+  },
+  {
+    "store": "google_play",
     "date": "2026-10-17",
     "rating": 5,
     "content": "이전에 등록했던 식사들 검색하는 기능 좀 만들어 주세요. 이를테면 삼계탕으로 검색하면 예전에 먹었던 끼니가 검색되도록요. 어플은 만족하며 잘 쓰고 있습니다."
@@ -16777,6 +16795,18 @@ window.PILLYZE_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-10-16",
+    "rating": 1,
+    "content": "2010년대 수익화 극대화하기 위해 사용성을 버린 앱들과 닮아가고 있음."
+  },
+  {
+    "store": "app_store",
+    "date": "2026-10-16",
+    "rating": 1,
+    "content": "진짜 와이파이 잘 터지는 집에서도 안켜져서 매일매일 식단기록하기 너무 어려웠고 불편했습니다"
+  },
+  {
+    "store": "app_store",
     "date": "2026-10-15",
     "rating": 5,
     "content": "앱 내에 다크모드랑 실시간 표시 병아리 안뜨고 최대한 심플한 디자인으로다가.. 안될까요ㅠㅠ🫰🏻"
@@ -20736,4 +20766,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-10-18 17:20";
+window.PILLYZE_UPDATED_AT = "2026-10-19 17:50";
