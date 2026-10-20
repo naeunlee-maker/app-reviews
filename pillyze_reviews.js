@@ -2,6 +2,12 @@ window.PILLYZE_REVIEWS = [
   {
     "store": "google_play",
     "date": "2026-10-18",
+    "rating": 5,
+    "content": "영양제분석누르면 멈추는데 왜이럼? 지웠다 다시 까니까 됨"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-10-18",
     "rating": 1,
     "content": "앱이 쪼잔해요 루티니바 이벤트 적립금 그거 얼마나 한다고 바로 뺏어버고...(뭐 살 수 있는것도 없음) 워치 앱 설치 가능하다는데 몇번째 시도인데 안돼요 에휴"
   },
@@ -20766,4 +20772,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-10-19 18:18";
+window.PILLYZE_UPDATED_AT = "2026-10-20 17:30";
