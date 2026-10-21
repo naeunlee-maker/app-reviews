@@ -1,6 +1,12 @@
 window.PILLYZE_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-10-19",
+    "rating": 5,
+    "content": "ai코치와 이야기하면서 식단 관리하는거 재밌어요"
+  },
+  {
+    "store": "google_play",
     "date": "2026-10-18",
     "rating": 5,
     "content": "영양제분석누르면 멈추는데 왜이럼? 지웠다 다시 까니까 됨"
@@ -20772,4 +20778,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-10-20 17:52";
+window.PILLYZE_UPDATED_AT = "2026-10-21 17:32";
