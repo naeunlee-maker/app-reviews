@@ -10573,12 +10573,6 @@ window.PILLYZE_REVIEWS = [
   },
   {
     "store": "google_play",
-    "date": "2023-11-29",
-    "rating": 5,
-    "content": "평소에 나에게 부족한 영양제는 뭘까 궁금했는데 검색만 하면 자세히 성분까지 볼수 있어서 좋은것 같아요"
-  },
-  {
-    "store": "google_play",
     "date": "2023-11-28",
     "rating": 5,
     "content": "영양제가 진짜 좋음....사실 먹으면서도 뭐가 부족하고 뭐가 충족했는지 모르겠어서 추가구매 못하고 있었는데 덕분에 잘 정리됨"
@@ -20778,4 +20772,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-10-21 17:53";
+window.PILLYZE_UPDATED_AT = "2026-10-22 17:34";
