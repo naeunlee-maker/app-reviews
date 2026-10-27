@@ -3271,6 +3271,12 @@ window.MEALLIGRAM_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-10-25",
+    "rating": 4,
+    "content": "한달정도 잘 쓰고 있었는데요 갑자기 영양성분 작성하는 칸에 검색 기능이 사라졌습니다. 직접입력 또는 AI로 추가 기능을 사용해야하는데 너무 번거롭습니다. 없어진건지 오류인지 답변 부탁드립니다."
+  },
+  {
+    "store": "app_store",
     "date": "2026-10-20",
     "rating": 5,
     "content": "몇년동안 식단기록으오 정말 잘 사용하고 있는데요~ 영양성분 기록할때 완성된 단어로 \n굳이 검색 안해도 되게 검색창이 좀더 빠르고 정확해졌으면 좋겠어요..! 요즘 다른 어플들도 ai 추가되면서 다양한 기능 생겼던데 밀리그램도 더 좋은 기능부탁드립니다〰️💪🏻"
@@ -6432,4 +6438,4 @@ window.MEALLIGRAM_REVIEWS = [
     "content": "굳굳"
   }
 ];
-window.MEALLIGRAM_UPDATED_AT = "2026-10-26 18:22";
+window.MEALLIGRAM_UPDATED_AT = "2026-10-27 17:57";
