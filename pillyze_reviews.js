@@ -16813,6 +16813,12 @@ window.PILLYZE_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-10-26",
+    "rating": 5,
+    "content": "진짜"
+  },
+  {
+    "store": "app_store",
     "date": "2026-10-24",
     "rating": 4,
     "content": "원래 사진을 갤러리에서 넣을 수 있었는데 지금은 오류때문인지 갤러리에 있는 사진이 등록되지가 않아요 ㅠㅠ 빨리 고쳐주세요 넘 불편해요... 그거 빼곤 다 좋아서 항상 잘 사용하고 있어요"
@@ -20814,4 +20820,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-10-27 18:21";
+window.PILLYZE_UPDATED_AT = "2026-10-28 18:38";
