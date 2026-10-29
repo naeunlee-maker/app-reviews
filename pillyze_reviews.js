@@ -1,6 +1,18 @@
 window.PILLYZE_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-10-27",
+    "rating": 5,
+    "content": "👍"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-10-27",
+    "rating": 1,
+    "content": "어느순간부터 광고로 도배되기 시작. 단순 영양제 분석도 무조건 광고를 보게하며, 광고를 몇초간 봐야되는지 안내가 안되어있음. 게임 광고가 너무 많이 보여지며, 광고를 다 시청해도 비정상적으로 계속 종료가 안 됨. 예전의 필라이즈가 그립네요."
+  },
+  {
+    "store": "google_play",
     "date": "2026-10-24",
     "rating": 5,
     "content": "좋아요"
@@ -16813,6 +16825,12 @@ window.PILLYZE_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-10-27",
+    "rating": 5,
+    "content": "마운자로 관리용 겸 건강관리에요"
+  },
+  {
+    "store": "app_store",
     "date": "2026-10-26",
     "rating": 5,
     "content": "진짜"
@@ -20820,4 +20838,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-10-28 19:01";
+window.PILLYZE_UPDATED_AT = "2026-10-29 18:56";
