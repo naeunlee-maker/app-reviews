@@ -16831,6 +16831,18 @@ window.PILLYZE_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-10-29",
+    "rating": 5,
+    "content": "이용하는데 편한것 같아 자주 이영할것 같라요"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-10-28",
+    "rating": 5,
+    "content": "황지원소피아공주님"
+  },
+  {
+    "store": "app_store",
     "date": "2026-10-28",
     "rating": 1,
     "content": "활동전 후 칼로리조절하는게 어디로 간거죠..? 저만안보이는건지 오류인건지 반영이 갑자기 안되네요"
@@ -20856,4 +20868,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-10-30 19:28";
+window.PILLYZE_UPDATED_AT = "2026-10-31 18:37";
