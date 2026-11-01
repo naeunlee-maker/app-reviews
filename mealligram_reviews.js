@@ -1,6 +1,12 @@
 window.MEALLIGRAM_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-10-30",
+    "rating": 1,
+    "content": "무료 7일 지나면 자동결제 ?"
+  },
+  {
+    "store": "google_play",
     "date": "2026-10-08",
     "rating": 5,
     "content": "잘 쓰고 있는데 며칠 전부터 직접 추가하기에 브랜드 이름 무엇도 검색되지않습니다. 직접 써넣으려 하면 이미 있다고 뜨고"
@@ -6450,4 +6456,4 @@ window.MEALLIGRAM_REVIEWS = [
     "content": "굳굳"
   }
 ];
-window.MEALLIGRAM_UPDATED_AT = "2026-10-31 18:57";
+window.MEALLIGRAM_UPDATED_AT = "2026-11-01 19:25";
