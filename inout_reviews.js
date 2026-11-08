@@ -18391,12 +18391,6 @@ window.INOUT_REVIEWS = [
   },
   {
     "store": "app_store",
-    "date": "2026-08-14",
-    "rating": 5,
-    "content": "제일 유명한 이유가 있음"
-  },
-  {
-    "store": "app_store",
     "date": "2025-12-21",
     "rating": 5,
     "content": "제 최애 앱입니다 \n업데이트 해주셔서 감사해요🫶🫶"
@@ -18994,6 +18988,12 @@ window.INOUT_REVIEWS = [
     "date": "2025-09-15",
     "rating": 5,
     "content": "iOS 18.6.2 사용중입니다. 운동 추가 시 이전 운동 기록이 없어지는 오류가 있어요. 수정해 주세요.\n그거 빼고는 잘 쓰고 있습니다."
+  },
+  {
+    "store": "app_store",
+    "date": "2026-08-14",
+    "rating": 5,
+    "content": "제일 유명한 이유가 있음"
   },
   {
     "store": "app_store",
@@ -20106,4 +20106,4 @@ window.INOUT_REVIEWS = [
     "content": "들어가자마자 나오는 첫 화면안에 \n식단 몸무게 운동을 다 기록하고 볼 수 있으면 좋겠어요. \n몸무게 기록 하려면 쭉 내려야하고 한눈에 보이지 않아서 그 부분이 조금 아쉬워요\n😭😭😭😭😭😭😭\n\n\n이 앱이 디자인도 그렇고 기능들도 다이어트 기록에 정말 최적화된 앱이에요!!!\n다른 앱들도 많이 써봤는데 이게 제일 좋아서 다이어트 결심할 때마다 이걸루 해요!!"
   }
 ];
-window.INOUT_UPDATED_AT = "2026-11-08 19:19";
+window.INOUT_UPDATED_AT = "2026-11-08 19:46";
