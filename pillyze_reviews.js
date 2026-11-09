@@ -1,6 +1,18 @@
 window.PILLYZE_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-11-08",
+    "rating": 3,
+    "content": "결제 후 사용 중입니다. 간편식, 편의점 음식 등은 인식이 잘 되는 편입니다. 하지만 여전히 가정에서 먹는 일반식은 인식 오류가 심합니다. 그래서 대강 어느정도 먹는구나로 생각하면서 사용 중입니다."
+  },
+  {
+    "store": "google_play",
+    "date": "2026-11-08",
+    "rating": 3,
+    "content": "유료결제해서 잘 쓰고 있는데 하루시작분석에서 수면기록 적어야하는게 추가가 됐네요 내건강에서 자동으로 수면이 기록되는데 굳이 또 잔 시간 일어난시간 기록해야지만 코치미션을 주니 너무 불편해요"
+  },
+  {
+    "store": "google_play",
     "date": "2026-11-07",
     "rating": 4,
     "content": "2주간 이 어플로 칼로리체크하면서 감량중이에요! 단기 다이어트중인데 단기 가격이 더 할인되면 더 좋을거같아요^^"
@@ -16861,6 +16873,24 @@ window.PILLYZE_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-11-07",
+    "rating": 5,
+    "content": "그동안 fitbit 쓰다가 구글인가로 합병되고 시스템이 완전 바뀌어서 새로운 앱을 찾아 헤맸는데 아주 만족해요. 설마 이건 없겠지하는 음식마저 다 찾을수 있어요. 추천추천!"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-11-07",
+    "rating": 5,
+    "content": "써보고 말씀드릴게요 ㅋㅋㅋ"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-11-06",
+    "rating": 5,
+    "content": "유용해요 좋아요"
+  },
+  {
+    "store": "app_store",
     "date": "2026-11-05",
     "rating": 5,
     "content": "Ios 업데이트 이후 앱접속 안됩니다."
@@ -20910,4 +20940,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-11-08 19:46";
+window.PILLYZE_UPDATED_AT = "2026-11-09 20:28";

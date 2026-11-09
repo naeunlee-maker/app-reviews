@@ -1,6 +1,18 @@
 window.INOUT_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-11-08",
+    "rating": 4,
+    "content": "돈을 왜냄?"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-11-08",
+    "rating": 4,
+    "content": "사진을 올리고 시간스탬프를 찍으면 무조건 앱이 꺼져요. 이건 언제 수정되나요 답답해요.."
+  },
+  {
+    "store": "google_play",
     "date": "2026-11-07",
     "rating": 2,
     "content": "툭하면광고 툭함면유료 짜증나서 2년넘게 쓰다 삭제"
@@ -46,12 +58,6 @@ window.INOUT_REVIEWS = [
     "date": "2026-11-02",
     "rating": 5,
     "content": "잘 쓰고 있습니다 가끔 레시피 들어가면 무한로딩 걸려요"
-  },
-  {
-    "store": "google_play",
-    "date": "2026-11-02",
-    "rating": 5,
-    "content": "연간이용권 구매하자마자 바로 환불요청했는데 언제 환불되나요?"
   },
   {
     "store": "google_play",
@@ -15997,6 +16003,12 @@ window.INOUT_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-11-06",
+    "rating": 5,
+    "content": "저는 24년 피트니스센터에서\n트레이너샘한테 추천받아 계속\n사용하고 있어요..😁"
+  },
+  {
+    "store": "app_store",
     "date": "2026-11-04",
     "rating": 5,
     "content": "제일 유명한 이유가 있음"
@@ -18248,7 +18260,7 @@ window.INOUT_REVIEWS = [
   {
     "store": "app_store",
     "date": "2026-01-11",
-    "rating": 1,
+    "rating": 5,
     "content": "자꾸 클릭 유도해서 짜증나게 바꾸는 건 역하다"
   },
   {
@@ -18982,6 +18994,12 @@ window.INOUT_REVIEWS = [
     "date": "2025-09-15",
     "rating": 5,
     "content": "너무 좋은데요 하지만 나트륨 당 탄단지 처럼 칼륨도 보이게 해주셨으면 \n좋겠습니다 별 2599개 드리겠습니다"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-01-11",
+    "rating": 1,
+    "content": "자꾸 클릭 유도해서 짜증나게 바꾸는 건 역하다"
   },
   {
     "store": "app_store",
@@ -20106,4 +20124,4 @@ window.INOUT_REVIEWS = [
     "content": "들어가자마자 나오는 첫 화면안에 \n식단 몸무게 운동을 다 기록하고 볼 수 있으면 좋겠어요. \n몸무게 기록 하려면 쭉 내려야하고 한눈에 보이지 않아서 그 부분이 조금 아쉬워요\n😭😭😭😭😭😭😭\n\n\n이 앱이 디자인도 그렇고 기능들도 다이어트 기록에 정말 최적화된 앱이에요!!!\n다른 앱들도 많이 써봤는데 이게 제일 좋아서 다이어트 결심할 때마다 이걸루 해요!!"
   }
 ];
-window.INOUT_UPDATED_AT = "2026-11-08 19:46";
+window.INOUT_UPDATED_AT = "2026-11-09 20:28";
