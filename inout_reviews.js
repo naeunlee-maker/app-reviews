@@ -1,6 +1,24 @@
 window.INOUT_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-11-09",
+    "rating": 4,
+    "content": "다좋은데 코칭 부분이랑은 유료라서 아쉬워요 ㅠㅠ 그것말고는 다좋습니다"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-11-08",
+    "rating": 5,
+    "content": "일단.시작"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-11-08",
+    "rating": 1,
+    "content": "돈내라는 요구가 심하고 돈 안내면 기능 반은 사용못한다고 봐야해요. 참고하세요."
+  },
+  {
+    "store": "google_play",
     "date": "2026-11-08",
     "rating": 4,
     "content": "돈을 왜냄?"
@@ -16003,6 +16021,18 @@ window.INOUT_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-11-08",
+    "rating": 5,
+    "content": "48kg여서 43까지 빼려고 이거 깔았는데 지금 2kg 빠지고 완전 좋음 진심 이거 다이어트할땨 good"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-11-08",
+    "rating": 5,
+    "content": "아주 좋습니다 ㅎㅎ"
+  },
+  {
+    "store": "app_store",
     "date": "2026-11-06",
     "rating": 5,
     "content": "저는 24년 피트니스센터에서\n트레이너샘한테 추천받아 계속\n사용하고 있어요..😁"
@@ -18860,7 +18890,7 @@ window.INOUT_REVIEWS = [
   {
     "store": "app_store",
     "date": "2025-10-07",
-    "rating": 5,
+    "rating": 2,
     "content": "답변주세요"
   },
   {
@@ -18982,6 +19012,12 @@ window.INOUT_REVIEWS = [
     "date": "2025-09-15",
     "rating": 5,
     "content": "왜 인아웃 이제야 썼을까요…!! 정말정말 너무 좋아요ㅠ 항상 다이어트 할때마다 실패하구 또 먹는걸루 스트레스 풀고 악순환만 계속 반복 되었었는데 인아웃 까니까 다이어트를 조금 더 쉅게 할수 있는거 같아요!!ㅎ 앞으로도 자주 쓸게요 좋은 앱 만들어주셔서 감사해용😍"
+  },
+  {
+    "store": "app_store",
+    "date": "2025-10-07",
+    "rating": 5,
+    "content": "답변주세요"
   },
   {
     "store": "app_store",
@@ -20124,4 +20160,4 @@ window.INOUT_REVIEWS = [
     "content": "들어가자마자 나오는 첫 화면안에 \n식단 몸무게 운동을 다 기록하고 볼 수 있으면 좋겠어요. \n몸무게 기록 하려면 쭉 내려야하고 한눈에 보이지 않아서 그 부분이 조금 아쉬워요\n😭😭😭😭😭😭😭\n\n\n이 앱이 디자인도 그렇고 기능들도 다이어트 기록에 정말 최적화된 앱이에요!!!\n다른 앱들도 많이 써봤는데 이게 제일 좋아서 다이어트 결심할 때마다 이걸루 해요!!"
   }
 ];
-window.INOUT_UPDATED_AT = "2026-11-09 21:10";
+window.INOUT_UPDATED_AT = "2026-11-10 20:09";
