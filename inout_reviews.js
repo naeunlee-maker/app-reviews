@@ -1,6 +1,24 @@
 window.INOUT_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-11-10",
+    "rating": 1,
+    "content": "ai 카메라 인식률, 성능 최악. 1번 카메라 돌려봤다고 환불도 불가. 옛날 생각해서 돌아왔는데 다신 안쓸듯"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-11-09",
+    "rating": 5,
+    "content": "굿"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-11-09",
+    "rating": 5,
+    "content": "귀여워요"
+  },
+  {
+    "store": "google_play",
     "date": "2026-11-09",
     "rating": 4,
     "content": "다좋은데 코칭 부분이랑은 유료라서 아쉬워요 ㅠㅠ 그것말고는 다좋습니다"
@@ -160,12 +178,6 @@ window.INOUT_REVIEWS = [
     "date": "2026-10-20",
     "rating": 5,
     "content": "야지오 쓰다가 넘어왔는데, 다 만족스럽지만 폴드8 디스플레이 해상도를 지원안해서 너무 아쉬워요.. 지원부탁드립니다"
-  },
-  {
-    "store": "google_play",
-    "date": "2026-10-19",
-    "rating": 4,
-    "content": "잘사용하고있구요 g단위 수정할수있게 해주면좋겠고AI 열량이 잘 안맞는것도 업그레이드됐으면좋겠습니다"
   },
   {
     "store": "google_play",
@@ -16021,6 +16033,12 @@ window.INOUT_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-11-09",
+    "rating": 5,
+    "content": "어플 괜찮아서 구독인 줄 알고 결제했는데 위젯패스? 그거네요 ..환불 확인 후 재결제하겠습니다."
+  },
+  {
+    "store": "app_store",
     "date": "2026-11-08",
     "rating": 5,
     "content": "48kg여서 43까지 빼려고 이거 깔았는데 지금 2kg 빠지고 완전 좋음 진심 이거 다이어트할땨 good"
@@ -20160,4 +20178,4 @@ window.INOUT_REVIEWS = [
     "content": "들어가자마자 나오는 첫 화면안에 \n식단 몸무게 운동을 다 기록하고 볼 수 있으면 좋겠어요. \n몸무게 기록 하려면 쭉 내려야하고 한눈에 보이지 않아서 그 부분이 조금 아쉬워요\n😭😭😭😭😭😭😭\n\n\n이 앱이 디자인도 그렇고 기능들도 다이어트 기록에 정말 최적화된 앱이에요!!!\n다른 앱들도 많이 써봤는데 이게 제일 좋아서 다이어트 결심할 때마다 이걸루 해요!!"
   }
 ];
-window.INOUT_UPDATED_AT = "2026-11-10 20:48";
+window.INOUT_UPDATED_AT = "2026-11-11 19:55";
