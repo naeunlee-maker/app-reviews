@@ -3,6 +3,18 @@ window.PILLYZE_REVIEWS = [
     "store": "google_play",
     "date": "2026-11-10",
     "rating": 5,
+    "content": "쓰기 너무 편하고 특히 ai,로 사진만 찍으면 칼로리 알아서 찾아주는게 너무 좋아요"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-11-10",
+    "rating": 5,
+    "content": "공복을 오래가져가야되는 이유를 알았습니다 단식 시간 설정해주고 제 식단의 문제점을 피드백주니까 건강해지는 기분이에요 교대근무특성상 늘 일정할수없어서 교대근무사이클도 입력해서 수면시간알림이나 공복알림도 알아서 설정되면 좋을거같긴한데.. 일단 잘쓰고있슴다"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-11-10",
+    "rating": 5,
     "content": "매일매일 먹은 기록 볼 수 있어서 좋아요"
   },
   {
@@ -20946,4 +20958,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-11-11 20:28";
+window.PILLYZE_UPDATED_AT = "2026-11-12 20:04";

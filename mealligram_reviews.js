@@ -1,6 +1,18 @@
 window.MEALLIGRAM_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-11-11",
+    "rating": 5,
+    "content": "코칭하는 중인데 인식이 안됩니다. 그런데... 그 뒤로 아무것도 안 돼요. 코칭 종료 눌러도 안되고 음식 등록도 안 되고 삭제해서 깔아서 로그인하려니까 이제 로그인도 안됩니다......해결해주세요 ㅠ 5년 이상 쓴 거 같은데..이런 적 처음이네요"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-11-11",
+    "rating": 1,
+    "content": "검색이나 저장 안되고 로딩만 도는거 뭔가요?"
+  },
+  {
+    "store": "google_play",
     "date": "2026-10-30",
     "rating": 1,
     "content": "무료 7일 지나면 자동결제 ?"
@@ -6450,4 +6462,4 @@ window.MEALLIGRAM_REVIEWS = [
     "content": "굳굳"
   }
 ];
-window.MEALLIGRAM_UPDATED_AT = "2026-11-11 20:28";
+window.MEALLIGRAM_UPDATED_AT = "2026-11-12 20:04";
