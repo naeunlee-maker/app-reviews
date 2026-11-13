@@ -16885,6 +16885,12 @@ window.PILLYZE_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-11-10",
+    "rating": 2,
+    "content": "화면 가로로 켜도 계속 휴대폰 화면처럼 세로로만 보이고 안 돌아가요... 빨리 고쳐주세요ㅜㅜ"
+  },
+  {
+    "store": "app_store",
     "date": "2026-11-09",
     "rating": 5,
     "content": "T코치 쓰고 있는데 저 f여서 동기부여가 됩니다"
@@ -20958,4 +20964,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-11-13 19:56";
+window.PILLYZE_UPDATED_AT = "2026-11-13 20:36";
