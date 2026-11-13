@@ -13659,12 +13659,6 @@ window.INOUT_REVIEWS = [
     "store": "google_play",
     "date": "2023-02-04",
     "rating": 5,
-    "content": "직관적이고 보기도 편하고 지금도 왠만한 음식이나 드링크제는 나오지만 더 많은분들이 이용해서 좀 더 풍성하게 만들어 보아요"
-  },
-  {
-    "store": "google_play",
-    "date": "2023-02-04",
-    "rating": 5,
     "content": "탄단지 얼마나 먹었는지 볼 수 있어서 좋아요 친구랑 배틀하니까 더 관리하게돼요"
   },
   {
@@ -16048,6 +16042,18 @@ window.INOUT_REVIEWS = [
     "date": "2021-12-13",
     "rating": 5,
     "content": "다이어트에 도움이 많이 되요"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-11-10",
+    "rating": 4,
+    "content": "너무 좋다"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-11-10",
+    "rating": 1,
+    "content": "끌려고 앱키니까 결제유도에 광고 범벅에 돌았나"
   },
   {
     "store": "app_store",
@@ -20196,4 +20202,4 @@ window.INOUT_REVIEWS = [
     "content": "들어가자마자 나오는 첫 화면안에 \n식단 몸무게 운동을 다 기록하고 볼 수 있으면 좋겠어요. \n몸무게 기록 하려면 쭉 내려야하고 한눈에 보이지 않아서 그 부분이 조금 아쉬워요\n😭😭😭😭😭😭😭\n\n\n이 앱이 디자인도 그렇고 기능들도 다이어트 기록에 정말 최적화된 앱이에요!!!\n다른 앱들도 많이 써봤는데 이게 제일 좋아서 다이어트 결심할 때마다 이걸루 해요!!"
   }
 ];
-window.INOUT_UPDATED_AT = "2026-11-12 20:52";
+window.INOUT_UPDATED_AT = "2026-11-13 19:56";
