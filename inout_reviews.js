@@ -1,6 +1,12 @@
 window.INOUT_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-11-13",
+    "rating": 1,
+    "content": "ai코치가 뭐 기억하는것도 없고 오늘 내 아침점심 기준으로 저녁 짜달라니까 내가 뭘 먹었는지도 모르고 걍 챗지피티한테 물어보는게 훨씬훨씬 나음 돈 아까워서 일단 삭제는 안 하는데 뭔... ai 기능 한 번 썼다고 환불 안 된다는게ㅜ"
+  },
+  {
+    "store": "google_play",
     "date": "2026-11-12",
     "rating": 2,
     "content": "기록에 강박땜에 몸무게로 안재고 신체별 사이즈 재는 사람도 많은데 이걸로 등록할수잇게 업뎃 부탁드립니다 넘 불편해요"
@@ -46,12 +52,6 @@ window.INOUT_REVIEWS = [
     "date": "2026-11-09",
     "rating": 4,
     "content": "다좋은데 코칭 부분이랑은 유료라서 아쉬워요 ㅠㅠ 그것말고는 다좋습니다"
-  },
-  {
-    "store": "google_play",
-    "date": "2026-11-08",
-    "rating": 5,
-    "content": "일단.시작"
   },
   {
     "store": "google_play",
@@ -8641,12 +8641,6 @@ window.INOUT_REVIEWS = [
   },
   {
     "store": "google_play",
-    "date": "2023-10-21",
-    "rating": 5,
-    "content": "정말 딱 필요한 기능만 있네요."
-  },
-  {
-    "store": "google_play",
     "date": "2023-10-20",
     "rating": 5,
     "content": "앱이 귀여워요."
@@ -16051,6 +16045,12 @@ window.INOUT_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-11-11",
+    "rating": 5,
+    "content": "위젯패스 4,800원인가 내고 샀는데 왜 적용이 안되나요??"
+  },
+  {
+    "store": "app_store",
     "date": "2026-11-10",
     "rating": 4,
     "content": "너무 좋다"
@@ -20214,4 +20214,4 @@ window.INOUT_REVIEWS = [
     "content": "들어가자마자 나오는 첫 화면안에 \n식단 몸무게 운동을 다 기록하고 볼 수 있으면 좋겠어요. \n몸무게 기록 하려면 쭉 내려야하고 한눈에 보이지 않아서 그 부분이 조금 아쉬워요\n😭😭😭😭😭😭😭\n\n\n이 앱이 디자인도 그렇고 기능들도 다이어트 기록에 정말 최적화된 앱이에요!!!\n다른 앱들도 많이 써봤는데 이게 제일 좋아서 다이어트 결심할 때마다 이걸루 해요!!"
   }
 ];
-window.INOUT_UPDATED_AT = "2026-11-13 20:36";
+window.INOUT_UPDATED_AT = "2026-11-14 19:23";
