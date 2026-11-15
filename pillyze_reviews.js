@@ -1,6 +1,18 @@
 window.PILLYZE_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-11-14",
+    "rating": 1,
+    "content": "정기결제 취소 버튼도 안보이고 당일날 자돝 결제되서 주문 취소 하려니까 배송완료라고 주문취소도 안되고 이런건 처음 봅니다"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-11-13",
+    "rating": 5,
+    "content": "사진찍어서 식단등록하면 알아서 뭔지 파악해줘서 좋아요. 가끔 틀리긴한데 괜찮은것같아요. al코치느낌으로 얘기해주는것도 좋구요"
+  },
+  {
+    "store": "google_play",
     "date": "2026-11-10",
     "rating": 5,
     "content": "쓰기 너무 편하고 특히 ai,로 사진만 찍으면 칼로리 알아서 찾아주는게 너무 좋아요"
@@ -20964,4 +20976,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-11-14 19:58";
+window.PILLYZE_UPDATED_AT = "2026-11-15 19:50";
