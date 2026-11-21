@@ -1,6 +1,12 @@
 window.PILLYZE_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-11-20",
+    "rating": 5,
+    "content": "무료로 사용되는 기간이 한달이라면 충분히 사용해보고 결제를 할것같은데 3일은 너무 짧아요~~"
+  },
+  {
+    "store": "google_play",
     "date": "2026-11-17",
     "rating": 4,
     "content": "6시 체크인은 왜? 교대 근무하는 사람들은 MN에 체큰인을 해야 식단 및 하루 플랜 계획에 도움이 되는데 6AM 체크인해서 미션 받고 플랜 세우는거는 도움 안됩니다. 체크인 시간 변경해주세요 하다 못해 1AM으로요"
@@ -16910,6 +16916,12 @@ window.PILLYZE_REVIEWS = [
   {
     "store": "app_store",
     "date": "2026-11-17",
+    "rating": 4,
+    "content": "첫날이라 아직 더 사용햐봐야겠지만 기록하는건 만족합니다.\n계획이 너무 빡빡하고 기능이 너무 많아도 별론데 쉽게 기록하고 AI코칭이 바로 피드백해줘서 재밌게 기록할 수 있을거 같아요"
+  },
+  {
+    "store": "app_store",
+    "date": "2026-11-17",
     "rating": 5,
     "content": "굿"
   },
@@ -21018,4 +21030,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-11-20 21:13";
+window.PILLYZE_UPDATED_AT = "2026-11-21 19:58";
