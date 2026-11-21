@@ -16915,6 +16915,12 @@ window.PILLYZE_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-11-19",
+    "rating": 5,
+    "content": "좋은 어플이에요. 잘 쓰고 있습니다"
+  },
+  {
+    "store": "app_store",
     "date": "2026-11-17",
     "rating": 4,
     "content": "첫날이라 아직 더 사용햐봐야겠지만 기록하는건 만족합니다.\n계획이 너무 빡빡하고 기능이 너무 많아도 별론데 쉽게 기록하고 AI코칭이 바로 피드백해줘서 재밌게 기록할 수 있을거 같아요"
@@ -21030,4 +21036,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-11-21 19:58";
+window.PILLYZE_UPDATED_AT = "2026-11-21 20:49";
