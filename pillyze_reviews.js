@@ -1,6 +1,12 @@
 window.PILLYZE_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-11-23",
+    "rating": 1,
+    "content": "앱진짜 별로네요 ai도 쓰레기... 7일지나서 환불도 안되고..."
+  },
+  {
+    "store": "google_play",
     "date": "2026-11-20",
     "rating": 5,
     "content": "무료로 사용되는 기간이 한달이라면 충분히 사용해보고 결제를 할것같은데 3일은 너무 짧아요~~"
@@ -21042,4 +21048,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-11-23 22:41";
+window.PILLYZE_UPDATED_AT = "2026-11-24 22:40";

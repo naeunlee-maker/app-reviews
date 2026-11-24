@@ -1,6 +1,18 @@
 window.INOUT_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-11-23",
+    "rating": 5,
+    "content": "일단 초기 로그인은 좋음"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-11-23",
+    "rating": 5,
+    "content": "다이어트 성공기원"
+  },
+  {
+    "store": "google_play",
     "date": "2026-11-22",
     "rating": 5,
     "content": "조아요"
@@ -1816,12 +1828,6 @@ window.INOUT_REVIEWS = [
     "date": "2026-03-09",
     "rating": 5,
     "content": "식단 칼로리 측정 및 기록 용으로 아주좋씁니당"
-  },
-  {
-    "store": "google_play",
-    "date": "2026-03-08",
-    "rating": 1,
-    "content": "이제 안쓰고 오후2시만되면 자꾸 식사입력하라고 그래서 짜증남 .안써."
   },
   {
     "store": "google_play",
@@ -16087,6 +16093,12 @@ window.INOUT_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-11-22",
+    "rating": 5,
+    "content": "좋아여"
+  },
+  {
+    "store": "app_store",
     "date": "2026-11-20",
     "rating": 1,
     "content": "결제한 당일 ai기능 하나 썼다고 38000원짜리를 부분환불도 안해준다는게 말이 된다고 생각합니까? 전액 환불까지 바라지도 않고 적어도 35000원은 환불해줘야한다고 생각합니다 문의도 넣어놨으니 확인후 답 바랍니다"
@@ -20280,4 +20292,4 @@ window.INOUT_REVIEWS = [
     "content": "들어가자마자 나오는 첫 화면안에 \n식단 몸무게 운동을 다 기록하고 볼 수 있으면 좋겠어요. \n몸무게 기록 하려면 쭉 내려야하고 한눈에 보이지 않아서 그 부분이 조금 아쉬워요\n😭😭😭😭😭😭😭\n\n\n이 앱이 디자인도 그렇고 기능들도 다이어트 기록에 정말 최적화된 앱이에요!!!\n다른 앱들도 많이 써봤는데 이게 제일 좋아서 다이어트 결심할 때마다 이걸루 해요!!"
   }
 ];
-window.INOUT_UPDATED_AT = "2026-11-23 22:41";
+window.INOUT_UPDATED_AT = "2026-11-24 22:40";
