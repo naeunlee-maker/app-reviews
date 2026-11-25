@@ -1,6 +1,18 @@
 window.PILLYZE_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-11-24",
+    "rating": 1,
+    "content": "영양제"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-11-24",
+    "rating": 4,
+    "content": "다 너무 좋은데 AI 트레이너랑 대화할때 앨범에 있는 사진말고도 바로 찍어서 보내서 질문할 수 있었으면 좋겠어요ㅜㅜ 맨날 카메라 가서 찍고 선택해서 보내기 수고롭고 바로 물어봐야되는 상황에 불편합니다!!!"
+  },
+  {
+    "store": "google_play",
     "date": "2026-11-23",
     "rating": 1,
     "content": "앱진짜 별로네요 ai도 쓰레기... 7일지나서 환불도 안되고..."
@@ -16915,6 +16927,12 @@ window.PILLYZE_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-11-22",
+    "rating": 1,
+    "content": "칼로리 계산대로 따라했더니 지금 2-3kg 빠지지 않네요 그렇게 굶은 것도 아닌데 이렇게 결과가 나오니깐 조금 힘 빠져요"
+  },
+  {
+    "store": "app_store",
     "date": "2026-11-21",
     "rating": 5,
     "content": "굿"
@@ -21048,4 +21066,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-11-24 23:18";
+window.PILLYZE_UPDATED_AT = "2026-11-25 21:52";
