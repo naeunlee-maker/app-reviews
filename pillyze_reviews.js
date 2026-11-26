@@ -1,9 +1,15 @@
 window.PILLYZE_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-11-25",
+    "rating": 5,
+    "content": "식단 관리에 도움이 많이 돼요"
+  },
+  {
+    "store": "google_play",
     "date": "2026-11-24",
-    "rating": 1,
-    "content": "영양제"
+    "rating": 5,
+    "content": "처음 가입하는 사람들도 쉽게 접근할수 있을거 같다 조작도 단순하고 잘 알려주는거 같다"
   },
   {
     "store": "google_play",
@@ -21066,4 +21072,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-11-25 22:32";
+window.PILLYZE_UPDATED_AT = "2026-11-26 21:29";

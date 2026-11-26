@@ -823,6 +823,12 @@ window.ROUTION_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-11-24",
+    "rating": 3,
+    "content": "목표칼로리가 이상합니다.\r\n예를들어 여성인데 키 150을 입력하면 하루목표 칼로리가 444Kcal이 나오는데 이게 맞나요??"
+  },
+  {
+    "store": "app_store",
     "date": "2026-11-15",
     "rating": 5,
     "content": "건강 유지 정신 개운"
@@ -1326,4 +1332,4 @@ window.ROUTION_REVIEWS = [
     "content": "깔끔하고 다 좋은데요ㅠㅠ 입력하는 시간이 디폴트가 아니라 사진 불러와서 입력할 땐 그 사진이 찍힌시간으로 가져오면 안될까요? 차차 수정되겠거니 했는데 아직도 그대로라 말해봅니다! 식사 때 마다 매번 입력하긴 어렵고 잊을 때도 많아서 추후에 입력하는 편인데 시간 다 바꿔줘야해서 불편해요"
   }
 ];
-window.ROUTION_UPDATED_AT = "2026-11-25 22:32";
+window.ROUTION_UPDATED_AT = "2026-11-26 21:29";
