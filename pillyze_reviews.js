@@ -1,6 +1,18 @@
 window.PILLYZE_REVIEWS = [
   {
     "store": "google_play",
+    "date": "2026-11-26",
+    "rating": 5,
+    "content": "😀"
+  },
+  {
+    "store": "google_play",
+    "date": "2026-11-26",
+    "rating": 5,
+    "content": "미션 화면을 선택할 수 있으면 좋겠어요 안쪽 열심히 꾸미는데 볼때마다 밋밋한 알껍데기라 보람이 없음 ㅜㅜ 다른 건 너무 좋아요 다이어트에 너무 도움됨"
+  },
+  {
+    "store": "google_play",
     "date": "2026-11-25",
     "rating": 5,
     "content": "식단 관리에 도움이 많이 돼요"
@@ -21072,4 +21084,4 @@ window.PILLYZE_REVIEWS = [
     "content": "남자친구 따라서 칼로리 트랙킹 해보고자 깔았는데 너무 좋아요! 이용도 직관적이고 ai 기능도 진짜 똑똑한 것 같아요. 주변에 추천하고 있어요!!"
   }
 ];
-window.PILLYZE_UPDATED_AT = "2026-11-26 22:11";
+window.PILLYZE_UPDATED_AT = "2026-11-27 21:16";

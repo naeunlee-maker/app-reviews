@@ -3283,6 +3283,12 @@ window.MEALLIGRAM_REVIEWS = [
   },
   {
     "store": "app_store",
+    "date": "2026-11-25",
+    "rating": 3,
+    "content": "회사명까지 제대로 입력해도 전혀 연관없는 음식만 뜸"
+  },
+  {
+    "store": "app_store",
     "date": "2026-11-18",
     "rating": 4,
     "content": "앱 누르면 홈으로 계속 나가져요.."
@@ -6474,4 +6480,4 @@ window.MEALLIGRAM_REVIEWS = [
     "content": "굳굳"
   }
 ];
-window.MEALLIGRAM_UPDATED_AT = "2026-11-26 22:11";
+window.MEALLIGRAM_UPDATED_AT = "2026-11-27 21:16";
